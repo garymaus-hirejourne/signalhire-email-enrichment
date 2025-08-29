@@ -1,1 +1,1 @@
-web: gunicorn webhook_server:app --bind 0.0.0.0:${PORT:-8080}
+web: gunicorn flask_webhook_app:app --bind 0.0.0.0:$PORT --workers 1

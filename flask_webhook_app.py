@@ -348,11 +348,11 @@ def download_cleaned():
         return jsonify({"error": str(e)}), 500
 
 def process_enriched_csv(input_file, output_file):
-    """Process and clean SignalHire enriched data"""
+    """Process and clean SignalHire enriched data with enhanced validation and multi-value splitting"""
     headers = [
         "LinkedIn Profile", "Status", "First Name", "Last Name", "Full Name",
         "Current Position", "Company", "Country", "City", 
-        "Work Emails", "Personal Emails", "Mobile Phone", "Work Phone", "Home Phone",
+        "Email1", "Email2", "Email3", "Phone1", "Phone2", "Phone3",
         "Skills", "Education"
     ]
     
@@ -392,22 +392,54 @@ def process_enriched_csv(input_file, output_file):
             continue
         seen_profiles.add(linkedin_url)
         
-        # Clean and map data
+        # Extract and clean basic fields
+        first_name = clean_text(parts[2])
+        last_name = clean_text(parts[3])
+        company = clean_text(parts[6])
+        
+        # Collect all emails and phones
+        all_emails = []
+        all_phones = []
+        
+        # Extract emails from work and personal fields
+        work_emails = extract_multi_values(parts[9])
+        personal_emails = extract_multi_values(parts[10])
+        all_emails.extend(work_emails)
+        all_emails.extend(personal_emails)
+        
+        # Extract phones from mobile, work, home fields
+        mobile_phones = extract_multi_values(parts[11])
+        work_phones = extract_multi_values(parts[13]) if len(parts) > 13 else []
+        home_phones = extract_multi_values(parts[15]) if len(parts) > 15 else []
+        all_phones.extend(mobile_phones)
+        all_phones.extend(work_phones)
+        all_phones.extend(home_phones)
+        
+        # Clean and deduplicate contacts
+        clean_emails = clean_and_dedupe_emails(all_emails)
+        clean_phones = clean_and_dedupe_phones(all_phones)
+        
+        # VALIDATION: Skip rows missing required fields
+        if not (first_name and last_name and company and (clean_emails or clean_phones)):
+            continue
+        
+        # Build record with split contact fields
         record = {
             "LinkedIn Profile": linkedin_url,
             "Status": "Success", 
-            "First Name": parts[2],
-            "Last Name": parts[3].replace('"', ''),
-            "Full Name": parts[4].replace('"', ''),
-            "Current Position": parts[5].replace('"', ''),
-            "Company": parts[6],
+            "First Name": first_name,
+            "Last Name": last_name,
+            "Full Name": clean_text(parts[4]),
+            "Current Position": clean_text(parts[5]),
+            "Company": company,
             "Country": parts[7],
             "City": parts[8],
-            "Work Emails": parts[9],
-            "Personal Emails": parts[10],
-            "Mobile Phone": clean_phone(parts[11]),
-            "Work Phone": clean_phone(parts[13]) if len(parts) > 13 else "",
-            "Home Phone": clean_phone(parts[15]) if len(parts) > 15 else "",
+            "Email1": clean_emails[0] if len(clean_emails) > 0 else "",
+            "Email2": clean_emails[1] if len(clean_emails) > 1 else "",
+            "Email3": clean_emails[2] if len(clean_emails) > 2 else "",
+            "Phone1": clean_phones[0] if len(clean_phones) > 0 else "",
+            "Phone2": clean_phones[1] if len(clean_phones) > 1 else "",
+            "Phone3": clean_phones[2] if len(clean_phones) > 2 else "",
             "Skills": clean_skills(parts[17]) if len(parts) > 17 else "",
             "Education": clean_education(parts[18]) if len(parts) > 18 else ""
         }
@@ -422,8 +454,64 @@ def process_enriched_csv(input_file, output_file):
     
     return len(processed_records)
 
+def clean_text(text):
+    """Clean text by removing quotes and extra whitespace"""
+    if not text:
+        return ""
+    return text.replace('"', '').strip()
+
+def extract_multi_values(field):
+    """Extract multiple values from semicolon or comma separated field"""
+    if not field:
+        return []
+    
+    # Split by semicolon first, then comma
+    values = []
+    for item in field.split(';'):
+        for subitem in item.split(','):
+            clean_item = subitem.strip()
+            if clean_item:
+                values.append(clean_item)
+    
+    return values
+
+def clean_and_dedupe_emails(emails):
+    """Clean and deduplicate email addresses"""
+    clean_emails = []
+    seen = set()
+    
+    for email in emails:
+        clean_email = email.strip().lower()
+        if clean_email and '@' in clean_email and clean_email not in seen:
+            clean_emails.append(clean_email)
+            seen.add(clean_email)
+    
+    return clean_emails[:3]  # Limit to 3 emails
+
+def clean_and_dedupe_phones(phones):
+    """Clean and deduplicate phone numbers"""
+    clean_phones = []
+    seen = set()
+    
+    for phone in phones:
+        # Remove all formatting
+        clean_phone = ''.join(filter(str.isdigit, phone))
+        
+        # Remove leading 1 if it's 11 digits (US country code)
+        if len(clean_phone) == 11 and clean_phone.startswith('1'):
+            clean_phone = clean_phone[1:]
+        
+        # Only keep 10-digit US numbers
+        if len(clean_phone) == 10 and clean_phone not in seen:
+            # Format as (XXX) XXX-XXXX
+            formatted = f"({clean_phone[:3]}) {clean_phone[3:6]}-{clean_phone[6:]}"
+            clean_phones.append(formatted)
+            seen.add(clean_phone)
+    
+    return clean_phones[:3]  # Limit to 3 phones
+
 def clean_phone(phone):
-    """Clean phone number format"""
+    """Clean phone number format - legacy function"""
     if not phone:
         return ""
     return phone.replace('+1 ', '').replace('+1', '').replace('(', '').replace(')', '').replace('-', '').strip()

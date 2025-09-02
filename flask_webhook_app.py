@@ -311,6 +311,137 @@ def get_status():
         logger.error(f"Error getting status: {e}")
         return jsonify({"error": str(e)}), 500
 
+@app.route('/process', methods=['POST'])
+def process_data():
+    """Process and clean the results CSV data"""
+    try:
+        if not Path(RESULTS_CSV).exists():
+            return jsonify({"error": "No results file to process"}), 404
+            
+        cleaned_file = RESULTS_CSV.replace('.csv', '_cleaned.csv')
+        
+        # Process the data
+        count = process_enriched_csv(RESULTS_CSV, cleaned_file)
+        
+        return jsonify({
+            "status": "success",
+            "records_processed": count,
+            "cleaned_file": cleaned_file,
+            "download_url": "/cleaned.csv"
+        })
+        
+    except Exception as e:
+        logger.error(f"Error processing data: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/cleaned.csv', methods=['GET'])
+def download_cleaned():
+    """Download cleaned and processed results CSV"""
+    try:
+        cleaned_file = RESULTS_CSV.replace('.csv', '_cleaned.csv')
+        if Path(cleaned_file).exists():
+            return send_file(cleaned_file, as_attachment=True, download_name='signalhire_cleaned_results.csv')
+        else:
+            return jsonify({"error": "Cleaned file not found. Run /process first."}), 404
+    except Exception as e:
+        logger.error(f"Error downloading cleaned results: {e}")
+        return jsonify({"error": str(e)}), 500
+
+def process_enriched_csv(input_file, output_file):
+    """Process and clean SignalHire enriched data"""
+    headers = [
+        "LinkedIn Profile", "Status", "First Name", "Last Name", "Full Name",
+        "Current Position", "Company", "Country", "City", 
+        "Work Emails", "Personal Emails", "Mobile Phone", "Work Phone", "Home Phone",
+        "Skills", "Education"
+    ]
+    
+    processed_records = []
+    seen_profiles = set()
+    
+    with open(input_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    
+    for line in lines[1:]:  # Skip header
+        if not line.strip():
+            continue
+            
+        # Parse CSV line handling quotes
+        parts = []
+        current_part = ""
+        in_quotes = False
+        
+        for char in line:
+            if char == '"':
+                in_quotes = not in_quotes
+            elif char == ',' and not in_quotes:
+                parts.append(current_part.strip())
+                current_part = ""
+            else:
+                current_part += char
+        
+        if current_part:
+            parts.append(current_part.strip())
+        
+        # Skip failed or insufficient data
+        if len(parts) < 15 or parts[1] != 'success':
+            continue
+            
+        linkedin_url = parts[0]
+        if linkedin_url in seen_profiles:
+            continue
+        seen_profiles.add(linkedin_url)
+        
+        # Clean and map data
+        record = {
+            "LinkedIn Profile": linkedin_url,
+            "Status": "Success", 
+            "First Name": parts[2],
+            "Last Name": parts[3].replace('"', ''),
+            "Full Name": parts[4].replace('"', ''),
+            "Current Position": parts[5].replace('"', ''),
+            "Company": parts[6],
+            "Country": parts[7],
+            "City": parts[8],
+            "Work Emails": parts[9],
+            "Personal Emails": parts[10],
+            "Mobile Phone": clean_phone(parts[11]),
+            "Work Phone": clean_phone(parts[13]) if len(parts) > 13 else "",
+            "Home Phone": clean_phone(parts[15]) if len(parts) > 15 else "",
+            "Skills": clean_skills(parts[17]) if len(parts) > 17 else "",
+            "Education": clean_education(parts[18]) if len(parts) > 18 else ""
+        }
+        
+        processed_records.append(record)
+    
+    # Write cleaned results
+    with open(output_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(processed_records)
+    
+    return len(processed_records)
+
+def clean_phone(phone):
+    """Clean phone number format"""
+    if not phone:
+        return ""
+    return phone.replace('+1 ', '').replace('+1', '').replace('(', '').replace(')', '').replace('-', '').strip()
+
+def clean_skills(skills):
+    """Limit skills to top 8 for readability"""
+    if not skills:
+        return ""
+    skill_list = [s.strip() for s in skills.split(';')]
+    return '; '.join(skill_list[:8])
+
+def clean_education(education):
+    """Limit education to top 2 entries"""
+    if not education:
+        return ""
+    edu_list = [e.strip() for e in education.split(';')]
+    return '; '.join(edu_list[:2])
+
 @app.route('/', methods=['GET'])
 def root():
     """Root endpoint"""
@@ -322,7 +453,9 @@ def root():
             "health": "/health",
             "webhook": "/signalhire/webhook",
             "results": "/results.csv",
-            "status": "/status"
+            "status": "/status",
+            "process": "/process",
+            "cleaned": "/cleaned.csv"
         },
         "columns": COLUMNS
     })

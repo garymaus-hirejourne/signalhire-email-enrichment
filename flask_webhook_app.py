@@ -320,8 +320,8 @@ def process_data():
             
         cleaned_file = RESULTS_CSV.replace('.csv', '_cleaned.csv')
         
-        # Process the data
-        count = process_enriched_csv(RESULTS_CSV, cleaned_file)
+        # Process the data with enhanced email splitting and generation
+        count = process_enriched_csv_enhanced(RESULTS_CSV, cleaned_file)
         
         return jsonify({
             "status": "success",
@@ -347,7 +347,7 @@ def download_cleaned():
         logger.error(f"Error downloading cleaned results: {e}")
         return jsonify({"error": str(e)}), 500
 
-def process_enriched_csv(input_file, output_file):
+def process_enriched_csv_enhanced(input_file, output_file):
     """Process and clean SignalHire enriched data with enhanced validation and multi-value splitting"""
     headers = [
         "LinkedIn Profile", "Status", "First Name", "Last Name", "Full Name",

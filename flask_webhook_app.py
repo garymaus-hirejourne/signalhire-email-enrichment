@@ -401,38 +401,47 @@ def process_enriched_csv(input_file, output_file):
         all_emails = []
         all_phones = []
         
-        # Extract emails from work and personal fields
+        # Extract and split emails from work and personal fields
         work_emails = extract_multi_values(parts[9])
         personal_emails = extract_multi_values(parts[10])
+        
+        # Combine all emails and clean/deduplicate
+        all_emails = []
         all_emails.extend(work_emails)
         all_emails.extend(personal_emails)
+        clean_emails = clean_and_dedupe_emails(all_emails)
+        
+        # EMAIL GENERATION: Generate emails for records with no emails OR missing personal emails
+        if first_name and last_name and company:
+            if not clean_emails:
+                # No emails at all - generate one
+                generated_email = generate_email_from_company(first_name, last_name, company)
+                if generated_email:
+                    clean_emails = [generated_email]
+                    print(f"Generated email for {first_name} {last_name}: {generated_email}")
+            elif not personal_emails and len(clean_emails) < 3:
+                # Has work emails but no personal emails - generate personal email
+                generated_email = generate_email_from_company(first_name, last_name, company)
+                if generated_email and generated_email not in clean_emails:
+                    clean_emails.append(generated_email)
+                    print(f"Generated additional email for {first_name} {last_name}: {generated_email}")
         
         # Extract phones from mobile, work, home fields
         mobile_phones = extract_multi_values(parts[11])
         work_phones = extract_multi_values(parts[13]) if len(parts) > 13 else []
         home_phones = extract_multi_values(parts[15]) if len(parts) > 15 else []
+        all_phones = []
         all_phones.extend(mobile_phones)
         all_phones.extend(work_phones)
         all_phones.extend(home_phones)
         
-        # Clean and deduplicate contacts
-        clean_emails = clean_and_dedupe_emails(all_emails)
+        # Clean and deduplicate phones
         clean_phones = clean_and_dedupe_phones(all_phones)
         
-        # VALIDATION: Skip rows missing required fields, but try email generation first
+        # VALIDATION: Skip rows missing required fields
         if not (first_name and last_name and company and (clean_emails or clean_phones)):
-            # Try to generate email if missing
-            if first_name and last_name and company and not clean_emails:
-                generated_email = generate_email_from_company(first_name, last_name, company)
-                if generated_email:
-                    clean_emails = [generated_email]
-                    print(f"Generated email for {first_name} {last_name}: {generated_email}")
-                else:
-                    print(f"FILTERED OUT: {first_name} {last_name} - Missing required contact info")
-                    continue
-            else:
-                print(f"FILTERED OUT: {first_name} {last_name} - Missing required fields")
-                continue
+            print(f"FILTERED OUT: {first_name} {last_name} - Missing required fields")
+            continue
         
         # Build record with split contact fields
         record = {

@@ -57,6 +57,35 @@ def health_check():
     """Health check endpoint"""
     return jsonify({"status": "healthy", "timestamp": datetime.now().isoformat()})
 
+@app.route('/files', methods=['GET'])
+def list_files():
+    """List files in the webhook volume"""
+    try:
+        files_info = []
+        
+        # Check if DATA_DIR exists and list files
+        if DATA_DIR.exists():
+            for file_path in DATA_DIR.iterdir():
+                if file_path.is_file():
+                    stat = file_path.stat()
+                    files_info.append({
+                        "name": file_path.name,
+                        "size": stat.st_size,
+                        "modified": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                        "path": str(file_path)
+                    })
+        
+        return jsonify({
+            "status": "success",
+            "data_directory": str(DATA_DIR),
+            "files": files_info,
+            "total_files": len(files_info)
+        })
+        
+    except Exception as e:
+        logger.error(f"Error listing files: {e}")
+        return jsonify({"error": str(e)}), 500
+
 def split_name(full_name):
     """Split full name into first and last name"""
     if not full_name:

@@ -148,7 +148,7 @@ class SignalHireCloudUploader:
                 break
         
         # Map LinkedIn
-        for col in ['LinkedIn Profile', 'LinkedIn', 'linkedin', 'li_url']:
+        for col in ['LinkedIn Profile', 'LinkedIn', 'linkedin', 'li_url', 'LinkedIn URL']:
             if col in row and pd.notna(row[col]) and str(row[col]).strip():
                 contact["linkedinUrl"] = str(row[col]).strip()
                 break
@@ -180,7 +180,7 @@ class SignalHireCloudUploader:
         identifiers = []
         
         # Extract LinkedIn URL
-        for col in ['LinkedIn Profile', 'LinkedIn', 'linkedin', 'li_url']:
+        for col in ['LinkedIn Profile', 'LinkedIn', 'linkedin', 'li_url', 'LinkedIn URL']:
             if col in row and pd.notna(row[col]) and str(row[col]).strip():
                 linkedin_url = str(row[col]).strip()
                 if 'linkedin.com' in linkedin_url:
@@ -321,10 +321,10 @@ def main():
     )
     
     if result:
-        print("\n🚀 Upload initiated! Check your Northflank webhook for results.")
-        print(f"📁 Results will be saved to: {args.webhook_url.replace('/signalhire/webhook', '')}/data/results.csv")
+        print("\nUpload initiated! Check your Northflank webhook for results.")
+        print(f"Results will be saved to: {args.webhook_url.replace('/signalhire/webhook', '')}/data/results.csv")
     else:
-        print("\n❌ Upload failed!")
+        print("\nUpload failed!")
 
 if __name__ == "__main__":
     import sys

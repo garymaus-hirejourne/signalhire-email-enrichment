@@ -1,0 +1,1 @@
+This folder is for html_dumps.

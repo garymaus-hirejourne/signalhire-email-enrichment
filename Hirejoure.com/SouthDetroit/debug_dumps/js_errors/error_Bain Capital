@@ -1,0 +1,1642 @@
+<!DOCTYPE html><html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths js" lang="en" dir="ltr" prefix="content: //purl.org/rss/1.0/modules/content/  dc: //purl.org/dc/terms/  foaf: //xmlns.com/foaf/0.1/  og: //ogp.me/ns#  rdfs: //www.w3.org/2000/01/rdf-schema#  schema: //schema.org/  sioc: //rdfs.org/sioc/ns#  sioct: //rdfs.org/sioc/types#  skos: //www.w3.org/2004/02/skos/core#  xsd: //www.w3.org/2001/XMLSchema# " style="overscroll-behavior: none; scroll-behavior: smooth;" data-direction="down"><head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Bain Capital">
+  <meta charset="utf-8">
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<meta name="description" content="Bain Capital, LP is one of the world’s leading multi-asset alternative investment firms. With offices on four continents, our global team aligns our interests with those of our investors and partners for lasting impact.">
+<meta name="keywords" content="Bain Capital">
+<link rel="shortlink" href="https://www.baincapital.com/">
+<link rel="canonical" href="https://www.baincapital.com/people">
+<meta name="robots" content="index, follow">
+<meta property="og:site_name" content="Bain Capital">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.baincapital.com/people">
+<meta property="og:title" content="People">
+<meta name="twitter:card" content="summary">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779bf} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+
+          <title>People | Bain Capital</title>
+    
+    
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_-GuO5IIuq5BG54DPs0Di8fbhfj7RPxOOCuttKcCH5uk.css">
+<link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/gh/sachinchoolur/lightgallery.js@master/dist/css/lightgallery.css">
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7Cu5hSrHgTnlzu8YxFwswkZyrt29IBoH7Yk0N0uy5X0.css">
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_CqZR13cqzfrra5tPz4nQcSP9JWSANWpdtHEbbg4eXKA.css">
+
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/baincapital/images/ico/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/themes/custom/baincapital/images/ico/favicon.png">
+  <link id="page_favicon" href="/themes/custom/baincapital/favicon.ico" rel="icon" type="image/x-icon">
+
+  <link rel="preload" as="image" href="/themes/custom/baincapital/images/bc-video-opening-shot-nyc.webp">
+  <link rel="preload" as="image" href="/themes/custom/baincapital/images/bc-homepage-latest-news.webp">
+  <link rel="preload" as="image" href="/themes/custom/baincapital/images/community-engagement.webp">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+  <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-6BWYF3TYMK&amp;cx=c&amp;_slc=1"></script><script src="/libraries/lazysizes/lazysizes.min.js" async=""></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WLFBKSQ4"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-102152661-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6BWYF3TYMK"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6BWYF3TYMK');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLFBKSQ4');</script>
+<!-- End Google Tag Manager -->
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Bain Capital",
+      "url": "https://www.baincapital.com/",
+      "logo": "https://www.baincapital.com/themes/custom/baincapital/images/bain-capital-logo.svg",
+        "sameAs": [
+      "https://www.linkedin.com/company/bain-capital",
+      "https://twitter.com/baincapital",
+      "https://www.youtube.com/channel/UCHLw83UfiBEm9RoLlZKPaig"],
+        "disambiguatingDescription": "Private investment firm",
+          "brand": {
+        "@type": "Organization",
+        "name": "Bain & Co.",
+        "disambiguatingDescription": "global management consulting firm"
+        }
+      }
+    </script>
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="/themes/custom/baincapital/css/noscript.css" />
+    </noscript>
+    
+  </head>
+  <body data-barba="wrapper" class="path-node page-node-type-page eu-cookie-compliance-popup-open eu-cookie-compliance-status-null" style="height: 3752px; overscroll-behavior: none; scroll-behavior: auto;" data-eu-cookie-compliance-once="true">
+  
+  <img style="position:absolute;" src="https://d21y75miwcfqoq.cloudfront.net/2d3c9ea7" alt="Bain Capital" referrerpolicy="no-referrer-when-downgrade">
+  <main class="transition-fade">
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    <header class="site-header fixed-top scrolled">
+    <div class="top-header d-none d-lg-block">
+        <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <a id="more_menu_popup" class="more-menu-link" href="javascript:void(0)">
+            <span class="model_text">more</span>
+            <span class="caret"></span>
+        </a>
+        <div class="collapse navbar-collapse justify-content-end topLinks">
+            <ul class="navbar-nav ml-auto">
+                                                                                    <li class="nav-item">
+                            <a href="https://services.dataexchange.fiscloudservices.com/Document/2449254" target="_blank">INVESTOR LOGIN</a>
+                        </li>
+                                                                                            <li class="nav-item">
+                            <a href="/locations" target="_blank">LOCATIONS</a>
+                        </li>
+                                                                            <li class="nav-item">
+                    <a id="btn-search" class="top-search-link" href="javascript:void(0)">SEARCH<i class="fa-solid fa-magnifying-glass"></i></a>
+                    <button id="btn-search-close" class="btn--search-close" aria-label="Close search form">
+                        CLOSE <span class="searchCloseICo"></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>    </div>
+    <div class="bottom-header">
+        <div class="container">
+    <div class="menu-overlay"></div>
+    <nav class="navbar navbar-expand-lg">
+                    <div class="main-logo">
+                <a class="navbar-brand" href="/">
+                <img src="/themes/custom/baincapital/images/bain-capital-logo.svg" alt="Bain Capital" loading="lazy">
+                </a>
+                <u>Bain Capital</u>
+            </div>
+                <a class="more-menu-link d-block d-lg-none" href="javascript:void(0)" aria-label="More Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main-menu">
+    <ul class="navbar-nav ml-auto">
+        <div class="menu-point"></div>
+        <div class="menu-bg"></div>
+                                <li class="nav-item dropdown">
+                <a href="/about-us" class="nav-link dropdown-toggle" id="navbarDropdown1">
+                    About Us
+                </a>
+                                                            <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-row row">
+                                                                                                                                                                        <div class="col-md-6 left-col menu-col">
+                                        <div class="col-inner">
+                                            <div class="row menu-row">
+                                                                                                                                                                                                                                                        <div class="col-md-12 menu-col">
+                                                        <div class="top-menu-wrap">
+                                                            <span class="menu-page-title">About us</span>
+                                                                                                                            <a href="https://www.baincapital.com/about-us" class="menu-explore-link">Explore
+                                                                    <span class="arrow-xs">
+                                                                        <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="6.63" height="11.17" viewBox="0 0 6.63 11.17">
+                                                                            <path class="arrow-icon" d="M.71,9.77c1.97-1.97,2.96-2.96,2.96-4.18S2.68,3.37.71,1.4l-.35-.35.7-.7,5.23,5.23L1.05,10.82l-.7-.7.35-.35Z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                                                                    </div>
+                                                        <div class="menu-inner-link">
+                                                            <ul>
+                                                                                                                                                                                                                                                                    <li><a href="https://www.baincapital.com/about-us#overview">Overview</a></li>
+                                                                                                                                            </ul>
+                                                                        <ul>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/about-us#purposeandValue">Purpose and values</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/about-us#ourpartnership">How we partner</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/about-us#globalpresence">Our global presence</a></li>
+                                                                                                                                                                                                                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                                                            <div class="col-md-6 page-feature-wrap">
+                                                                                            <div class="feature-type-wrap"><p><strong>Committed to lasting impact</strong></p></div><div class="feature-grid-wrap"><div class="image-wrap"><a href="https://www.baincapital.com/about-us"><img src="https://cdn-east2.baincapital.com/2024-04/homepage-banner.jpg" alt="" width="600" height="400" loading="lazy"></a></div><div class="feature-item-title"><a class="menu-explore-link" href="https://www.baincapital.com/about-us"><strong>Our purpose, in our words</strong></a></div></div>
+                                                                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                                                </li>
+                                <li class="nav-item dropdown" role="presentation">
+                <a href="https://www.baincapital.com/#ourintegratedplatform" class="nav-link dropdown-toggle" id="navbarDropdown2">
+                    Businesses
+                </a>
+                                    <div class="dropdown-menu business-dropdown-menu"><div class="dropdown-inner"><div class="dropdown-row row"><div class="col-md-5 left-col menu-col"><div class="col-inner"><div class="business-menu-nav"><nav><div class="nav nav-tabs" id="nav-tab" role="tablist"><button class="nav-link active" id="privateEquityTab" data-bs-toggle="tab" data-bs-target="#privateEquityTabContent" type="button" role="tab" aria-controls="privateEquityTabContent" aria-selected="true">Private
+                                                                                                                                                                                                                                    Equity</button> <button class="nav-link" id="growthTab" data-bs-toggle="tab" data-bs-target="#growthTabContent" type="button" role="tab" aria-controls="growthTabContent" aria-selected="false" tabindex="-1">Growth &amp;
+                                                                                                                                                                                                                                    Venture</button> <button class="nav-link" id="capitalTab" data-bs-toggle="tab" data-bs-target="#capitalTabContent" type="button" role="tab" aria-controls="capitalTabContent" aria-selected="false" tabindex="-1">Capital
+                                                                                                                                                                                                                                    Solutions</button> <button class="nav-link" id="creditTab" data-bs-toggle="tab" data-bs-target="#creditTabContent" type="button" role="tab" aria-controls="creditTabContent" aria-selected="false" tabindex="-1">Credit &amp;
+                                                                                                                                                                                                                                    Capital
+                                                                                                                                                                                                                                    Markets</button> <button class="nav-link" id="realAssetsTab" data-bs-toggle="tab" data-bs-target="#realAssetsTabContent" type="button" role="tab" aria-controls="realAssetsTabContent" aria-selected="false" tabindex="-1">Real
+                                                                                                                                                                                                                                    Assets
+                                                                                                                                                                                                                                </button></div></nav></div></div></div><div class="col-md-7 tab-content-col"><div class="tab-content business-menu-tab-content" id="nav-tabContent"><div class="tab-pane fade show active" id="privateEquityTabContent" role="tabpanel" aria-labelledby="privateEquityTab"><div class="business-content-wrap"><h2 class="h6 business-menu-title">Private Equity</h2><div class="content-text"><h3 class="menu-small-title">HOW WE CREATE VALUE</h3><p>Transforming businesses through deep sector expertise and capabilities.</p></div><div class="platform-business-wrap"><h4 class="platform-inner-title">HOW WE INVEST</h4><ul class="business-listing"><li><a href="https://www.baincapitalprivateequity.com/" target="_blank" tabindex="0">Global Private Equity<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitaldoubleimpact.com/" target="_blank" tabindex="0">Double Impact<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitalinsurance.com/" target="_blank" tabindex="0">Insurance<span class="arrow-round-icon">&gt;</span></a></li></ul></div></div></div><div class="tab-pane fade" id="growthTabContent" role="tabpanel" aria-labelledby="growthTab"><div class="business-content-wrap"><h2 class="h6 business-menu-title">Growth &amp; Venture</h2><div class="content-text"><h3 class="menu-small-title">HOW WE CREATE VALUE</h3><p>Accelerating seed-to-scale growth in partnership with visionary leaders.</p></div><div class="platform-business-wrap"><h4 class="platform-inner-title">HOW WE INVEST</h4><ul class="business-listing"><li><a href="/ventures" target="_blank" tabindex="0">Ventures<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitallifesciences.com/" target="_blank" tabindex="0">Life Sciences<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitaltechopportunities.com/" target="_blank" tabindex="0">Tech Opportunities<span class="arrow-round-icon">&gt;</span></a></li><li><a href="/crypto" target="_blank" tabindex="0">Crypto<span class="arrow-round-icon">&gt;</span></a></li></ul></div></div></div><div class="tab-pane fade" id="capitalTabContent" role="tabpanel" aria-labelledby="capitalTab"><div class="business-content-wrap"><h2 class="h6 business-menu-title">Capital Solutions</h2><div class="content-text"><h3 class="menu-small-title">HOW WE CREATE VALUE</h3><p>Structuring bespoke solutions across asset types, industries, markets, and business life cycles.</p></div><div class="platform-business-wrap"><h4 class="platform-inner-title">HOW WE INVEST</h4><ul class="business-listing"><li><a href="https://baincapitalspecialsituations.com/" target="_blank" tabindex="0">Special Situations<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitalpartnershipstrategies.com/" target="_blank" tabindex="0">Partnership Strategies<span class="arrow-round-icon">&gt;</span></a></li></ul></div></div></div><div class="tab-pane fade" id="creditTabContent" role="tabpanel" aria-labelledby="creditTab"><div class="business-content-wrap"><h2 class="h6 business-menu-title">Credit &amp; Capital Markets</h2><div class="content-text"><h3 class="menu-small-title">HOW WE CREATE VALUE</h3><p>Enabling growth through innovative fund strategies and investment solutions across the capital structure.</p></div><div class="platform-business-wrap"><h4 class="platform-inner-title">HOW WE INVEST</h4><ul class="business-listing"><li><a href="https://www.baincapitalcredit.com/" target="_blank" tabindex="0">Credit<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://www.baincapitalpublicequity.com/" target="_blank" tabindex="0">Public Equity<span class="arrow-round-icon">&gt;</span></a></li></ul></div></div></div><div class="tab-pane fade" id="realAssetsTabContent" role="tabpanel" aria-labelledby="realAssetsTab"><div class="business-content-wrap"><h2 class="h6 business-menu-title">Real Assets</h2><div class="content-text"><h3 class="menu-small-title">HOW WE CREATE VALUE</h3><p>Building the next generation of real assets.</p></div><div class="platform-business-wrap"><h4 class="platform-inner-title">HOW WE INVEST</h4><ul class="business-listing"><li><a href="https://www.baincapitalrealestate.com/" target="_blank" tabindex="0">Real Estate<span class="arrow-round-icon">&gt;</span></a></li><li><a href="https://baincapitalspecialsituations.com/" target="_blank" tabindex="0">Special Situations<span class="arrow-round-icon">&gt;</span></a></li></ul></div></div></div></div></div></div></div></div>
+                            </li>
+                                <li class="nav-item dropdown">
+                <a href="/esgandimpact" class="nav-link dropdown-toggle" id="navbarDropdown3">
+                    ESG &amp; Impact
+                </a>
+                                                            <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-row row">
+                                                                                                                                                                        <div class="col-md-6 left-col menu-col">
+                                        <div class="col-inner">
+                                            <div class="row menu-row">
+                                                                                                                                                                                                                                                        <div class="col-md-12 menu-col">
+                                                        <div class="top-menu-wrap">
+                                                            <span class="menu-page-title">ESG &amp; Impact</span>
+                                                                                                                            <a href="https://www.baincapital.com/esgandimpact" class="menu-explore-link">Explore
+                                                                    <span class="arrow-xs">
+                                                                        <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="6.63" height="11.17" viewBox="0 0 6.63 11.17">
+                                                                            <path class="arrow-icon" d="M.71,9.77c1.97-1.97,2.96-2.96,2.96-4.18S2.68,3.37.71,1.4l-.35-.35.7-.7,5.23,5.23L1.05,10.82l-.7-.7.35-.35Z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                                                                    </div>
+                                                        <div class="menu-inner-link">
+                                                            <ul>
+                                                                                                                                                                                                                                                                    <li><a href="https://www.baincapital.com/esgandimpact/active-governance-and-stewardship">Active governance &amp; stewardship</a></li>
+                                                                                                                                            </ul>
+                                                                        <ul>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/esgandimpact/sustainable-growth-reducing-climate-impact">Sustainable growth &amp; reducing climate impact</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/esgandimpact/fair-employment-engagement-well-being">Fair employment, engagement &amp; well-being</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/esgandimpact/diversity-equity-and-inclusion">Diversity, equity &amp; inclusion</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/esgandimpact/community-engagement">Community engagement</a></li>
+                                                                                                                                                                                                                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                                                            <div class="col-md-6 page-feature-wrap">
+                                                                                            <div class="feature-type-wrap"><span class="page-feature-title">2024 ESG Report</span> <span class="date-text">JULY 19, 2023</span></div><div class="feature-grid-wrap"><div class="image-wrap"><a href="/themes/custom/baincapital/documents/Bain-Capital-ESG-Report-June2024.pdf" download=""><img src="https://cdn-east2.baincapital.com/2024-02/esg-approach-tab-bg.jpg" alt="" width="600" height="400" loading="lazy"></a></div><div class="feature-item-title"><a href="/themes/custom/baincapital/documents/Bain-Capital-ESG-Report-June2024.pdf" download="">Stewardship &amp; sustainability</a></div></div>
+                                                                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                                                </li>
+                                <li class="nav-item active">
+                <a href="/people" class="nav-link">
+                    People
+                </a>
+                                                                </li>
+                                <li class="nav-item dropdown">
+                <a href="/careers" class="nav-link dropdown-toggle" id="navbarDropdown5">
+                    Careers
+                </a>
+                                                            <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-row row">
+                                                                                                                                                                        <div class="col-md-6 left-col menu-col">
+                                        <div class="col-inner">
+                                            <div class="row menu-row">
+                                                                                                                                                                                                                                                        <div class="col-md-12 menu-col">
+                                                        <div class="top-menu-wrap">
+                                                            <span class="menu-page-title">CAREERS</span>
+                                                                                                                            <a href="https://www.baincapital.com/careers" class="menu-explore-link">Explore
+                                                                    <span class="arrow-xs">
+                                                                        <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="6.63" height="11.17" viewBox="0 0 6.63 11.17">
+                                                                            <path class="arrow-icon" d="M.71,9.77c1.97-1.97,2.96-2.96,2.96-4.18S2.68,3.37.71,1.4l-.35-.35.7-.7,5.23,5.23L1.05,10.82l-.7-.7.35-.35Z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                                                                    </div>
+                                                        <div class="menu-inner-link">
+                                                            <ul>
+                                                                                                                                                                                                                                                                    <li><a href="https://www.baincapital.com/careers#your-opprotunity">Opportunity</a></li>
+                                                                                                                                            </ul>
+                                                                        <ul>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/careers#our-support">Growth</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/careers#join-the-team">Join us</a></li>
+                                                                                                                                                                                                                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                                                            <div class="col-md-6 page-feature-wrap">
+                                                                                            <div class="feature-type-wrap"><p><strong>Fulfill your potential</strong></p></div><div class="feature-grid-wrap"><div class="image-wrap"><a href="https://www.baincapital.com/careers"><img src="https://cdn-east2.baincapital.com/2024-11/bc-tvp-video-menu.jpg" alt="" width="600" height="400" loading="lazy"></a></div><div class="feature-item-title"><a class="menu-explore-link" href="https://www.baincapital.com/careers"><strong>Our people are the heart of our advantage</strong></a></div></div>
+                                                                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                                                </li>
+                                <li class="nav-item dropdown">
+                <a href="/news" class="nav-link dropdown-toggle" id="navbarDropdown6">
+                    News
+                </a>
+                                                            <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <div class="dropdown-row row">
+                                                                                                                                                                        <div class="col-md-6 left-col menu-col">
+                                        <div class="col-inner">
+                                            <div class="row menu-row">
+                                                                                                                                                                                                                                                        <div class="col-md-12 menu-col">
+                                                        <div class="top-menu-wrap">
+                                                            <span class="menu-page-title">NEWS</span>
+                                                                                                                            <a href="https://www.baincapital.com/news" class="menu-explore-link">View All
+                                                                    <span class="arrow-xs">
+                                                                        <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="6.63" height="11.17" viewBox="0 0 6.63 11.17">
+                                                                            <path class="arrow-icon" d="M.71,9.77c1.97-1.97,2.96-2.96,2.96-4.18S2.68,3.37.71,1.4l-.35-.35.7-.7,5.23,5.23L1.05,10.82l-.7-.7.35-.35Z"></path>
+                                                                        </svg>
+                                                                    </span>
+                                                                </a>
+                                                                                                                    </div>
+                                                        <div class="menu-inner-link">
+                                                            <ul>
+                                                                                                                                                                                                                                                                    <li><a href="https://www.baincapital.com/news?filter=&amp;newscategory=press-releases">Press releases</a></li>
+                                                                                                                                            </ul>
+                                                                        <ul>
+                                                                                                                                                                                                                                                                        <li><a href="https://www.baincapital.com/news?filter=&amp;newscategory=in-the-news">In the news</a></li>
+                                                                                                                                                                                                                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                                                                                                        <div class="col-md-6 page-feature-wrap">
+                                                <div class="feature-type-wrap">
+                                                    <span class="page-feature-title">PRESS RELEASES</span>
+                                                    <span class="page-feature-title disable">
+                                                                                                                    Private Equity
+                                                                                                                    Special Situations
+                                                                                                            </span>
+                                                    <span class="date-text">Mar 06, 2025</span>
+                                                </div>
+                                                                                                    <div class="feature-grid-wrap">
+                                                                                                                    <a href="/news/bain-capital-agrees-acquire-supermarket-specialty-stores-businesses-seven-i-holdings">
+                                                                                                                    <div class="image-wrap">
+                                                                <img src="https://cdn-east2.baincapital.com/News/pexels-cenali-2733918.jpg" alt="" loading="lazy" height="400px" width="600px">
+                                                            </div>
+                                                            <div class="feature-item-title">Bain Capital Agrees to Acquire Supermarket &amp; Specialty Stores Businesses from Seven &amp; i Holdings</div>
+                                                        </a>
+                                                    </div>
+                                                                                            </div>
+                                                                                                            </div>
+                            </div>
+                        </div>
+                                                </li>
+            </ul>
+</div>
+    </nav>
+</div>    </div>
+</header>
+
+<div class="page-slants-top">
+    <div class="left-slant"></div>
+    <div class="right-slant"></div>
+</div>
+<div class="site-color-div">
+    <div class="site-bg-color" style="background-color: #fefcf5;"></div>
+    <div class="site-bg-image" style="background-image: none;"></div>
+</div>
+
+<div id="smooth-wrapper" style="inset: 0px; width: 100%; height: 100%; position: fixed; overflow: hidden;">
+    <div id="smooth-content" style="translate: none; rotate: none; scale: none; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-sizing: border-box; width: 100%; overflow: visible;">
+        <div data-barba="container" data-barba-namespace="people" id="pinMaster" class="site-content barba-container">
+            <div class="site-content-cover">
+                <div class="section-wrapper">
+
+                    <section class="section title-section portfolio-title-sec dark-text-color" section-bg="#fefcf5" style="opacity: 1;">
+                        <div class="section-inner">
+                                                        <div class="container stagger-parent">
+                                <div class="title-wrap">
+                                                                        <h1 class="h1 section-title stagger-anim" style="opacity: 1; visibility: inherit;">Our People</h1>
+                                                                    </div>
+                                <div class="row justify-content-center stagger-anim" style="opacity: 1; visibility: inherit;">
+                                    <div class="col-md-8">
+                                                                                <div class="content-text">
+                                            <p></p><p>We challenge each other to think and work differently so that we can create meaningful and lasting impact.</p><p></p>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </section>
+                    <section class="section portfolio-listing-section people-listing-section" section-bg="#fefcf5" style="opacity: 1;">
+                        <div class="section-inner portfolio-listing-section-wrap stagger-parent">
+                            <div class="container">
+                                <div class="portfolio-search d-flex flex-xl-row align-items-xl-center justify-content-between stagger-anim" style="opacity: 1; visibility: inherit;">
+   <div class="portfolio-sorting-wrap d-flex flex-wrap">
+      <div class="psorting people-layout">
+         <span class="psorting-label">Layout:</span>
+         <ul class="switch-view">
+            <li>
+               <a href="#" data-scroll="" data-view="grid" class="grid-view active">
+                  <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="19.83" height="19.82" viewBox="0 0 19.83 19.82">
+
+                     <rect class="cls-1" x="0" width="9" height="9" rx="2" ry="2"></rect>
+                     <rect class="cls-1" x="10.83" width="9" height="9" rx="2" ry="2"></rect>
+                     <rect class="cls-1" x="0" y="10.82" width="9" height="9" rx="2" ry="2"></rect>
+                     <rect class="cls-1" x="10.83" y="10.82" width="9" height="9" rx="2" ry="2"></rect>
+                  </svg>
+               </a>
+            </li>
+            <li>
+               <a href="#" data-scroll="" data-view="list" class="list-view">
+                  <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="20.5" height="19.85" viewBox="0 0 20.5 19.85">
+                     <g class="cls-2">
+                           <g>
+                              <line class="cls-1" x1="1.2" y1="1.2" x2="19.3" y2="1.2"></line>
+                              <line class="cls-1" x1="1.2" y1="7.02" x2="19.3" y2="7.02"></line>
+                              <line class="cls-1" x1="1.2" y1="12.83" x2="19.3" y2="12.83"></line>
+                              <line class="cls-1" x1="1.2" y1="18.65" x2="19.3" y2="18.65"></line>
+                           </g>
+                     </g>
+                  </svg>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <div class="dropdown people-filter">
+         <button class="btn btn-default dropdown-toggle psorting people-location" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="psorting-label">Location:</span>
+            <span class="selected-value">All</span>
+            <span class="caret"><svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="15" height="8.91" viewBox="0 0 15 8.91">
+                        <path class="cls-1" d="M1.79.84c2.69,2.73,4.04,4.09,5.71,4.09s3.02-1.36,5.71-4.09l.48-.49.95.97-7.15,7.24L.35,1.32l.95-.97.48.49Z"></path>
+                     </svg></span>
+         </button>
+         <ul class="dropdown-menu" id="locationFilter" data-filter-group="location">
+            <li><a class="selected" data-filter="">All</a></li>
+                                                                                                                                                                                                         <li><a data-filter="4" data-filterurl="boston">Boston</a></li>
+                                                                                             <li><a data-filter="6" data-filterurl="chicago">Chicago</a></li>
+                                                                                             <li><a data-filter="9" data-filterurl="dublin">Dublin</a></li>
+                                                                                             <li><a data-filter="17" data-filterurl="guangzhou">Guangzhou</a></li>
+                                                                                             <li><a data-filter="18" data-filterurl="hong-kong">Hong Kong</a></li>
+                                                                                             <li><a data-filter="7" data-filterurl="lisbon">Lisbon</a></li>
+                                                                                             <li><a data-filter="3" data-filterurl="london">London</a></li>
+                                                                                             <li><a data-filter="10" data-filterurl="luxembourg">Luxembourg</a></li>
+                                                                                             <li><a data-filter="8" data-filterurl="madrid">Madrid</a></li>
+                                                                                             <li><a data-filter="24" data-filterurl="mauritius">Mauritius</a></li>
+                                                                                             <li><a data-filter="21" data-filterurl="melbourne">Melbourne</a></li>
+                                                                                                                                                      <li><a data-filter="12" data-filterurl="mumbai">Mumbai</a></li>
+                                                                                             <li><a data-filter="11" data-filterurl="munich">Munich</a></li>
+                                                                                             <li><a data-filter="1" data-filterurl="new-york">New York</a></li>
+                                                                                             <li><a data-filter="14" data-filterurl="osaka">Osaka</a></li>
+                                                                                                                                                      <li><a data-filter="2" data-filterurl="san-francisco">San Francisco</a></li>
+                                                                                             <li><a data-filter="13" data-filterurl="seoul">Seoul</a></li>
+                                                                                             <li><a data-filter="16" data-filterurl="shanghai">Shanghai</a></li>
+                                                                                             <li><a data-filter="19" data-filterurl="singapore">Singapore</a></li>
+                                                                                             <li><a data-filter="20" data-filterurl="sydney">Sydney</a></li>
+                                                                                             <li><a data-filter="15" data-filterurl="tokyo">Tokyo</a></li>
+                                                         </ul>
+      </div>
+      <div class="dropdown people-filter">
+         <button class="btn btn-default dropdown-toggle psorting people-title" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="psorting-label">Title:</span>
+            <span class="selected-value">All</span>
+            <span class="caret"><svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="15" height="8.91" viewBox="0 0 15 8.91">
+                     <path class="cls-1" d="M1.79.84c2.69,2.73,4.04,4.09,5.71,4.09s3.02-1.36,5.71-4.09l.48-.49.95.97-7.15,7.24L.35,1.32l.95-.97.48.49Z"></path>
+                  </svg></span>
+         </button>
+         <ul class="dropdown-menu" id="titleFilter" data-filter-group="title-filter">
+            <li><a class="selected" data-filter="">All</a></li>
+                                          <li><a data-filter="5" data-filterurl="partner">Partner</a></li>
+                                    </ul>
+      </div>
+      <div class="dropdown people-filter d-none" id="dropdownFocusArea">
+         <button class="btn btn-default dropdown-toggle psorting people-focus" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="psorting-label">Focus:</span>
+            <span class="selected-value">All</span>
+            <span class="caret"><svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="15" height="8.91" viewBox="0 0 15 8.91">
+                     <path class="cls-1" d="M1.79.84c2.69,2.73,4.04,4.09,5.71,4.09s3.02-1.36,5.71-4.09l.48-.49.95.97-7.15,7.24L.35,1.32l.95-.97.48.49Z"></path>
+                  </svg></span>
+         </button>
+         <ul class="dropdown-menu" id="focusFilter" data-filter-group="focus">
+            <li><a class="selected" data-filter="">All</a></li>
+                     </ul>
+      </div>
+      <div class="dropdown people-filter">
+         <button class="btn btn-default dropdown-toggle psorting people-business" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+         <span class="psorting-label">Business:</span>
+         <span class="selected-value">All</span>
+         <span class="caret"><svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="15" height="8.91" viewBox="0 0 15 8.91">
+                     <path class="cls-1" d="M1.79.84c2.69,2.73,4.04,4.09,5.71,4.09s3.02-1.36,5.71-4.09l.48-.49.95.97-7.15,7.24L.35,1.32l.95-.97.48.49Z"></path>
+                  </svg></span>
+         </button>
+         <ul class="dropdown-menu" id="peoplebusinessFilter" data-filter-group="business">
+            <li><a class="selected" data-filter="">All</a></li>
+                                                                           <li><a data-filter="15" data-filterurl="corporate">Corporate</a></li>
+                                                                              <li><a data-filter="6" data-filterurl="credit">Credit</a></li>
+                                                                              <li><a data-filter="13" data-filterurl="crypto">Crypto</a></li>
+                                                                              <li><a data-filter="10" data-filterurl="double-impact">Double Impact</a></li>
+                                                                              <li><a data-filter="3" data-filterurl="insurance">Insurance</a></li>
+                                                                              <li><a data-filter="16" data-filterurl="investor-relations">Investor Relations</a></li>
+                                                                              <li><a data-filter="9" data-filterurl="life-sciences">Life Sciences</a></li>
+                                                                              <li><a data-filter="11" data-filterurl="partnership-strategies">Partnership Strategies</a></li>
+                                                                              <li><a data-filter="5" data-filterurl="private-equity">Private Equity</a></li>
+                                                                              <li><a data-filter="8" data-filterurl="public-equity">Public Equity</a></li>
+                                                                              <li><a data-filter="2" data-filterurl="real-estate">Real Estate</a></li>
+                                                                              <li><a data-filter="1" data-filterurl="special-situations">Special Situations</a></li>
+                                                                                                                              <li><a data-filter="12" data-filterurl="tech-opportunities">Tech Opportunities</a></li>
+                                                                              <li><a data-filter="7" data-filterurl="ventures">Ventures</a></li>
+                                                   </ul>
+      </div>
+   </div>
+   <div class="portfolio-search-wrap">
+      <div class="search-portfolio">
+         <input type="search" class="page-search-field" placeholder="Search by name..." id="peopleSearch">
+         <button type="button" id="people-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+   </div>
+</div>                                 <div id="peopleLoader" style="display:none;"><img src="/themes/custom/baincapital/images/loader.gif"></div>
+    <div class="people-listing row mb-5 stagger-anim" id="people-listing" style="opacity: 1; visibility: inherit;">
+        <!-- People Listing Content Goes Here -->
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner tech-opportunities people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/darren-abrahamson"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Darren Abrahamson-0021 - preferred b - square.jpg" alt="Darren Abrahamson" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Darren  Abrahamson</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Tech Opportunities
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner ventures people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/ajay-agarwal"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/BCV-Headshot-AjayAgarwal-Web.jpeg" alt="Ajay Agarwal" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Ajay  Agarwal</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Ventures
+                                </div>
+                                                                                        <div class="team-location">
+                                    San Francisco, Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff vice-president corporate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/shakeeb-ahmed"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/sq pref Ahmed_Shakeeb-4756.jpg" alt="Shakeeb  Ahmed" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Shakeeb   Ahmed</span>
+                            <small>Vice President, Compliance</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Corporate
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff senior-vice-president  people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/anna-alessandria"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/ALESSADRA_A sq pref f0K6A8244.jpg" alt="Anna  Alessandria" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Anna   Alessandria</span>
+                            <small>Head of Compensation &amp; Benefits</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Corporate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner credit people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/tara-allin"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/pullen_tara_0.jpg" alt="Tara Allin" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Tara  Allin</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Credit
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff director credit people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/grayson-allison"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/sq pref 2020 4U4A4486.jpg" alt="Grayson Allison" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Grayson  Allison</span>
+                            <small>Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Credit
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/eric-anderson"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/E Anderson  pref sq F 0K6A9126.jpg" alt="Eric Anderson" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Eric  Anderson</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff associate tech-opportunities people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/patrick-andrews"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/P andrews sq pref 0K6A5578.jpg" alt="Patrick  Andrews" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Patrick   Andrews</span>
+                            <small>Associate</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Tech Opportunities
+                                </div>
+                                                                                        <div class="team-location">
+                                    San Francisco
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/maria-andrisani"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Andrisani_Maria-1519 - square.jpg" alt="Maria Andrisani" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Maria  Andrisani</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff principal crypto people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/guillermo-angeris"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Guillermo_095_RT - square.jpg" alt="Guillermo Angeris" class="img-responsive ls-is-cached lazyloaded">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Guillermo  Angeris</span>
+                            <small>Principal</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Crypto
+                                </div>
+                                                                                        <div class="team-location">
+                                    San Francisco
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner  people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/ernesto-anguilla"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Anguilla sq pref 2022 0K6A6762.jpg" alt="Ernesto Anguilla" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Ernesto  Anguilla</span>
+                            <small>Head of Communications &amp; Public Affairs</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Corporate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff managing-director private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/tim-anten"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Anten_Tim-8829 - final choice sq 2019.jpg" alt="Tim Anten" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Tim  Anten</span>
+                            <small>Managing Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff senior-vice-president  people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/paul-aparo"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/P. Aparo-0031square pref.jpg" alt="Paul Aparo" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Paul  Aparo</span>
+                            <small>Head of Partner Services</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Corporate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff associate life-sciences people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/melaku-arega-md"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/square pref 0K6A7421.jpg" alt="Melaku  Arega, MD" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Melaku   Arega, MD</span>
+                            <small>Associate</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Life Sciences
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff director public-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/carlos-argilagos"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Carlos A sq pref pg.jpg" alt="Carlos Argilagos" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Carlos  Argilagos</span>
+                            <small>Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Public Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff vice-president special-situations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/cristina-asenjo-del-rio"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Cristina  Asenjo Del Rió" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Cristina   Asenjo Del Rió</span>
+                            <small>Vice President</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Special Situations
+                                </div>
+                                                                                        <div class="team-location">
+                                    Madrid
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff co-chairman private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/ken-ashida"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Ken Ashida" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Ken  Ashida</span>
+                            <small>Co-Chairman</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Tokyo
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff co-chairman private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/ken-ashida-0"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Ken Ashida" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Ken  Ashida</span>
+                            <small>Co-Chairman</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Tokyo
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff managing-director private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/emily-ashworth"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Emily  Ashworth" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Emily   Ashworth</span>
+                            <small>Managing Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff vice-president  people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/alexandra-assante"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Sq pref A ASSANTE 0K6A9245.jpg" alt="Alexandra Assante" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Alexandra  Assante</span>
+                            <small>Vice President, Treasury</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Corporate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff senior-advisor special-situations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/alon-avner"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Avner_Alon_0.jpg" alt="Alon Avner" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Alon  Avner</span>
+                            <small>Senior Advisor</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Special Situations
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner tech-opportunities people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/dewey-awad"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Dewey Awad- square pref 0015.jpg" alt="Dewey Awad" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Dewey  Awad</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Tech Opportunities
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff associate real-estate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/lukas-aznar"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Lukas  Aznar" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Lukas   Aznar</span>
+                            <small>Associate</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Real Estate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff managing-director special-situations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/gunjan-bahl"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/DSC_1384 copy_0.jpg" alt="Gunjan  Bahl" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Gunjan   Bahl</span>
+                            <small>Managing Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Special Situations
+                                </div>
+                                                                                        <div class="team-location">
+                                    Mumbai
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff senior-vice-president credit people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/david-c-ball"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Ball_David_0.jpg" alt="David Ball" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>David C. Ball</span>
+                            <small>Head of CLO Fund Finance</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Credit
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff analyst tech-opportunities people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/emily-ballinger"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Sq pref 0K6A7248_0.jpg" alt="Emily Ballinger " class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Emily  Ballinger </span>
+                            <small>Analyst</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Tech Opportunities
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff director real-estate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/ryan-baltimore"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Baltimore sq pref 0U7A8962.jpg" alt="Ryan Baltimore" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Ryan  Baltimore</span>
+                            <small>Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Real Estate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff director credit investor-relations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/seth-bancroft"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Seth Bancroft-0024 - preferred a - square.jpg" alt="Seth Bancroft" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Seth  Bancroft</span>
+                            <small>Director, Product Specialist</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Investor Relations
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff director credit investor-relations special-situations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/victoria-baran"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/V_Baran.jpg" alt="Victoria  Baran" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Victoria   Baran</span>
+                            <small>Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Investor Relations
+                                </div>
+                                                                                        <div class="team-location">
+                                    New York
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff associate real-estate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/jacob-barnes"></a>
+                    <div class="team-img">
+                        <img src="/themes/custom/baincapital/images/bc-no-image.png" alt="Jacob  Barnes" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Jacob   Barnes</span>
+                            <small>Associate </small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Real Estate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff  partnership-strategies people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/gordon-barnes"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/G barnes sq pref 4U4A8989.jpg" alt="Gordon Barnes" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Gordon  Barnes</span>
+                            <small>Executive Vice President </small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Partnership Strategies
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff senior-advisor private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/steven-barnes"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Steve Barnes-0037 - preferred c - square.jpg" alt="Steven Barnes" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Steven  Barnes</span>
+                            <small>Senior Advisor</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff associate real-estate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/jacob-bass"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/J Bass sq pref 0K6A0370.jpg" alt="Jacob Bass" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Jacob  Bass</span>
+                            <small>Associate</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Real Estate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/luca-bassi"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Luca Bassi-0017 - preferred window - square.jpg" alt="Luca Bassi" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Luca  Bassi</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff managing-director private-equity people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/james-bath"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/sq pref 10.25.22 Bath_James-4997.jpg" alt="James Bath" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>James  Bath</span>
+                            <small>Managing Director</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Private Equity
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff customer-development-coordinator ventures people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/lauren-batres"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/LaurenBatres sq pref .jpg" alt=" Lauren  Batres" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span> Lauren   Batres</span>
+                            <small>Customer Development Coordinator</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Ventures
+                                </div>
+                                                                                        <div class="team-location">
+                                    New York
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff principal real-estate people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/william-begley"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/4U4A1017 sq pref .jpg" alt="William Begley" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>William  Begley</span>
+                            <small>Principal</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Real Estate
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff vice-president insurance people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/taylor-beguhn"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/square prefrence 0K6A6892.jpg" alt="Taylor Beguhn" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Taylor  Beguhn</span>
+                            <small>Vice President</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Insurance
+                                </div>
+                                                                                        <div class="team-location">
+                                    Boston
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff vice-president tech-opportunities people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/maximilian-behrens"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/Headshot Behrens.JPG" alt="Maximilian  Behrens " class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Maximilian   Behrens </span>
+                            <small>Vice President</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Tech Opportunities
+                                </div>
+                                                                                        <div class="team-location">
+                                    London
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+                                                                                                                                                                                                        <div class="col col-sm-6 col-md-4 col-lg-3 staff partner special-situations people-grid">
+                <div class="team-bg">
+                    <a class="people-detail-link" href="/people/anupam-behura"></a>
+                    <div class="team-img">
+                        <img src="https://cdn-east2.baincapital.com/Team/SY5_8962 - Sq pref Anupam Behura.jpg" alt="Anupam Behura" class="img-responsive lazyload">
+                    </div>
+                    <div class="team-desc">
+                        <h4>
+                            <span>Anupam  Behura</span>
+                            <small>Partner</small>
+                        </h4>
+                        <div class="team-footer">
+                                                            <div class="team-business">
+                                    Special Situations
+                                </div>
+                                                                                        <div class="team-location">
+                                    Singapore
+                                </div>
+                                                    </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+                                            <div class="item-list" id="people-listing-pagination">
+                    <!-- Pagination Content Goes Here -->
+                                           <a href="javascript:void(0)" class="pagination-link pag-num current" data-page="1">1</a>
+                                                               <a href="javascript:void(0)" class="pagination-link pag-num" data-page="2">2</a>
+                                                               <a href="javascript:void(0)" class="pagination-link pag-num" data-page="3">3</a>
+                                                               <a href="javascript:void(0)" class="pagination-link pag-num" data-page="4">4</a>
+                                                               <a href="javascript:void(0)" class="pagination-link pag-num" data-page="5">5</a>
+                                                               <a href="javascript:void(0)" class="pagination-link pag-num" data-page="6">6</a>
+                                                               <span class="pagination-dots">...</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                              <a href="javascript:void(0)" class="pagination-link pag-num" data-page="21">21</a>
+                                                        <a href="javascript:void(0)" class="pagination-link next " data-page="2">
+                <!--?xml version="1.0" encoding="UTF-8"?-->
+                <svg id="Layer_1" xmlns="//www.w3.org/2000/svg" width="8.2" height="14.3" viewBox="0 0 8.2 14.3">
+
+                <path class="cls-1" d="M.49,12.86c2.73-2.69,4.09-4.04,4.09-5.71S3.21,4.13.49,1.43l-.49-.48.97-.95,7.24,7.15L.97,14.3l-.97-.95.49-.48Z"></path>
+                </svg>
+                </a>
+                    </div>
+        <input type="hidden" id="paginationCurPage" value="1">
+    
+<div class="text-center col-12 d-flex">
+    <div class="loader">
+        <span class="loader-inner"></span>
+    </div>
+</div>
+
+<div class="people_data_filter" data-people_designation_filter="" data-people_search_filter="" data-people_location_filter=""></div>                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-slants">
+    <div class="left-slant"></div>
+    <div class="right-slant"></div>
+</div>
+  </div>
+
+  </main>
+    <div class="more-menu-slants">
+        <div class="left-slant"></div>
+        <div class="right-slant"></div>
+    </div>
+    <div class="more-menu-triangle" style="opacity: 0;">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="//www.w3.org/2000/svg" version="1.1" viewBox="0 0 2395.8 1799.3">
+
+          <path class="cls-1 anim-right" d="M2395.6,303.3l-1173.2,586.6c-12.4,6.2-12.4,13.6,0,19.8l1173.2,586.6V303.3Z" data-svg-origin="1213.10009765625 303.29998779296875" transform="matrix(1,0,0,1,1024,0)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+          <path class="cls-1 anim-top-left" d="M2395.6.1H611.1l1170.7,585.3c12.4,6.2,22.3,6.2,34.7,0l579.2-289.6V.1Z" data-svg-origin="611.0999755859375 0.10000000149011612" transform="matrix(1,0,0,1,576,-576)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+          <path class="cls-1 anim-bottom-left" d="M1816.4,1214.1c-12.4-6.2-22.3-6.2-34.7,0l-1170.7,585.3h1784.5v-295.8l-579.2-289.6Z" data-svg-origin="611.0001220703125 1209.449951171875" transform="matrix(1,0,0,1,576,576)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+          <path class="cls-1 anim-top" d="M1771.9,607.7c12.4-6.2,12.4-13.6,0-19.8L596.2.1H-.2v295.8l1180.6,590.3c12.4,6.2,22.3,6.2,34.7,0l556.9-278.4Z" data-svg-origin="-0.20000000298023224 0.10000000149011612" transform="matrix(1,0,0,1,0,-576)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+          <path class="cls-1 anim-bottom" d="M1215,913.4c-12.4-6.2-22.3-6.2-34.7,0L-.2,1503.7v295.8h596.5l1175.6-587.8c12.4-6.2,12.4-13.6,0-19.8l-556.9-278.4Z" data-svg-origin="-0.20000000298023224 908.75" transform="matrix(1,0,0,1,0,576)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+          <path class="cls-1 anim-left" d="M-.2,303.3v1192.9l1173.2-586.6c12.4-6.2,12.4-13.6,0-19.8L-.2,303.3Z" data-svg-origin="-0.20000000298023224 303.29998779296875" transform="matrix(1,0,0,1,-1024,0)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path>
+      </svg>
+    </div>
+    <!--SEARCH RESULT-->
+    <div class="search">
+        <div class="container">
+          <form class="search__form" action="/search" method="GET" autocomplete="off" onsubmit="return validateForm('desktop');">
+              <input data-drupal-selector="edit-search-api" class="search__input" name="search_api" id="edit-search-api" type="search" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search">
+              <input type="hidden" name="build_id" value="form-IrXciwrViLTuI5g219i8UFSmvnz5a5eDQN4NgNQUW_c">
+              <input class="d-none" type="submit" value="&nbsp;" name="op">
+              <span id="typedtext"><span id="typedtext-all"></span><span class="underscore">_</span></span>
+          </form>
+        </div>
+    </div>
+    <!-- /search -->
+    <!-- More menu popup start -->
+        <div id="more-menu-modal" class="modal section more-menu-section" tabindex="-1" aria-hidden="true" style="opacity: 0; visibility: hidden;">
+            <div class="modal-dialog">
+                <div class="more-menu-section-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 more-menu-sec">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="widget menu-widget"><h6 class="widget-title">Bain Capital</h6>
+                                                <div class="widget-content">
+                                                    <ul class="about-menu menu-widget-menu"><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/about-us" rel="noopener noreferrer">About Us</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/esgandimpact" rel="noopener noreferrer">ESG &amp; Impact</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/people" rel="noopener noreferrer">People</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/careers" rel="noopener noreferrer">Careers</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/news" rel="noopener noreferrer">News</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/locations" rel="noopener noreferrer">Locations</a></li></ul>
+                                                </div><div class="local-site-listing">
+                                                <h6 class="widget-title">Local Sites</h6>
+                                                <div class="widget-content">
+                                                    <ul class="menu-widget-menu local-site-menu"><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.co.jp/" target="_blank">Japan - 日本</a></li></ul>
+                                                </div>
+                                            </div></div>
+                                    </div><div class="col-12 col-md-6">
+                                            <div class="widget menu-widget">
+                                                <!-- {% if more_menu.business_menu %} -->
+                                                <h6 class="widget-title">OUR BUSINESSES</h6>
+                                                <div class="widget-content">
+                                                    <ul class="ftr-businesses-menu menu-widget-menu"><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalprivateequity.com/" target="_blank">Private Equity</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalcredit.com/" target="_blank">Credit</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/ventures" target="_blank">Ventures</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalrealestate.com/" target="_blank">Real Estate</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://baincapitalspecialsituations.com/" target="_blank">Special Situations</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitallifesciences.com" target="_blank">Life Sciences</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalpublicequity.com/" target="_blank">Public Equity</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalpartnershipstrategies.com/" target="_blank">Partnership Strategies</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitaltechopportunities.com/" target="_blank">Tech Opportunities</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitaldoubleimpact.com/" target="_blank">Double Impact</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapitalinsurance.com" target="_blank">Insurance</a></li><li style="translate: none; rotate: none; scale: none; transform: translate(100%, 0%); opacity: 0; visibility: hidden;"><a href="https://www.baincapital.com/crypto" target="_blank">Crypto</a></li></ul>
+                                                </div>
+                                            </div>
+                                        </div><div class="col-12 d-none d-lg-block">
+                                        <div class="copyright-wrap">
+                                            <p class="copyright-txt" style="opacity: 0; visibility: hidden;">© 2012-2025 Bain Capital, LP. The Bain Capital square symbol is a trademark of Bain Capital, LP All Rights Reserved.</p><ul class="copyright-menu footermenu" style="opacity: 0; visibility: hidden;"><li><a href="https://www.baincapital.com/privacy-policy" target="_blank">Privacy Policy</a></li><li><a href="https://www.baincapital.com/terms-use" target="_blank">Terms of Use</a></li><li><a href="https://www.baincapital.com/regulatory-disclosures" target="_blank">Regulatory Disclosures</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning" target="_blank">Fraud and Cybersecurity Warning</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning-chinese" target="_blank">警告：网络欺诈及网络钓鱼</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning-spanish" target="_blank">Fraude y advertencia de ciberseguridad</a></li></ul></div>
+                                    </div></div>
+                            </div><div class="col-12 col-lg-4 more-menu-sidebar"><div class="widget search-widget">
+                                    <h6 class="widget-title">
+                                        <span class="widget-title-icon">
+                                            <img src="https://www.baincapital.com/themes/custom/baincapital/images/search-icon.svg" class="desktop-icon d-none d-lg-block" alt="search-icon" width="24" height="24" loading="lazy">
+                                            <img src="https://www.baincapital.com/themes/custom/baincapital/images/search-icon-grey.svg" class="mobile-icon d-block d-lg-none" alt="search-icon" width="24" height="24" loading="lazy">
+                                        </span>
+                                        
+                                    <span class="widget-title-txt" style="translate: none; rotate: none; scale: none; transform: translate(-100%, 0%); opacity: 0; visibility: hidden;"> SEARCH</span></h6>
+                                    <div class="widget-content">
+                                        <form class="search__form" action="/search" method="GET" autocomplete="off" onsubmit="return validateForm(" desktop");"="">
+                                            <input data-drupal-selector="edit-search-api" class="search__input" name="search_api" id="edit-search-api" type="search" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search">
+                                            <input type="hidden" name="build_id" value="form-IrXciwrViLTuI5g219i8UFSmvnz5a5eDQN4NgNQUW_c">
+                                            <input class="d-none" type="submit" value="&nbsp;" name="op">
+                                            <span class="typedtext"><span class="typedtext-all" data-splitting=""></span><span class="underscore" style="opacity: 0; visibility: hidden;">_</span></span>
+                                        </form>
+                                    </div>
+                                </div><div class="widget investor-login-widget" style="opacity: 0; visibility: hidden;">
+                                    <h6 class="widget-title">FOR INVESTORS</h6>
+                                    <div class="investorLoginWrap" id="investorLogin">
+                                        <p>Log in to access your account information. If you have any questions regarding your account, please contact <a href="mailto:ir@baincapital.com">ir@baincapital.com</a>.</p>
+                                        <div class="widget-content">
+                                            <div class="signinOption">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default dropdown-toggle signin_link" aria-haspopup="true" aria-expanded="false">
+                                                    <a href="https://services.dataexchange.fiscloudservices.com/Document/2449254" target="_blank">Sign on to your account<span class="caret"></span></a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div></div><div class="col col-12 d-block d-lg-none mobile-copyright-sec">
+                                <div class="copyright-wrap">
+                                <p class="copyright-txt" style="opacity: 0; visibility: hidden;">© 2012-2025 Bain Capital, LP. The Bain Capital square symbol is a trademark of Bain Capital, LP All Rights Reserved.</p><ul class="copyright-menu" style="opacity: 0; visibility: hidden;"><li><a href="https://www.baincapital.com/privacy-policy" target="_blank">Privacy Policy</a></li><li><a href="https://www.baincapital.com/terms-use" target="_blank">Terms of Use</a></li><li><a href="https://www.baincapital.com/regulatory-disclosures" target="_blank">Regulatory Disclosures</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning" target="_blank">Fraud and Cybersecurity Warning</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning-chinese" target="_blank">警告：网络欺诈及网络钓鱼</a></li><li><a href="https://www.baincapital.com/fraud-and-cybersecurity-warning-spanish" target="_blank">Fraude y advertencia de ciberseguridad</a></li></ul></div>
+                            </div></div>
+                    </div>
+                    <span class="more-menu-search-background cyan-bg" style="left: 0px; height: 0px; opacity: 0; visibility: hidden;"></span>
+                </div>
+            </div>
+        </div>
+    <!-- More menu popup end -->
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/8","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":false,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Cp\u003E\u003Cstrong\u003EThis site uses cookies.\u003C\/strong\u003E To see how cookies are used, please review our \u003Ca href=\u0022\/privacy-policy\u0022 target=\u0022_blank\u0022 data-once=\u0022externalLinkPopup\u0022\u003E\u003Cu\u003Ecookie notice\u003C\/u\u003E\u003C\/a\u003E. If you agree to our use of cookies, please continue to use our site. To provide a smooth navigation, your \u003Ca\u003E\u003Cu\u003Ecookie settings\u003C\/u\u003E\u003C\/a\u003E will be shared across the Bain Capital domains \u003Ca href=\u0022\/\u0022 target=\u0022_blank\u0022 data-once=\u0022externalLinkPopup\u0022\u003E\u003Cu\u003Elisted here\u003C\/u\u003E\u003C\/a\u003E.\u003C\/p\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necessary\u0022\n                     value=\u0022necessary\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-necessary\u0022\u003ENecessary\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-functional\u0022\n                     value=\u0022functional\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-functional\u0022\u003EFunctional\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analytics\u0022\n                     value=\u0022analytics\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-analytics\u0022\u003EAnalytics\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-performance\u0022\n                     value=\u0022performance\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-performance\u0022\u003EPerformance\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003ESave preferences\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EContinue\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necessary\u0022\n                     value=\u0022necessary\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-necessary\u0022\u003ENecessary\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-functional\u0022\n                     value=\u0022functional\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-functional\u0022\u003EFunctional\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analytics\u0022\n                     value=\u0022analytics\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-analytics\u0022\u003EAnalytics\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-performance\u0022\n                     value=\u0022performance\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-performance\u0022\u003EPerformance\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003ESave preferences\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EContinue\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":1,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"categories","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button  button button--small button--primary\u0022\u003E\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":["necessary","functional","analytics","performance"],"cookie_categories_details":{"necessary":{"uuid":"02c1ab27-eccc-43ed-8eb5-4bba03f83373","langcode":"en","status":true,"dependencies":[],"id":"necessary","label":"Necessary","description":"","checkbox_default_state":"required","weight":-9},"functional":{"uuid":"6343c7c1-63cd-41ec-8b3d-328b695da557","langcode":"en","status":true,"dependencies":[],"id":"functional","label":"Functional","description":"","checkbox_default_state":"checked","weight":-8},"analytics":{"uuid":"d3df6a5d-8a25-4b11-844f-2eddbb6c955f","langcode":"en","status":true,"dependencies":[],"id":"analytics","label":"Analytics","description":"","checkbox_default_state":"checked","weight":-7},"performance":{"uuid":"07d083bb-bef9-4d6a-941c-bead631c8095","langcode":"en","status":true,"dependencies":[],"id":"performance","label":"Performance","description":"","checkbox_default_state":"checked","weight":-6}},"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":" button button--small button--primary","olivero_secondary_button_classes":" button button--small","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"user":{"uid":0,"permissionsHash":"ff5f938ee7d4e1abe235e66ab3ea087ffad2f2002a4c9f5e420a363089f043e6"}}</script>
+<script src="/sites/default/files/js/js_SLSmGWBVs_jE1xuwYDUuA_k0JjvRZqIWqErOfptULG8.js"></script>
+<script src="/sites/default/files/js/js_YpGqPSGe50ZFzWCoxbzGMNpL2Y9zz62A_jT25wrMTUY.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="//unpkg.com/@barba/core@2.10.3/dist/barba.umd.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="/sites/default/files/js/js_nS4q2kU0X9p2s73MZYUCVeBx6Uk7zga8q1E-mU4LCiY.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
+<script src="/sites/default/files/js/js_kdeHO0sU1UwtM_caxS2nxF8MGuu8KzY5e4wtlO8erpg.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="//cdn.amcharts.com/lib/5/index.js"></script>
+<script src="//cdn.amcharts.com/lib/5/map.js"></script>
+<script src="//cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+<script src="//cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+<script src="//cdn.jsdelivr.net/gh/sachinchoolur/lightgallery.js@master/dist/js/lightgallery.js" id="cf-forceDirected1-js-js"></script>
+<script src="/sites/default/files/js/js_QWxZvw2WwGV4iPDDrOYJpjsN1P-AGMYtA3LPQPp-tms.js"></script>
+<script src="/modules/eu_cookie_compliance/js/eu_cookie_compliance.min.js?v=9.5.11" defer=""></script>
+
+    
+  
+<div id="sliding-popup" role="alertdialog" aria-describedby="popup-text" class="sliding-popup-bottom" style="height: auto; width: 100%; bottom: 0px;"><div aria-labelledby="popup-text" class="eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories" aria-hidden="false">
+  <div class="popup-content info eu-cookie-compliance-content">
+        <div id="popup-text" class="eu-cookie-compliance-message" role="document">
+      <p><strong>This site uses cookies.</strong> To see how cookies are used, please review our <a href="/privacy-policy" target="_blank" data-once="externalLinkPopup" tabindex="0"><u>cookie notice</u></a>. If you agree to our use of cookies, please continue to use our site. To provide a smooth navigation, your <a tabindex="0"><u>cookie settings</u></a> will be shared across the Bain Capital domains <a href="/" target="_blank" data-once="externalLinkPopup" tabindex="0"><u>listed here</u></a>.</p>
+          </div>
+
+          <div id="eu-cookie-compliance-categories" class="eu-cookie-compliance-categories">
+                  <div class="eu-cookie-compliance-category">
+            <div class="checkbox-switch-wrap disabled">
+              <div class="swith-wrap"><input type="checkbox" name="cookie-categories" class="eu-cookie-compliance-category-checkbox" id="cookie-category-necessary" value="necessary" checked="" disabled="" tabindex="0"><span class="slider"></span></div>
+              <label for="cookie-category-necessary">Necessary</label>
+            </div>
+                      </div>
+                  <div class="eu-cookie-compliance-category">
+            <div class="checkbox-switch-wrap">
+              <div class="swith-wrap"><input type="checkbox" name="cookie-categories" class="eu-cookie-compliance-category-checkbox" id="cookie-category-functional" value="functional" checked="" tabindex="0"><span class="slider"></span></div>
+              <label for="cookie-category-functional">Functional</label>
+            </div>
+                      </div>
+                  <div class="eu-cookie-compliance-category">
+            <div class="checkbox-switch-wrap">
+              <div class="swith-wrap"><input type="checkbox" name="cookie-categories" class="eu-cookie-compliance-category-checkbox" id="cookie-category-analytics" value="analytics" checked="" tabindex="0"><span class="slider"></span></div>
+              <label for="cookie-category-analytics">Analytics</label>
+            </div>
+                      </div>
+                  <div class="eu-cookie-compliance-category">
+            <div class="checkbox-switch-wrap">
+              <div class="swith-wrap"><input type="checkbox" name="cookie-categories" class="eu-cookie-compliance-category-checkbox" id="cookie-category-performance" value="performance" checked="" tabindex="0"><span class="slider"></span></div>
+              <label for="cookie-category-performance">Performance</label>
+            </div>
+                      </div>
+                          <div class="eu-cookie-compliance-categories-buttons">
+            <button type="button" class="eu-cookie-compliance-save-preferences-button  button button--small" tabindex="0">Save preferences</button>
+          </div>
+              </div>
+    
+    <div id="popup-buttons" class="eu-cookie-compliance-buttons eu-cookie-compliance-has-categories">
+            <button type="button" class="agree-button eu-cookie-compliance-default-button button button--small button--primary" tabindex="0">Continue</button>
+          <button type="button" class="setting-button eu-cookie-compliance-default-button" onclick="cookiedisplaycategory()">Settings</button></div>
+  </div>
+</div></div></body></html>

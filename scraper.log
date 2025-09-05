@@ -1,0 +1,776 @@
+2025-07-11 11:41:16,889 - INFO - Processing G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv...
+2025-07-11 11:41:16,943 - WARNING - Hunter API client not available
+2025-07-11 11:41:16,989 - ERROR - Error processing G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv: 'Company'
+2025-07-11 11:41:17,002 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114116_final_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:43:25,745 - INFO - Processing G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv...
+2025-07-11 11:43:25,782 - WARNING - Hunter API client not available
+2025-07-11 11:43:25,802 - ERROR - Error processing G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv: 'URL'
+2025-07-11 11:43:25,807 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114325_final_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:44:54,526 - INFO - Processing G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv...
+2025-07-11 11:44:54,559 - WARNING - Hunter API client not available
+2025-07-11 11:44:54,583 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:44:54,583 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:45:04,210 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:04,325 - INFO - Scraped 0 contacts for Tufts University in 9.74s
+2025-07-11 11:45:04,326 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:04,329 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114504_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:04,329 - INFO - Scraping Boston University College of Communication (bu.edu)...
+2025-07-11 11:45:04,329 - INFO - Scraping Boston University College of Communication at bu.edu
+2025-07-11 11:45:05,392 - ERROR - Error scraping Boston University College of Communication: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bu.edu", waiting until "load"
+
+2025-07-11 11:45:05,508 - INFO - Scraped 0 contacts for Boston University College of Communication in 1.18s
+2025-07-11 11:45:05,509 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:05,512 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114505_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:05,513 - INFO - Scraping Massachusetts Bay Community College (massbay.edu)...
+2025-07-11 11:45:05,513 - INFO - Scraping Massachusetts Bay Community College at massbay.edu
+2025-07-11 11:45:06,837 - ERROR - Error scraping Massachusetts Bay Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "massbay.edu", waiting until "load"
+
+2025-07-11 11:45:06,963 - INFO - Scraped 0 contacts for Massachusetts Bay Community College in 1.45s
+2025-07-11 11:45:06,964 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:06,965 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114506_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:06,965 - INFO - Scraping UMass Boston - College of Management (umb.edu)...
+2025-07-11 11:45:06,966 - INFO - Scraping UMass Boston - College of Management at umb.edu
+2025-07-11 11:45:08,146 - ERROR - Error scraping UMass Boston - College of Management: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umb.edu", waiting until "load"
+
+2025-07-11 11:45:08,268 - INFO - Scraped 0 contacts for UMass Boston - College of Management in 1.30s
+2025-07-11 11:45:08,269 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:08,271 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114508_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:08,272 - INFO - Scraping Elms College (elms.edu)...
+2025-07-11 11:45:08,272 - INFO - Scraping Elms College at elms.edu
+2025-07-11 11:45:09,560 - ERROR - Error scraping Elms College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "elms.edu", waiting until "load"
+
+2025-07-11 11:45:09,663 - INFO - Scraped 0 contacts for Elms College in 1.39s
+2025-07-11 11:45:09,663 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:09,665 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114509_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:09,665 - INFO - Scraping Bridgewater State University (bridgew.edu)...
+2025-07-11 11:45:09,665 - INFO - Scraping Bridgewater State University at bridgew.edu
+2025-07-11 11:45:11,263 - ERROR - Error scraping Bridgewater State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bridgew.edu", waiting until "load"
+
+2025-07-11 11:45:11,549 - INFO - Scraped 0 contacts for Bridgewater State University in 1.88s
+2025-07-11 11:45:11,550 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:11,553 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114511_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:11,554 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:45:11,554 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:45:13,080 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:13,192 - INFO - Scraped 0 contacts for Tufts University in 1.64s
+2025-07-11 11:45:13,193 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:13,194 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114513_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:13,195 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:45:13,195 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:45:14,309 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:14,480 - INFO - Scraped 0 contacts for Tufts University in 1.28s
+2025-07-11 11:45:14,481 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:14,483 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114514_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:14,484 - INFO - Scraping UMass Boston (umb.edu)...
+2025-07-11 11:45:14,484 - INFO - Scraping UMass Boston at umb.edu
+2025-07-11 11:45:16,275 - ERROR - Error scraping UMass Boston: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umb.edu", waiting until "load"
+
+2025-07-11 11:45:16,407 - INFO - Scraped 0 contacts for UMass Boston in 1.92s
+2025-07-11 11:45:16,408 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:16,410 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114516_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:16,410 - INFO - Scraping Boston University - Frederick S. Pardee School of Global Studies (Pardee School) (bu.edu)...
+2025-07-11 11:45:16,411 - INFO - Scraping Boston University - Frederick S. Pardee School of Global Studies (Pardee School) at bu.edu
+2025-07-11 11:45:18,003 - ERROR - Error scraping Boston University - Frederick S. Pardee School of Global Studies (Pardee School): Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bu.edu", waiting until "load"
+
+2025-07-11 11:45:18,199 - INFO - Scraped 0 contacts for Boston University - Frederick S. Pardee School of Global Studies (Pardee School) in 1.79s
+2025-07-11 11:45:18,201 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:18,203 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114518_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:18,203 - INFO - Scraping Khoury College of Computer Sciences (northeastern.edu)...
+2025-07-11 11:45:18,204 - INFO - Scraping Khoury College of Computer Sciences at northeastern.edu
+2025-07-11 11:45:19,796 - ERROR - Error scraping Khoury College of Computer Sciences: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "northeastern.edu", waiting until "load"
+
+2025-07-11 11:45:19,938 - INFO - Scraped 0 contacts for Khoury College of Computer Sciences in 1.73s
+2025-07-11 11:45:19,939 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:19,941 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114519_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:19,942 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University (tufts.edu)...
+2025-07-11 11:45:19,942 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University at tufts.edu
+2025-07-11 11:45:21,675 - ERROR - Error scraping The Friedman School of Nutrition Science and Policy at Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:21,817 - INFO - Scraped 0 contacts for The Friedman School of Nutrition Science and Policy at Tufts University in 1.87s
+2025-07-11 11:45:21,818 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:21,820 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114521_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:21,821 - INFO - Scraping Questrom School of Business, Boston University (bu.edu)...
+2025-07-11 11:45:21,821 - INFO - Scraping Questrom School of Business, Boston University at bu.edu
+2025-07-11 11:45:23,865 - ERROR - Error scraping Questrom School of Business, Boston University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bu.edu", waiting until "load"
+
+2025-07-11 11:45:24,068 - INFO - Scraped 0 contacts for Questrom School of Business, Boston University in 2.25s
+2025-07-11 11:45:24,070 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:24,073 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114524_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:24,074 - INFO - Scraping Bridgewater State University (bridgew.edu)...
+2025-07-11 11:45:24,074 - INFO - Scraping Bridgewater State University at bridgew.edu
+2025-07-11 11:45:25,897 - ERROR - Error scraping Bridgewater State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bridgew.edu", waiting until "load"
+
+2025-07-11 11:45:26,036 - INFO - Scraped 0 contacts for Bridgewater State University in 1.96s
+2025-07-11 11:45:26,036 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:26,038 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114526_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:26,038 - INFO - Scraping Massachusetts Bay Community College (massbay.edu)...
+2025-07-11 11:45:26,039 - INFO - Scraping Massachusetts Bay Community College at massbay.edu
+2025-07-11 11:45:27,316 - ERROR - Error scraping Massachusetts Bay Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "massbay.edu", waiting until "load"
+
+2025-07-11 11:45:27,436 - INFO - Scraped 0 contacts for Massachusetts Bay Community College in 1.40s
+2025-07-11 11:45:27,437 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:27,439 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114527_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:27,440 - INFO - Scraping RWU Center for Career and Professional Development (rwu.edu)...
+2025-07-11 11:45:27,440 - INFO - Scraping RWU Center for Career and Professional Development at rwu.edu
+2025-07-11 11:45:28,684 - ERROR - Error scraping RWU Center for Career and Professional Development: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "rwu.edu", waiting until "load"
+
+2025-07-11 11:45:28,791 - INFO - Scraped 0 contacts for RWU Center for Career and Professional Development in 1.35s
+2025-07-11 11:45:28,792 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:28,794 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114528_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:28,794 - INFO - Scraping University of Massachusetts Dartmouth (umassd.edu)...
+2025-07-11 11:45:28,794 - INFO - Scraping University of Massachusetts Dartmouth at umassd.edu
+2025-07-11 11:45:29,920 - ERROR - Error scraping University of Massachusetts Dartmouth: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umassd.edu", waiting until "load"
+
+2025-07-11 11:45:30,051 - INFO - Scraped 0 contacts for University of Massachusetts Dartmouth in 1.26s
+2025-07-11 11:45:30,054 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:30,056 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114530_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:30,056 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:45:30,057 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:45:31,406 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:31,517 - INFO - Scraped 0 contacts for Tufts University in 1.46s
+2025-07-11 11:45:31,518 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:31,519 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114531_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:31,520 - INFO - Scraping Suffolk University (suffolk.edu)...
+2025-07-11 11:45:31,520 - INFO - Scraping Suffolk University at suffolk.edu
+2025-07-11 11:45:32,805 - ERROR - Error scraping Suffolk University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "suffolk.edu", waiting until "load"
+
+2025-07-11 11:45:32,922 - INFO - Scraped 0 contacts for Suffolk University in 1.40s
+2025-07-11 11:45:32,924 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:32,925 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114532_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:32,926 - INFO - Scraping Harvard University (harvard.edu)...
+2025-07-11 11:45:32,926 - INFO - Scraping Harvard University at harvard.edu
+2025-07-11 11:45:33,963 - ERROR - Error scraping Harvard University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:45:34,061 - INFO - Scraped 0 contacts for Harvard University in 1.14s
+2025-07-11 11:45:34,062 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:34,064 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114534_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:34,065 - INFO - Scraping Community College of Rhode Island (ccri.edu)...
+2025-07-11 11:45:34,065 - INFO - Scraping Community College of Rhode Island at ccri.edu
+2025-07-11 11:45:35,011 - ERROR - Error scraping Community College of Rhode Island: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "ccri.edu", waiting until "load"
+
+2025-07-11 11:45:35,132 - INFO - Scraped 0 contacts for Community College of Rhode Island in 1.07s
+2025-07-11 11:45:35,133 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:35,134 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114535_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:35,134 - INFO - Scraping Massachusetts College of Art and Design (massart.edu)...
+2025-07-11 11:45:35,135 - INFO - Scraping Massachusetts College of Art and Design at massart.edu
+2025-07-11 11:45:36,201 - ERROR - Error scraping Massachusetts College of Art and Design: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "massart.edu", waiting until "load"
+
+2025-07-11 11:45:36,328 - INFO - Scraped 0 contacts for Massachusetts College of Art and Design in 1.19s
+2025-07-11 11:45:36,329 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:36,331 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114536_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:36,331 - INFO - Scraping Harvard University (harvard.edu)...
+2025-07-11 11:45:36,332 - INFO - Scraping Harvard University at harvard.edu
+2025-07-11 11:45:37,467 - ERROR - Error scraping Harvard University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:45:37,588 - INFO - Scraped 0 contacts for Harvard University in 1.26s
+2025-07-11 11:45:37,589 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:37,592 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114537_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:37,593 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University (tufts.edu)...
+2025-07-11 11:45:37,593 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University at tufts.edu
+2025-07-11 11:45:38,787 - ERROR - Error scraping The Friedman School of Nutrition Science and Policy at Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:38,909 - INFO - Scraped 0 contacts for The Friedman School of Nutrition Science and Policy at Tufts University in 1.32s
+2025-07-11 11:45:38,910 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:38,912 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114538_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:38,913 - INFO - Scraping Northeastern University (northeastern.edu)...
+2025-07-11 11:45:38,913 - INFO - Scraping Northeastern University at northeastern.edu
+2025-07-11 11:45:40,025 - ERROR - Error scraping Northeastern University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "northeastern.edu", waiting until "load"
+
+2025-07-11 11:45:40,130 - INFO - Scraped 0 contacts for Northeastern University in 1.22s
+2025-07-11 11:45:40,131 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:40,132 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114540_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:40,133 - INFO - Scraping Boston College Law School (bc.edu)...
+2025-07-11 11:45:40,133 - INFO - Scraping Boston College Law School at bc.edu
+2025-07-11 11:45:41,199 - ERROR - Error scraping Boston College Law School: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bc.edu", waiting until "load"
+
+2025-07-11 11:45:41,318 - INFO - Scraped 0 contacts for Boston College Law School in 1.19s
+2025-07-11 11:45:41,319 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:41,321 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114541_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:41,322 - INFO - Scraping Endicott College (endicott.edu)...
+2025-07-11 11:45:41,322 - INFO - Scraping Endicott College at endicott.edu
+2025-07-11 11:45:42,563 - ERROR - Error scraping Endicott College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "endicott.edu", waiting until "load"
+
+2025-07-11 11:45:42,672 - INFO - Scraped 0 contacts for Endicott College in 1.35s
+2025-07-11 11:45:42,673 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:42,675 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114542_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:42,675 - INFO - Scraping Unity Environmental University (unity.edu)...
+2025-07-11 11:45:42,675 - INFO - Scraping Unity Environmental University at unity.edu
+2025-07-11 11:45:43,727 - ERROR - Error scraping Unity Environmental University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "unity.edu", waiting until "load"
+
+2025-07-11 11:45:43,844 - INFO - Scraped 0 contacts for Unity Environmental University in 1.17s
+2025-07-11 11:45:43,845 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:43,847 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114543_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:43,847 - INFO - Scraping The Upward Project (theupwardproject.org)...
+2025-07-11 11:45:43,847 - INFO - Scraping The Upward Project at theupwardproject.org
+2025-07-11 11:45:44,979 - ERROR - Error scraping The Upward Project: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "theupwardproject.org", waiting until "load"
+
+2025-07-11 11:45:45,103 - INFO - Scraped 0 contacts for The Upward Project in 1.26s
+2025-07-11 11:45:45,105 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:45,107 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114545_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:45,107 - INFO - Scraping Harvard Divinity School (harvard.edu)...
+2025-07-11 11:45:45,108 - INFO - Scraping Harvard Divinity School at harvard.edu
+2025-07-11 11:45:46,108 - ERROR - Error scraping Harvard Divinity School: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:45:46,248 - INFO - Scraped 0 contacts for Harvard Divinity School in 1.14s
+2025-07-11 11:45:46,248 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:46,250 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114546_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:46,250 - INFO - Scraping Boston College (bc.edu)...
+2025-07-11 11:45:46,251 - INFO - Scraping Boston College at bc.edu
+2025-07-11 11:45:47,227 - ERROR - Error scraping Boston College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bc.edu", waiting until "load"
+
+2025-07-11 11:45:47,340 - INFO - Scraped 0 contacts for Boston College in 1.09s
+2025-07-11 11:45:47,341 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:47,342 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114547_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:47,342 - INFO - Scraping Harvard University (harvard.edu)...
+2025-07-11 11:45:47,343 - INFO - Scraping Harvard University at harvard.edu
+2025-07-11 11:45:48,445 - ERROR - Error scraping Harvard University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:45:48,538 - INFO - Scraped 0 contacts for Harvard University in 1.20s
+2025-07-11 11:45:48,539 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:48,541 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114548_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:48,541 - INFO - Scraping Boston College Law School (bc.edu)...
+2025-07-11 11:45:48,541 - INFO - Scraping Boston College Law School at bc.edu
+2025-07-11 11:45:49,576 - ERROR - Error scraping Boston College Law School: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bc.edu", waiting until "load"
+
+2025-07-11 11:45:49,695 - INFO - Scraped 0 contacts for Boston College Law School in 1.15s
+2025-07-11 11:45:49,696 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:49,697 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114549_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:49,697 - INFO - Scraping Boston College Law School (bc.edu)...
+2025-07-11 11:45:49,698 - INFO - Scraping Boston College Law School at bc.edu
+2025-07-11 11:45:50,756 - ERROR - Error scraping Boston College Law School: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bc.edu", waiting until "load"
+
+2025-07-11 11:45:50,863 - INFO - Scraped 0 contacts for Boston College Law School in 1.17s
+2025-07-11 11:45:50,864 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:50,866 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114550_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:50,866 - INFO - Scraping Northern Essex Community College (necc.edu)...
+2025-07-11 11:45:50,866 - INFO - Scraping Northern Essex Community College at necc.edu
+2025-07-11 11:45:51,909 - ERROR - Error scraping Northern Essex Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "necc.edu", waiting until "load"
+
+2025-07-11 11:45:52,029 - INFO - Scraped 0 contacts for Northern Essex Community College in 1.16s
+2025-07-11 11:45:52,030 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:52,033 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114552_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:52,033 - INFO - Scraping Emerson College (emerson.edu)...
+2025-07-11 11:45:52,033 - INFO - Scraping Emerson College at emerson.edu
+2025-07-11 11:45:53,109 - ERROR - Error scraping Emerson College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "emerson.edu", waiting until "load"
+
+2025-07-11 11:45:53,221 - INFO - Scraped 0 contacts for Emerson College in 1.19s
+2025-07-11 11:45:53,221 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:53,223 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114553_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:53,224 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University (tufts.edu)...
+2025-07-11 11:45:53,224 - INFO - Scraping The Friedman School of Nutrition Science and Policy at Tufts University at tufts.edu
+2025-07-11 11:45:54,344 - ERROR - Error scraping The Friedman School of Nutrition Science and Policy at Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:54,440 - INFO - Scraped 0 contacts for The Friedman School of Nutrition Science and Policy at Tufts University in 1.22s
+2025-07-11 11:45:54,441 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:54,442 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114554_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:54,443 - INFO - Scraping Massachusetts College of Art and Design (massart.edu)...
+2025-07-11 11:45:54,443 - INFO - Scraping Massachusetts College of Art and Design at massart.edu
+2025-07-11 11:45:55,560 - ERROR - Error scraping Massachusetts College of Art and Design: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "massart.edu", waiting until "load"
+
+2025-07-11 11:45:55,685 - INFO - Scraped 0 contacts for Massachusetts College of Art and Design in 1.24s
+2025-07-11 11:45:55,686 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:55,688 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114555_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:55,689 - INFO - Scraping Tufts University School of Dental Medicine (tufts.edu)...
+2025-07-11 11:45:55,689 - INFO - Scraping Tufts University School of Dental Medicine at tufts.edu
+2025-07-11 11:45:56,796 - ERROR - Error scraping Tufts University School of Dental Medicine: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:56,923 - INFO - Scraped 0 contacts for Tufts University School of Dental Medicine in 1.23s
+2025-07-11 11:45:56,925 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:56,927 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114556_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:56,928 - INFO - Scraping Salem State University (salemstate.edu)...
+2025-07-11 11:45:56,928 - INFO - Scraping Salem State University at salemstate.edu
+2025-07-11 11:45:58,057 - ERROR - Error scraping Salem State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "salemstate.edu", waiting until "load"
+
+2025-07-11 11:45:58,182 - INFO - Scraped 0 contacts for Salem State University in 1.25s
+2025-07-11 11:45:58,183 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:58,185 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114558_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:58,185 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:45:58,186 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:45:59,401 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:45:59,526 - INFO - Scraped 0 contacts for Tufts University in 1.34s
+2025-07-11 11:45:59,527 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:45:59,529 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114559_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:45:59,529 - INFO - Scraping Salem State University (salemstate.edu)...
+2025-07-11 11:45:59,529 - INFO - Scraping Salem State University at salemstate.edu
+2025-07-11 11:46:00,680 - ERROR - Error scraping Salem State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "salemstate.edu", waiting until "load"
+
+2025-07-11 11:46:00,794 - INFO - Scraped 0 contacts for Salem State University in 1.26s
+2025-07-11 11:46:00,795 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:00,796 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114600_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:00,797 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:46:00,797 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:46:01,873 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:46:01,984 - INFO - Scraped 0 contacts for Tufts University in 1.19s
+2025-07-11 11:46:01,985 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:01,987 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114601_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:01,987 - INFO - Scraping Duet (duet.org)...
+2025-07-11 11:46:01,988 - INFO - Scraping Duet at duet.org
+2025-07-11 11:46:03,001 - ERROR - Error scraping Duet: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "duet.org", waiting until "load"
+
+2025-07-11 11:46:03,101 - INFO - Scraped 0 contacts for Duet in 1.11s
+2025-07-11 11:46:03,102 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:03,104 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114603_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:03,105 - INFO - Scraping Fitchburg State University (fitchburgstate.edu)...
+2025-07-11 11:46:03,105 - INFO - Scraping Fitchburg State University at fitchburgstate.edu
+2025-07-11 11:46:04,149 - ERROR - Error scraping Fitchburg State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "fitchburgstate.edu", waiting until "load"
+
+2025-07-11 11:46:04,250 - INFO - Scraped 0 contacts for Fitchburg State University in 1.14s
+2025-07-11 11:46:04,251 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:04,253 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114604_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:04,253 - INFO - Scraping Harvard University (harvard.edu)...
+2025-07-11 11:46:04,253 - INFO - Scraping Harvard University at harvard.edu
+2025-07-11 11:46:05,710 - ERROR - Error scraping Harvard University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:46:05,910 - INFO - Scraped 0 contacts for Harvard University in 1.66s
+2025-07-11 11:46:05,911 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:05,913 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114605_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:05,914 - INFO - Scraping North Shore Community College (northshore.edu)...
+2025-07-11 11:46:05,914 - INFO - Scraping North Shore Community College at northshore.edu
+2025-07-11 11:46:07,435 - ERROR - Error scraping North Shore Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "northshore.edu", waiting until "load"
+
+2025-07-11 11:46:07,563 - INFO - Scraped 0 contacts for North Shore Community College in 1.65s
+2025-07-11 11:46:07,564 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:07,566 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114607_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:07,567 - INFO - Scraping Massachusetts Institute of Technology (mit.edu)...
+2025-07-11 11:46:07,567 - INFO - Scraping Massachusetts Institute of Technology at mit.edu
+2025-07-11 11:46:09,372 - ERROR - Error scraping Massachusetts Institute of Technology: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "mit.edu", waiting until "load"
+
+2025-07-11 11:46:09,739 - INFO - Scraped 0 contacts for Massachusetts Institute of Technology in 2.17s
+2025-07-11 11:46:09,740 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:09,742 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114609_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:09,742 - INFO - Scraping University of Massachusetts Lowell (uml.edu)...
+2025-07-11 11:46:09,742 - INFO - Scraping University of Massachusetts Lowell at uml.edu
+2025-07-11 11:46:11,394 - ERROR - Error scraping University of Massachusetts Lowell: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "uml.edu", waiting until "load"
+
+2025-07-11 11:46:11,553 - INFO - Scraped 0 contacts for University of Massachusetts Lowell in 1.81s
+2025-07-11 11:46:11,554 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:11,556 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114611_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:11,557 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:46:11,557 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:46:12,873 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:46:13,035 - INFO - Scraped 0 contacts for Tufts University in 1.48s
+2025-07-11 11:46:13,036 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:13,038 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114613_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:13,039 - INFO - Scraping Emerson College (emerson.edu)...
+2025-07-11 11:46:13,039 - INFO - Scraping Emerson College at emerson.edu
+2025-07-11 11:46:14,621 - ERROR - Error scraping Emerson College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "emerson.edu", waiting until "load"
+
+2025-07-11 11:46:14,737 - INFO - Scraped 0 contacts for Emerson College in 1.70s
+2025-07-11 11:46:14,738 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:14,740 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114614_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:14,741 - INFO - Scraping Bristol Community College (bristolcc.edu)...
+2025-07-11 11:46:14,741 - INFO - Scraping Bristol Community College at bristolcc.edu
+2025-07-11 11:46:16,705 - ERROR - Error scraping Bristol Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bristolcc.edu", waiting until "load"
+
+2025-07-11 11:46:16,953 - INFO - Scraped 0 contacts for Bristol Community College in 2.21s
+2025-07-11 11:46:16,955 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:16,958 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114616_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:16,958 - INFO - Scraping Dean College (dean.edu)...
+2025-07-11 11:46:16,959 - INFO - Scraping Dean College at dean.edu
+2025-07-11 11:46:19,532 - ERROR - Error scraping Dean College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "dean.edu", waiting until "load"
+
+2025-07-11 11:46:19,810 - INFO - Scraped 0 contacts for Dean College in 2.85s
+2025-07-11 11:46:19,812 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:19,814 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114619_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:19,814 - INFO - Scraping Bentley University (bentley.edu)...
+2025-07-11 11:46:19,814 - INFO - Scraping Bentley University at bentley.edu
+2025-07-11 11:46:22,323 - ERROR - Error scraping Bentley University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bentley.edu", waiting until "load"
+
+2025-07-11 11:46:22,462 - INFO - Scraped 0 contacts for Bentley University in 2.65s
+2025-07-11 11:46:22,464 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:22,465 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114622_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:22,466 - INFO - Scraping Massachusetts Institute of Technology (mit.edu)...
+2025-07-11 11:46:22,466 - INFO - Scraping Massachusetts Institute of Technology at mit.edu
+2025-07-11 11:46:24,024 - ERROR - Error scraping Massachusetts Institute of Technology: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "mit.edu", waiting until "load"
+
+2025-07-11 11:46:24,172 - INFO - Scraped 0 contacts for Massachusetts Institute of Technology in 1.71s
+2025-07-11 11:46:24,173 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:24,176 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114624_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:24,176 - INFO - Scraping Springfield Technical Community College (stcc.edu)...
+2025-07-11 11:46:24,177 - INFO - Scraping Springfield Technical Community College at stcc.edu
+2025-07-11 11:46:25,614 - ERROR - Error scraping Springfield Technical Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "stcc.edu", waiting until "load"
+
+2025-07-11 11:46:25,757 - INFO - Scraped 0 contacts for Springfield Technical Community College in 1.58s
+2025-07-11 11:46:25,758 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:25,760 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114625_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:25,760 - INFO - Scraping Fisher College (fisher.edu)...
+2025-07-11 11:46:25,761 - INFO - Scraping Fisher College at fisher.edu
+2025-07-11 11:46:27,021 - ERROR - Error scraping Fisher College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "fisher.edu", waiting until "load"
+
+2025-07-11 11:46:27,130 - INFO - Scraped 0 contacts for Fisher College in 1.37s
+2025-07-11 11:46:27,131 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:27,133 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114627_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:27,133 - INFO - Scraping Northeastern University (northeastern.edu)...
+2025-07-11 11:46:27,133 - INFO - Scraping Northeastern University at northeastern.edu
+2025-07-11 11:46:28,420 - ERROR - Error scraping Northeastern University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "northeastern.edu", waiting until "load"
+
+2025-07-11 11:46:28,601 - INFO - Scraped 0 contacts for Northeastern University in 1.47s
+2025-07-11 11:46:28,602 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:28,604 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114628_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:28,604 - INFO - Scraping Colby-Sawyer College (colby-sawyer.edu)...
+2025-07-11 11:46:28,605 - INFO - Scraping Colby-Sawyer College at colby-sawyer.edu
+2025-07-11 11:46:29,809 - ERROR - Error scraping Colby-Sawyer College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "colby-sawyer.edu", waiting until "load"
+
+2025-07-11 11:46:29,917 - INFO - Scraped 0 contacts for Colby-Sawyer College in 1.31s
+2025-07-11 11:46:29,918 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:29,919 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114629_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:29,920 - INFO - Scraping Career Treking (careertreking.com)...
+2025-07-11 11:46:29,920 - INFO - Scraping Career Treking at careertreking.com
+2025-07-11 11:46:31,172 - ERROR - Error scraping Career Treking: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "careertreking.com", waiting until "load"
+
+2025-07-11 11:46:31,257 - INFO - Scraped 0 contacts for Career Treking in 1.34s
+2025-07-11 11:46:31,258 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:31,259 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114631_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:31,260 - INFO - Scraping UMass Boston (umb.edu)...
+2025-07-11 11:46:31,260 - INFO - Scraping UMass Boston at umb.edu
+2025-07-11 11:46:32,323 - ERROR - Error scraping UMass Boston: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umb.edu", waiting until "load"
+
+2025-07-11 11:46:32,420 - INFO - Scraped 0 contacts for UMass Boston in 1.16s
+2025-07-11 11:46:32,421 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:32,422 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114632_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:32,423 - INFO - Scraping Regis College (regiscollege.edu)...
+2025-07-11 11:46:32,423 - INFO - Scraping Regis College at regiscollege.edu
+2025-07-11 11:46:33,573 - ERROR - Error scraping Regis College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "regiscollege.edu", waiting until "load"
+
+2025-07-11 11:46:33,692 - INFO - Scraped 0 contacts for Regis College in 1.27s
+2025-07-11 11:46:33,693 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:33,695 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114633_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:33,695 - INFO - Scraping Boston College (bc.edu)...
+2025-07-11 11:46:33,695 - INFO - Scraping Boston College at bc.edu
+2025-07-11 11:46:34,921 - ERROR - Error scraping Boston College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "bc.edu", waiting until "load"
+
+2025-07-11 11:46:35,035 - INFO - Scraped 0 contacts for Boston College in 1.34s
+2025-07-11 11:46:35,036 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:35,038 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114635_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:35,038 - INFO - Scraping Emerson College (emerson.edu)...
+2025-07-11 11:46:35,039 - INFO - Scraping Emerson College at emerson.edu
+2025-07-11 11:46:36,142 - ERROR - Error scraping Emerson College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "emerson.edu", waiting until "load"
+
+2025-07-11 11:46:36,290 - INFO - Scraped 0 contacts for Emerson College in 1.25s
+2025-07-11 11:46:36,291 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:36,293 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114636_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:36,294 - INFO - Scraping Montserrat College of Art (montserrat.edu)...
+2025-07-11 11:46:36,294 - INFO - Scraping Montserrat College of Art at montserrat.edu
+2025-07-11 11:46:37,524 - ERROR - Error scraping Montserrat College of Art: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "montserrat.edu", waiting until "load"
+
+2025-07-11 11:46:37,638 - INFO - Scraped 0 contacts for Montserrat College of Art in 1.34s
+2025-07-11 11:46:37,639 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:37,640 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114637_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:37,640 - INFO - Scraping The Upward Project (theupwardproject.org)...
+2025-07-11 11:46:37,641 - INFO - Scraping The Upward Project at theupwardproject.org
+2025-07-11 11:46:39,117 - ERROR - Error scraping The Upward Project: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "theupwardproject.org", waiting until "load"
+
+2025-07-11 11:46:39,299 - INFO - Scraped 0 contacts for The Upward Project in 1.66s
+2025-07-11 11:46:39,300 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:39,302 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114639_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:39,303 - INFO - Scraping University of Massachusetts Amherst (umass.edu)...
+2025-07-11 11:46:39,303 - INFO - Scraping University of Massachusetts Amherst at umass.edu
+2025-07-11 11:46:40,737 - ERROR - Error scraping University of Massachusetts Amherst: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umass.edu", waiting until "load"
+
+2025-07-11 11:46:40,868 - INFO - Scraped 0 contacts for University of Massachusetts Amherst in 1.56s
+2025-07-11 11:46:40,868 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:40,870 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114640_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:40,871 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:46:40,871 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:46:42,120 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:46:42,260 - INFO - Scraped 0 contacts for Tufts University in 1.39s
+2025-07-11 11:46:42,261 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:42,264 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114642_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:42,264 - INFO - Scraping Worcester State University (worcester.edu)...
+2025-07-11 11:46:42,265 - INFO - Scraping Worcester State University at worcester.edu
+2025-07-11 11:46:43,458 - ERROR - Error scraping Worcester State University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "worcester.edu", waiting until "load"
+
+2025-07-11 11:46:43,609 - INFO - Scraped 0 contacts for Worcester State University in 1.34s
+2025-07-11 11:46:43,611 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:43,613 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114643_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:43,613 - INFO - Scraping Isenberg School of Management, UMass Amherst (umass.edu)...
+2025-07-11 11:46:43,614 - INFO - Scraping Isenberg School of Management, UMass Amherst at umass.edu
+2025-07-11 11:46:44,904 - ERROR - Error scraping Isenberg School of Management, UMass Amherst: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umass.edu", waiting until "load"
+
+2025-07-11 11:46:45,035 - INFO - Scraped 0 contacts for Isenberg School of Management, UMass Amherst in 1.42s
+2025-07-11 11:46:45,036 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:45,038 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114645_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:45,038 - INFO - Scraping Assumption University (assumption.edu)...
+2025-07-11 11:46:45,039 - INFO - Scraping Assumption University at assumption.edu
+2025-07-11 11:46:46,201 - ERROR - Error scraping Assumption University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "assumption.edu", waiting until "load"
+
+2025-07-11 11:46:46,366 - INFO - Scraped 0 contacts for Assumption University in 1.33s
+2025-07-11 11:46:46,366 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:46,368 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114646_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:46,368 - INFO - Scraping UMass Boston (umb.edu)...
+2025-07-11 11:46:46,368 - INFO - Scraping UMass Boston at umb.edu
+2025-07-11 11:46:47,552 - ERROR - Error scraping UMass Boston: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "umb.edu", waiting until "load"
+
+2025-07-11 11:46:47,658 - INFO - Scraped 0 contacts for UMass Boston in 1.29s
+2025-07-11 11:46:47,659 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:47,660 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114647_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:47,661 - INFO - Scraping Tenacity (tenacity.org)...
+2025-07-11 11:46:47,661 - INFO - Scraping Tenacity at tenacity.org
+2025-07-11 11:46:49,540 - ERROR - Error scraping Tenacity: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tenacity.org", waiting until "load"
+
+2025-07-11 11:46:49,800 - INFO - Scraped 0 contacts for Tenacity in 2.14s
+2025-07-11 11:46:49,801 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:49,803 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114649_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:49,804 - INFO - Scraping Tufts University (tufts.edu)...
+2025-07-11 11:46:49,804 - INFO - Scraping Tufts University at tufts.edu
+2025-07-11 11:46:52,169 - ERROR - Error scraping Tufts University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "tufts.edu", waiting until "load"
+
+2025-07-11 11:46:52,480 - INFO - Scraped 0 contacts for Tufts University in 2.68s
+2025-07-11 11:46:52,482 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:52,485 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114652_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:52,485 - INFO - Scraping National Aviation Academy (naa.edu)...
+2025-07-11 11:46:52,486 - INFO - Scraping National Aviation Academy at naa.edu
+2025-07-11 11:46:54,760 - ERROR - Error scraping National Aviation Academy: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "naa.edu", waiting until "load"
+
+2025-07-11 11:46:54,999 - INFO - Scraped 0 contacts for National Aviation Academy in 2.51s
+2025-07-11 11:46:55,000 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:55,002 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114655_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:55,002 - INFO - Scraping Mount Wachusett Community College (mwcc.edu)...
+2025-07-11 11:46:55,003 - INFO - Scraping Mount Wachusett Community College at mwcc.edu
+2025-07-11 11:46:57,690 - ERROR - Error scraping Mount Wachusett Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "mwcc.edu", waiting until "load"
+
+2025-07-11 11:46:58,046 - INFO - Scraped 0 contacts for Mount Wachusett Community College in 3.04s
+2025-07-11 11:46:58,047 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:46:58,050 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114658_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:46:58,050 - INFO - Scraping Merrimack College (merrimack.edu)...
+2025-07-11 11:46:58,051 - INFO - Scraping Merrimack College at merrimack.edu
+2025-07-11 11:47:01,505 - ERROR - Error scraping Merrimack College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "merrimack.edu", waiting until "load"
+
+2025-07-11 11:47:01,676 - INFO - Scraped 0 contacts for Merrimack College in 3.63s
+2025-07-11 11:47:01,677 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:01,679 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114701_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:01,679 - INFO - Scraping Assumption University (assumption.edu)...
+2025-07-11 11:47:01,680 - INFO - Scraping Assumption University at assumption.edu
+2025-07-11 11:47:03,367 - ERROR - Error scraping Assumption University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "assumption.edu", waiting until "load"
+
+2025-07-11 11:47:03,607 - INFO - Scraped 0 contacts for Assumption University in 1.93s
+2025-07-11 11:47:03,609 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:03,611 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114703_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:03,612 - INFO - Scraping Quinsigamond Community College (qcc.edu)...
+2025-07-11 11:47:03,612 - INFO - Scraping Quinsigamond Community College at qcc.edu
+2025-07-11 11:47:06,201 - ERROR - Error scraping Quinsigamond Community College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "qcc.edu", waiting until "load"
+
+2025-07-11 11:47:06,712 - INFO - Scraped 0 contacts for Quinsigamond Community College in 3.10s
+2025-07-11 11:47:06,713 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:06,716 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114706_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:06,716 - INFO - Scraping Gordon College (gordon.edu)...
+2025-07-11 11:47:06,717 - INFO - Scraping Gordon College at gordon.edu
+2025-07-11 11:47:08,374 - ERROR - Error scraping Gordon College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "gordon.edu", waiting until "load"
+
+2025-07-11 11:47:08,514 - INFO - Scraped 0 contacts for Gordon College in 1.80s
+2025-07-11 11:47:08,516 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:08,517 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114708_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:08,518 - INFO - Scraping Pine Manor College (pmc.edu)...
+2025-07-11 11:47:08,518 - INFO - Scraping Pine Manor College at pmc.edu
+2025-07-11 11:47:09,904 - ERROR - Error scraping Pine Manor College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "pmc.edu", waiting until "load"
+
+2025-07-11 11:47:10,028 - INFO - Scraped 0 contacts for Pine Manor College in 1.51s
+2025-07-11 11:47:10,029 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:10,032 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114710_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:10,032 - INFO - Scraping Suffolk University (suffolk.edu)...
+2025-07-11 11:47:10,033 - INFO - Scraping Suffolk University at suffolk.edu
+2025-07-11 11:47:11,532 - ERROR - Error scraping Suffolk University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "suffolk.edu", waiting until "load"
+
+2025-07-11 11:47:11,667 - INFO - Scraped 0 contacts for Suffolk University in 1.63s
+2025-07-11 11:47:11,668 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:11,670 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114711_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:11,671 - INFO - Scraping Suffolk University (suffolk.edu)...
+2025-07-11 11:47:11,671 - INFO - Scraping Suffolk University at suffolk.edu
+2025-07-11 11:47:13,253 - ERROR - Error scraping Suffolk University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "suffolk.edu", waiting until "load"
+
+2025-07-11 11:47:13,383 - INFO - Scraped 0 contacts for Suffolk University in 1.71s
+2025-07-11 11:47:13,384 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:13,386 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114713_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:13,387 - INFO - Scraping Harvard University (harvard.edu)...
+2025-07-11 11:47:13,387 - INFO - Scraping Harvard University at harvard.edu
+2025-07-11 11:47:14,663 - ERROR - Error scraping Harvard University: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "harvard.edu", waiting until "load"
+
+2025-07-11 11:47:14,789 - INFO - Scraped 0 contacts for Harvard University in 1.40s
+2025-07-11 11:47:14,790 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:14,792 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114714_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:14,792 - INFO - Scraping Merrimack College (merrimack.edu)...
+2025-07-11 11:47:14,792 - INFO - Scraping Merrimack College at merrimack.edu
+2025-07-11 11:47:16,137 - ERROR - Error scraping Merrimack College: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "merrimack.edu", waiting until "load"
+
+2025-07-11 11:47:16,317 - INFO - Scraped 0 contacts for Merrimack College in 1.52s
+2025-07-11 11:47:16,318 - ERROR - Error processing batch: name 'i' is not defined
+2025-07-11 11:47:16,320 - INFO - Created backup: C:\Users\gary_\CascadeProjects\windsurf-project\Hirejoure.com\SouthDetroit\output\backups\backup_20250711_114716_error_Hirejourne.com - MA College Career Professionals.csv
+2025-07-11 11:47:16,321 - WARNING - No data to save for G:\My Drive\Hirejoure.com\Hirejourne.com - MA College Career Professionals.csv

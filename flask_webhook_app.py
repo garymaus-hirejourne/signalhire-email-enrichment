@@ -59,32 +59,69 @@ def health_check():
 
 @app.route('/files', methods=['GET'])
 def list_files():
-    """List files in the webhook volume"""
+    """List files in the webhook volume with disk usage information"""
     try:
         files_info = []
+        total_size = 0
         
         # Check if DATA_DIR exists and list files
         if DATA_DIR.exists():
             for file_path in DATA_DIR.iterdir():
                 if file_path.is_file():
                     stat = file_path.stat()
+                    file_size = stat.st_size
+                    total_size += file_size
+                    
                     files_info.append({
                         "name": file_path.name,
-                        "size": stat.st_size,
+                        "size": file_size,
+                        "size_human": format_bytes(file_size),
                         "modified": datetime.fromtimestamp(stat.st_mtime).isoformat(),
                         "path": str(file_path)
                     })
+        
+        # Get disk usage information
+        try:
+            import shutil
+            total, used, free = shutil.disk_usage(DATA_DIR)
+            disk_info = {
+                "total": total,
+                "used": used,
+                "free": free,
+                "total_human": format_bytes(total),
+                "used_human": format_bytes(used),
+                "free_human": format_bytes(free),
+                "usage_percent": round((used / total) * 100, 2)
+            }
+        except Exception as disk_err:
+            logger.warning(f"Could not get disk usage: {disk_err}")
+            disk_info = {"error": "Disk usage unavailable"}
         
         return jsonify({
             "status": "success",
             "data_directory": str(DATA_DIR),
             "files": files_info,
-            "total_files": len(files_info)
+            "total_files": len(files_info),
+            "total_size": total_size,
+            "total_size_human": format_bytes(total_size),
+            "disk_usage": disk_info
         })
         
     except Exception as e:
         logger.error(f"Error listing files: {e}")
         return jsonify({"error": str(e)}), 500
+
+def format_bytes(bytes_value):
+    """Convert bytes to human readable format"""
+    if bytes_value == 0:
+        return "0 B"
+    
+    size_names = ["B", "KB", "MB", "GB", "TB"]
+    import math
+    i = int(math.floor(math.log(bytes_value, 1024)))
+    p = math.pow(1024, i)
+    s = round(bytes_value / p, 2)
+    return f"{s} {size_names[i]}"
 
 def split_name(full_name):
     """Split full name into first and last name"""

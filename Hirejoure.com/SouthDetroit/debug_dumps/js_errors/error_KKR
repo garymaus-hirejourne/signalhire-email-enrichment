@@ -1,0 +1,2530 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Meet Our People | KKR</title>
+    <script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js"></script>
+<link rel="canonical" href="https://www.kkr.com/about/our-people">
+
+    <meta name="title" content="Meet Our People | KKR">
+    
+    <meta name="description" content="Get to know the diverse and dedicated global team of experts working for investment excellence at KKR. Learn about their commitment to creating value for our clients.">
+    <meta name="template" content="freeform">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <meta name="robots" content="index, follow, max-video-preview:-1, max-snippet:-1, max-image-preview:large">
+
+    
+    
+    <meta name="coveo_api_url" content="https://platform.cloud.coveo.com">
+    
+
+    
+    <script>
+        window.adobeDataLayer = window.adobeDataLayer || [];
+        var pageDataLayerObject = JSON.parse("{\x22properties\x22:{\x22@type\x22:\x22kkr\u002Daem\u002Dbase\/components\/structure\/page\/basepage\x22,\x22repo:modifyDate\x22:\x222023\u002D09\u002D26T12:28:32Z\x22,\x22dc:title\x22:\x22Our People\x22,\x22dc:description\x22:\x22Get to know the diverse and dedicated global team of experts working for investment excellence at KKR. Learn about their commitment to creating value for our clients.\x22,\x22xdm:template\x22:\x22\/conf\/kkr\/settings\/wcm\/templates\/freeform\x22,\x22xdm:language\x22:\x22en\x22,\x22country\x22:\x22global\x22,\x22siteName\x22:\x22kkr\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/kkr\/sites\/global\/en\/about\/our\u002Dpeople\x22,\x22canonicalUrl\x22:\x22https:\/\/www.kkr.com\/about\/our\u002Dpeople\x22,\x22pageName\x22:\x22our people\x22,\x22pageType\x22:\x22freeform\x22,\x22environment\x22:\x22prod\x22,\x22siteSection\x22:\x22about\x22,\x22siteSubsection1\x22:\x22our\u002Dpeople\x22,\x22siteSubsection2\x22:\x22\x22,\x22siteSubsection3\x22:\x22\x22,\x22siteSubsection4\x22:\x22\x22,\x22sitePageName\x22:\x22about|our\u002Dpeople\x22}}");
+        if (pageDataLayerObject !== null) {
+            (function () {
+                function getLocalTimestamp() {
+                    var now = new Date();
+                    var year = now.getFullYear();
+                    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+                    var day = ("0" + now.getDate()).slice(-2);
+                    var hour = ("0" + now.getHours()).slice(-2);
+                    var min = ("0" + now.getMinutes()).slice(-2);
+                    var sec = ("0" + now.getSeconds()).slice(-2);
+                    return year + "-" + month + "-" + day + "T" + hour + ":" + min + ":" + sec;
+                }
+
+                function pushKkrDataLayerProperties() {
+                    window.kkrDataLayer = window.kkrDataLayer || [];
+                    kkrDataLayer.push({
+                                event: "pageView",
+                                page: {
+                                    name: pageDataLayerObject.properties.sitePageName,
+                                    site_section: pageDataLayerObject.properties.siteSection,
+                                    site_subsection1: pageDataLayerObject.properties.siteSubsection1,
+                                    site_subsection2: pageDataLayerObject.properties.siteSubsection2,
+                                    site_subsection3: pageDataLayerObject.properties.siteSubsection3,
+                                    URL: window.location.href,
+                                    language: pageDataLayerObject.properties['xdm:language'],
+                                    type: pageDataLayerObject.properties.pageType,
+                                    siteName: pageDataLayerObject.properties.siteName,
+                                    country: pageDataLayerObject.properties.country
+                                },
+                                user: {
+                                    trafficType : pageDataLayerObject.properties.trafficType
+                                }
+
+                            });
+                }
+
+                function deferAPI() {
+                    const url = "\/content\/kkr\/sites\/global\/en\/about\/our\u002Dpeople" +'/jcr:content.ipdetection.json';
+                    let xhr = new XMLHttpRequest();
+                    xhr.open("GET", url);
+                    xhr.send();
+                    xhr.onload = () => {
+                        const data = JSON.parse(xhr.responseText);
+                        if(data.trafficType) {
+                            pageDataLayerObject.properties.trafficType = data.trafficType;
+                            sessionStorage.setItem('trafficType',data.trafficType);
+                            pushKkrDataLayerProperties();
+                        } else {
+                            pageDataLayerObject.properties.trafficType = 'external';
+                            sessionStorage.setItem('trafficType','external');
+                            pushKkrDataLayerProperties();
+                        }
+                    };
+                }
+                pageDataLayerObject["properties"]["localTimestamp"] = getLocalTimestamp();
+                if(!sessionStorage.getItem('trafficType')) {
+                    deferAPI();
+                } else {
+                    pageDataLayerObject.properties.trafficType = sessionStorage.getItem("trafficType");
+                    pushKkrDataLayerProperties();
+                }
+                adobeDataLayer.push({
+                    page: pageDataLayerObject,
+                    event: 'cmp:show',
+                    eventInfo: {
+                        path: 'page.properties'
+                    }
+                });
+            })();
+        }
+    </script>
+
+    
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="KKR">
+    <meta property="og:title" content="Meet Our People | KKR">
+    <meta property="og:url" content="https://www.kkr.com/about/our-people">
+    <meta property="og:description" content="Get to know the diverse and dedicated global team of experts working for investment excellence at KKR. Learn about their commitment to creating value for our clients.">
+    <meta property="og:image" content="https://www.kkr.com/about/our-people/_jcr_content/root/main-par/hero_banner/asset.coreimg.jpeg/1739382289990/our-people-hero-v4-1320x470.jpeg">
+    <meta property="twitter:image" content="https://www.kkr.com/about/our-people/_jcr_content/root/main-par/hero_banner/asset.coreimg.jpeg/1739382289990/our-people-hero-v4-1320x470.jpeg?utm_source=twitter">
+
+    <meta name="twitter:card" content="summary_large_image">
+    
+    
+
+    <!-- Script to handle adobe target flicker issue. -->
+    <script>
+        !function(e,a,n,t){var i=e.head;if(i){
+            if (a) return;
+            var o=e.createElement("style");
+            o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+        (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".personalization-container { opacity: 0 !important }", 3000);
+    </script><style id="alloy-prehiding">.personalization-container { opacity: 0 !important }</style>
+    <!-- Script to handle adobe target flicker issue. -->
+
+    
+
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/440b88e6f573/ff1ac198b3c0/launch-639e0d8c87c5.min.js" async=""></script>
+
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/kkr-aem-base/clientlibs/clientlib-dependencies.lc-d1a93155cf91a9a84eac335e179cf329-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/kkr/clientlibs/clientlib-all.lc-20626723b3daf8c619816b5e0e8adca6-lc.min.css" type="text/css">
+
+
+
+
+
+    
+
+    
+        <link rel="alternate" hreflang="x-default" href="https://www.kkr.com/about/our-people">
+    
+        <link rel="alternate" hreflang="en" href="https://www.kkr.com/about/our-people">
+    
+        <link rel="alternate" hreflang="en-us" href="https://www.kkr.com/us/en/about/our-people">
+    
+        <link rel="alternate" hreflang="ja-jp" href="https://www.kkr.com/jp/ja/about/our-people">
+    
+
+    
+    <link rel="icon" href="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/favicon.ico">
+    <link rel="apple-touch-icon" href="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/apple-touch-icon.png">
+    <link rel="android-chrome" sizes="192x192" href="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/android-chrome-192x192.png">
+    <link rel="android-chrome" sizes="512x512" href="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/android-chrome-512x512.png">
+    <meta name="msapplication-square32x32logo" content="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/favicon-32x32.png">
+    <meta name="msapplication-square16x16logo" content="/etc.clientlibs/kkr/clientlibs/clientlib-site/resources/favicon-16x16.png">
+
+
+<style type="text/css">.vidyard-player-container .play-button{position:absolute;width:16%;height:auto;border-radius:50%;border:none;cursor:pointer;opacity:.65;filter:alpha(opacity = 65);transition:opacity .2s linear;overflow:hidden;font-size:0;padding:0;min-width:20px;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-appearance:initial!important;-moz-appearance:initial!important;appearance:initial!important}.vidyard-player-container .play-button .play-button-size{padding-top:100%;width:100%}.vidyard-player-container .play-button .arrow-size{position:absolute;top:50%;left:50%;width:35%;height:auto;margin:-25% 0 0 -12%;overflow:hidden}.vidyard-player-container .play-button .arrow-size-ratio{padding-top:150%;width:100%}.vidyard-player-container .play-button .arrow{position:absolute;top:50%;left:auto;right:0;bottom:auto;width:0;height:0;margin:-200px 0 -200px -300px;border:200px solid transparent;border-left:300px solid #fff;border-right:none}.vidyard-lightbox-thumbnail:hover .play-button{opacity:1;filter:alpha(opacity = 100);zoom:1}.vidyard-player-container{position:relative;height:100%;text-align:center}.vidyard-player-container img{height:100%}.vidyard-player-container .play-button{display:none}.vidyard-close-container{position:fixed;right:20px;top:20px;height:34px;width:34px;cursor:pointer;z-index:1000}.vidyard-close-container:focus{outline:1px dotted grey}.vidyard-close-x{position:absolute;height:100%;width:100%;color:#fff;font-size:2em;text-align:center;line-height:34px}.vidyard-close-x:hover{color:#ddd}.vidyard-close-x:hover:after,.vidyard-close-x:hover:before{background:#ddd}.vidyard-close-x:after,.vidyard-close-x:before{content:"";position:absolute;background:#fff;display:block;left:50%;top:50%;height:65%;width:2px;transition:all .2s;-ms-high-contrast-adjust:none}.vidyard-close-x:before{transform:translate(-50%,-50%) rotate(45deg);-ms-transform:translate(-50%,-50%) rotate(45deg)}.vidyard-close-x:after{transform:translate(-50%,-50%) rotate(-45deg);-ms-transform:translate(-50%,-50%) rotate(-45deg)}.vidyard-close-x.simple-close:after,.vidyard-close-x.simple-close:before{display:none}.vidyard-lightbox-thumbnail{width:100%;height:100%;margin:auto}.vidyard-lightbox-image{height:100%;left:0;position:absolute;top:0;width:100%}.vidyard-lightbox-centering{cursor:pointer;height:0;max-width:100%;overflow:hidden;padding-bottom:56.25%;position:relative}.vidyard-lightbox-content-backer{-webkit-transform:opacity 1s,filter 1s;-ms-transform:opacity 1s,filter 1s;transition:opacity 1s,filter 1s;background-color:#000;height:100%;width:100%;position:absolute}#vidyard-overlay-wrapper,.vidyard-lightbox-content-backer{filter:alpha(opacity = 0);opacity:0;top:0;right:0;bottom:0;left:0}#vidyard-overlay-wrapper{position:relative;box-sizing:border-box;display:none;transition:opacity .5s,filter .5s}#vidyard-overlay{top:0;right:0;bottom:0;left:0;opacity:.9;filter:alpha(opacity = 90);width:100%;height:100%;background-color:#000;z-index:800}#vidyard-content-fixed,#vidyard-overlay{position:fixed;box-sizing:border-box;display:none}#vidyard-content-fixed{opacity:1;z-index:900;text-align:center;top:5%;right:5%;bottom:5%;left:5%;width:90%}#vidyard-popbox{display:inline-block;position:absolute;left:50%;top:50%;-webit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#vidyard-popbox-constraint{opacity:0;filter:alpha(opacity = 0);display:block;visibility:hidden}#vidyard-popbox-constraint.landscape{height:90vh}#vidyard-popbox-constraint.portrait{width:90vw}.vidyard-player-container div[class^=vidyard-iframe-]{z-index:1}.vidyard-player-container div[class^=vidyard-div-]{background-repeat:no-repeat;background-position:0 50%;background-size:100%}img.vidyard-player-embed{width:100%}img.vidyard-player-embed.inserted{position:absolute;top:0;left:0;z-index:0;max-width:100%!important}.vidyard-player-container.playlist-open{padding-right:319px;width:auto!important}.vidyard-player-container.playlist-open div[class^=vidyard-div-]{width:calc(100% + 319px);max-width:calc(100% + 319px)!important;background-size:calc(100% - 319px);background-color:#f5f9ff}.vidyard-player-container.playlist-open div[class^=vidyard-div-] img.vidyard-player-embed{width:calc(100% - 319px)!important}#backlink-icon{height:15px;width:15px;margin-right:6px;transition:.3s}#backlink{align-items:center;border-radius:4px;border:3px solid #ebeeff;display:inline-block;float:left;line-height:18px;margin:8px 0 0;outline:none;padding:1px 8px 1px 5px;position:relative;*zoom:1;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-style:normal;font-weight:400;font-size:12px;text-decoration:none}#backlink:after,#backlink:before{content:" ";display:table}#backlink:after{clear:both}#backlink:link,#backlink:visited{background:#ebeeff;border-color:#ebeeff;color:#414dd4}#backlink:hover{background:#bfc2ff;color:#1b1a82;cursor:pointer}#backlink:focus,#backlink:hover{border-color:#bfc2ff}#backlink:active{background:#8f97ff;border-color:#8f97ff;color:#0c084d}#backlink-icon{float:left;height:18px;margin-right:5px;position:relative;width:18px}#backlink-text{float:left}</style><script src="https://assets.adobedtm.com/440b88e6f573/ff1ac198b3c0/99987c5401cc/RC5e774e59370f471e8aabbe2517c43e2d-source.min.js" async=""></script><script src="https://assets.adobedtm.com/440b88e6f573/ff1ac198b3c0/99987c5401cc/RCfc791b581f664e84b4e4e9837dd39835-source.min.js" async=""></script></head>
+    <body class="freeform basepage basicpage no-focus-outline" id="page-31572a5cff" data-cmp-data-layer-enabled="">
+          <!-- <div class="svg-library">
+            <svg width="16" height="16" id="plus-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8.50003L0 8.50003L-4.37114e-08 7.50003L16 7.50003L16 8.50003Z" fill="#072535"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 3.05176e-05L8.5 16L7.5 16L7.5 3.06667e-05L8.5 3.05176e-05Z" fill="#072535"/>
+              </svg>
+          </div> -->
+        
+        
+            <a id="skip-nav" aria-label="Skip Navigation" class="basepage__skip-nav cmp-button" href="#main-content">
+                
+            </a>
+            
+    
+
+            
+            
+<div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-340adef817" class="cmp-experiencefragment cmp-experiencefragment--header">
+
+    
+
+
+
+<div class="xf-content-height">
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="alert-messages" class="cmp-experiencefragment cmp-experiencefragment--alert-message-placeholder">
+
+    
+
+
+
+<div class="xf-content-height">
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+</div>
+
+</div>
+</div>
+
+    
+
+</div>
+<header class="header cmp-header--background-light aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="cmp-header" id="header-5129e551b9" data-cmp-data-layer="{&quot;header-5129e551b9&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/header&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-15T12:58:53Z&quot;}}">
+    <div class="cmp-header__menu-overlay"></div>
+    <div class="cmp-header__navbar">
+        <div class="cmp-header__header-title">
+            <div class="cmp-header__logo">
+                <a href="/" tabindex="1" aria-label="KKR logo" title="KKR" data-link-location="mainHeader">
+                    <svg width="115" height="28" viewBox="0 0 115 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25.8164 28L12.7227 13.2658L4.51915 19.4915V28H0V0H4.51915V14.4983L23.5967 0H30.1096L16.1839 10.5951L31.6148 28H25.8164Z" fill="#49004B"></path>
+                        <path d="M68.1026 28L55.0098 13.2658L46.8035 19.4915V28H42.2835V0H46.8035V14.4983L65.8839 0H72.3958L58.4692 10.5951L73.9037 28H68.1026Z" fill="#49004B"></path>
+                        <path d="M109.764 28L102.391 17.3247H88.6136V28H84.1027V0H105.589C111.311 0 114.768 3.40303 114.768 8.81712C114.768 13.7641 111.759 16.398 107.695 17.0916L115 28.0009H109.764V28ZM110.144 8.81618C110.144 5.71985 108.295 4.2118 104.503 4.2118H88.6136V13.1063H104.909C108.295 13.1063 110.144 11.5605 110.144 8.81618Z" fill="#49004B"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="cmp-header__navbar-pagetitle">
+                Our People
+            </div>
+        </div>
+
+        <div class="cmp-header__right-block">
+            <div class="cmp-header__search">
+                <a href="/search" tabindex="2" aria-label="Search" data-link-location="mainHeader">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22.7" viewBox="0 0 22 25" fill="none">
+                        <path d="M14.5029 16.7676L21.0386 23.5711" stroke="#49004B" stroke-width="1.8"></path>
+                        <path d="M17.9426 10.2587C17.9426 14.9541 14.1363 18.7605 9.44085 18.7605C4.74544 18.7605 0.939062 14.9541 0.939062 10.2587C0.939062 5.56331 4.74544 1.75693 9.44085 1.75693C14.1363 1.75693 17.9426 5.56331 17.9426 10.2587Z" stroke="#49004B" stroke-width="1.8"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="cmp-header__login" aria-label="login">
+                <a href="/login" aria-label="login" tabindex="3" data-link-location="mainHeader">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Login">
+                            <g id="Vector">
+                                <path d="M21.9105 22.0838H2.74046C2.46193 22.0838 2.23599 21.8515 2.23599 21.565C2.23599 15.8449 6.76201 11.1914 12.325 11.1914C17.8771 11.1914 22.3965 15.8263 22.414 21.5314C22.4148 21.5427 22.4151 21.554 22.4151 21.5653C22.4151 21.8518 22.189 22.0838 21.9105 22.0838ZM3.25856 21.0464H21.3911C21.1285 16.1386 17.1624 12.2286 12.3251 12.2286C7.48742 12.2288 3.52099 16.1388 3.25856 21.0464Z" fill="#49004B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9105 22.0838C22.189 22.0838 22.4151 21.8518 22.4151 21.5653C22.4151 21.554 22.4148 21.5427 22.414 21.5314C22.3965 15.8263 17.8771 11.1914 12.325 11.1914C6.76201 11.1914 2.23599 15.8449 2.23599 21.565C2.23599 21.8515 2.46193 22.0838 2.74046 22.0838H21.9105ZM21.8178 22.2854H2.74046C2.35361 22.2854 2.03984 21.9628 2.03984 21.565C2.03984 15.7335 6.65368 10.9897 12.325 10.9897C17.9833 10.9897 22.5893 15.7114 22.6102 21.5249C22.6109 21.5384 22.6113 21.5518 22.6113 21.5653C22.6113 21.9633 22.2975 22.2857 21.9106 22.2857L21.8178 22.2854ZM21.3911 21.0464C21.3875 20.979 21.3832 20.9117 21.3782 20.8447C21.0193 16.0319 17.0959 12.2286 12.3251 12.2286C7.55388 12.2288 3.63058 16.0321 3.27193 20.8447C3.26693 20.9117 3.26217 20.979 3.25856 21.0464H21.3911ZM3.46866 20.8447H21.1815C20.8231 16.1434 16.9875 12.4303 12.3251 12.4303C7.66231 12.4305 3.8268 16.1436 3.46866 20.8447Z" fill="#49004B"></path>
+                                <path d="M12.3251 12.2286C9.55997 12.2286 7.31038 9.91529 7.31038 7.07217C7.31038 4.22904 9.56003 1.91591 12.3251 1.91591C15.0903 1.91591 17.3399 4.22904 17.3399 7.07217C17.3401 9.91529 15.0904 12.2286 12.3251 12.2286ZM12.3251 2.95305C10.1162 2.95305 8.31928 4.80087 8.31928 7.07193C8.31928 9.34324 10.1163 11.1914 12.325 11.1914C14.534 11.1914 16.331 9.343 16.331 7.07193C16.3312 4.80063 14.5341 2.95305 12.3251 2.95305Z" fill="#49004B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1349 7.07192C16.135 4.91203 14.4258 3.15473 12.3251 3.15473C10.2245 3.15473 8.51543 4.91224 8.51543 7.07193C8.51543 9.23184 10.2246 10.9897 12.325 10.9897C14.4257 10.9897 16.1349 9.2316 16.1349 7.07192ZM12.3251 12.4303C9.45164 12.4303 7.11423 10.0267 7.11423 7.07217C7.11423 4.11766 9.4517 1.71423 12.3251 1.71423C15.1986 1.71423 17.5361 4.11766 17.5361 7.07217C17.5362 10.0267 15.1987 12.4303 12.3251 12.4303ZM16.331 7.07193C16.3312 4.80063 14.5341 2.95305 12.3251 2.95305C10.1162 2.95305 8.31928 4.80087 8.31928 7.07193C8.31928 9.34324 10.1163 11.1914 12.325 11.1914C14.534 11.1914 16.331 9.343 16.331 7.07193ZM7.31038 7.07217C7.31038 9.91529 9.55997 12.2286 12.3251 12.2286C15.0904 12.2286 17.3401 9.91529 17.3399 7.07217C17.3399 4.22904 15.0903 1.91591 12.3251 1.91591C9.56003 1.91591 7.31038 4.22904 7.31038 7.07217Z" fill="#49004B"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <button id="cmp-header__hamburgerBtn" tabindex="4" class="hamburger-wrapper" aria-label="Toggle Navigation Menu" aria-expanded="false" data-link-location="mainHeader">
+                <!-- <div class="mobile-nav-icon" aria-hidden="true"></div> -->
+                <svg class="cmp-header__hamberger" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Hamburger">
+                        <path id="Vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M22.6113 3.38217H2.03985V1L22.6113 1V3.38217ZM22.6113 13.1911H2.03985V10.8089H22.6113V13.1911ZM14.6113 23H2.03985V20.6178H14.6113V23Z" fill="#49004B"></path>
+                    </g>
+                </svg>
+                <svg class="cmp-header__close" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Hamburger">
+                        <g id="Group 3215">
+                            <g id="Vector">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.89697 20.9345L20.3464 2.57147L21.7541 3.92273L4.30466 22.2858L2.89697 20.9345Z" fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.73483 3.28729L21.7408 20.4949L20.3597 21.8736L3.35378 4.66604L4.73483 3.28729Z" fill="white"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+    <div class="cmp-header__nav-search">
+        <img class="cmp-header__bg-ampersend" src="/content/experience-fragments/kkr/sites/global/en/header/master/_jcr_content/root/header/bgImage.coreimg.svg/1747313933972/header-ampersand-image.svg">
+        <div class="cmp-header__nav-search-container">
+            <div class="cmp-header__expaneded-container">
+                <div class="cmp-header__menu-container">
+                    <div class="cmp-header__primary-nav" data-link-location="headerPrimaryNavigation">
+<nav class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="navigation-d546723087" data-cmp-data-layer="{&quot;navigation-d546723087&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/navigation&quot;,&quot;repo:modifyDate&quot;:&quot;2025-02-14T16:47:52Z&quot;}}">
+    <ul class="cmp-navigation__group" role="">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active cmp-navigation__item--dropdown" id="navigation-d546723087-item-2f5f98e326" data-cmp-data-layer="{&quot;navigation-d546723087-item-2f5f98e326&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-04T15:47:50Z&quot;,&quot;dc:title&quot;:&quot;About&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none" tabindex="4">
+        
+    <span role="link" aria-label="About" class="menu-title">About</span>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        <div class="cmp-navigation__item-link-desc">A leading global investment firm founded in 1976</div>
+        <div class="cmp-button--color-secondary">
+            <a href="/about" target="_self" class="cmp-navigation__item-learn-more cmp-button" role="menuitem" tabindex="5"> <span class="cmp-button__text">Learn More</span></a>
+        </div>
+    </div>
+
+        
+    <button class="cmp-navigation__toggle-btn" aria-expanded="false" title="History menu"></button><ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-a73e88ac92" data-cmp-data-layer="{&quot;navigation-d546723087-item-a73e88ac92&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-11-21T23:18:28Z&quot;,&quot;dc:title&quot;:&quot;History&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/history&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/history" target="_self" data-cmp-clickable="" aria-label="History" class="cmp-navigation__item-link" role="menuitem" tabindex="6"><span role="link" aria-label="History" class="menu-title">History</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1 cmp-navigation__item--active" id="navigation-d546723087-item-31572a5cff" data-cmp-data-layer="{&quot;navigation-d546723087-item-31572a5cff&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-09T18:47:02Z&quot;,&quot;dc:title&quot;:&quot;Our People&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/our-people&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/our-people" target="_self" data-cmp-clickable="" aria-current="page" aria-label="Our People" class="cmp-navigation__item-link" role="menuitem" tabindex="7"><span role="link" aria-label="Our People" class="menu-title">Our People</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-64cf93d09b" data-cmp-data-layer="{&quot;navigation-d546723087-item-64cf93d09b&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-10T19:42:09Z&quot;,&quot;dc:title&quot;:&quot;Institutional Investors&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/institutional-investors&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/institutional-investors" target="_self" data-cmp-clickable="" aria-label="Institutional Investors" class="cmp-navigation__item-link" role="menuitem" tabindex="8"><span role="link" aria-label="Institutional Investors" class="menu-title">Institutional Investors</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-09650e040d" data-cmp-data-layer="{&quot;navigation-d546723087-item-09650e040d&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-28T20:16:19Z&quot;,&quot;dc:title&quot;:&quot;Global Wealth Solutions&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/global-wealth-solutions&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/global-wealth-solutions" target="_self" data-cmp-clickable="" aria-label="Global Wealth" class="cmp-navigation__item-link" role="menuitem" tabindex="9"><span role="link" aria-label="Global Wealth" class="menu-title">Global Wealth</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-e528840bb5" data-cmp-data-layer="{&quot;navigation-d546723087-item-e528840bb5&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-07T19:37:29Z&quot;,&quot;dc:title&quot;:&quot;Family Capital&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/family-capital&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/family-capital" target="_self" data-cmp-clickable="" aria-label="Family Capital" class="cmp-navigation__item-link" role="menuitem" tabindex="10"><span role="link" aria-label="Family Capital" class="menu-title">Family Capital</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-c9c3250909" data-cmp-data-layer="{&quot;navigation-d546723087-item-c9c3250909&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-16T02:14:34Z&quot;,&quot;dc:title&quot;:&quot;Sustainability&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/sustainability&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/sustainability" target="_self" data-cmp-clickable="" aria-label="Sustainability" class="cmp-navigation__item-link" role="menuitem" tabindex="11"><span role="link" aria-label="Sustainability" class="menu-title">Sustainability</span></a>
+    
+
+    
+
+        
+    </li>
+
+    <i class="cmp-navigation__group__icon--close fa fa-times"></i></ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-d546723087-item-9b71f9c164" data-cmp-data-layer="{&quot;navigation-d546723087-item-9b71f9c164&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-26T14:13:22Z&quot;,&quot;dc:title&quot;:&quot;Our Approach&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/approach&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none" tabindex="12">
+        
+    <span role="link" aria-label="Approach " class="menu-title">Approach </span>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        <div class="cmp-navigation__item-link-desc">A network of expert resources supporting our investments</div>
+        <div class="cmp-button--color-secondary">
+            <a href="/approach" target="_self" class="cmp-navigation__item-learn-more cmp-button" role="menuitem" tabindex="13"> <span class="cmp-button__text">Learn More</span></a>
+        </div>
+    </div>
+
+        
+    <button class="cmp-navigation__toggle-btn" aria-expanded="false" title="Capstone menu"></button><ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-05d5697bea" data-cmp-data-layer="{&quot;navigation-d546723087-item-05d5697bea&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-08T19:46:20Z&quot;,&quot;dc:title&quot;:&quot;Capstone&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/approach/capstone&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/approach/capstone" target="_self" data-cmp-clickable="" aria-label="Capstone" class="cmp-navigation__item-link" role="menuitem" tabindex="14"><span role="link" aria-label="Capstone" class="menu-title">Capstone</span></a>
+    
+
+    
+
+        
+    </li>
+
+    <i class="cmp-navigation__group__icon--close fa fa-times"></i></ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-d546723087-item-a08a53c2f1" data-cmp-data-layer="{&quot;navigation-d546723087-item-a08a53c2f1&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-10T19:34:31Z&quot;,&quot;dc:title&quot;:&quot;Invest&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none" tabindex="15">
+        
+    <span role="link" aria-label="Invest" class="menu-title">Invest</span>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        <div class="cmp-navigation__item-link-desc">Delivering asset management, capital markets and insurance solutions to our clients and partners around the world</div>
+        <div class="cmp-button--color-secondary">
+            <a href="/invest" target="_self" class="cmp-navigation__item-learn-more cmp-button" role="menuitem" tabindex="16"> <span class="cmp-button__text">Learn More</span></a>
+        </div>
+    </div>
+
+        
+    <button class="cmp-navigation__toggle-btn" aria-expanded="false" title="Private Equity menu"></button><ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-c6e0657100" data-cmp-data-layer="{&quot;navigation-d546723087-item-c6e0657100&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-27T20:24:04Z&quot;,&quot;dc:title&quot;:&quot;Private Equity&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/private-equity&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/private-equity" target="_self" data-cmp-clickable="" aria-label="Private Equity" class="cmp-navigation__item-link" role="menuitem" tabindex="17"><span role="link" aria-label="Private Equity" class="menu-title">Private Equity</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-8f04cdd2dc" data-cmp-data-layer="{&quot;navigation-d546723087-item-8f04cdd2dc&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T21:03:49Z&quot;,&quot;dc:title&quot;:&quot;Infrastructure&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/infrastructure&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/infrastructure" target="_self" data-cmp-clickable="" aria-label="Infrastructure" class="cmp-navigation__item-link" role="menuitem" tabindex="18"><span role="link" aria-label="Infrastructure" class="menu-title">Infrastructure</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-0011e5c635" data-cmp-data-layer="{&quot;navigation-d546723087-item-0011e5c635&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T18:50:58Z&quot;,&quot;dc:title&quot;:&quot;Real Estate&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/real-estate&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/real-estate" target="_self" data-cmp-clickable="" aria-label="Real Estate" class="cmp-navigation__item-link" role="menuitem" tabindex="19"><span role="link" aria-label="Real Estate" class="menu-title">Real Estate</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-0510bf5f28" data-cmp-data-layer="{&quot;navigation-d546723087-item-0510bf5f28&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-04T15:15:34Z&quot;,&quot;dc:title&quot;:&quot;Credit&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/credit&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/credit" target="_self" data-cmp-clickable="" aria-label="Credit" class="cmp-navigation__item-link" role="menuitem" tabindex="20"><span role="link" aria-label="Credit" class="menu-title">Credit</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-3a46846446" data-cmp-data-layer="{&quot;navigation-d546723087-item-3a46846446&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T18:47:49Z&quot;,&quot;dc:title&quot;:&quot;Capital Markets&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/capital-markets&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/capital-markets" target="_self" data-cmp-clickable="" aria-label="Capital Markets" class="cmp-navigation__item-link" role="menuitem" tabindex="21"><span role="link" aria-label="Capital Markets" class="menu-title">Capital Markets</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-3f0b63dab5" data-cmp-data-layer="{&quot;navigation-d546723087-item-3f0b63dab5&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-10T20:54:47Z&quot;,&quot;dc:title&quot;:&quot;Insurance&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/insurance&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/insurance" target="_self" data-cmp-clickable="" aria-label="Insurance" class="cmp-navigation__item-link" role="menuitem" tabindex="22"><span role="link" aria-label="Insurance" class="menu-title">Insurance</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-a9335cd02a" data-cmp-data-layer="{&quot;navigation-d546723087-item-a9335cd02a&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-04-29T12:56:09Z&quot;,&quot;dc:title&quot;:&quot;Strategic Partnerships&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/strategic-partnerships&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/strategic-partnerships" target="_self" data-cmp-clickable="" aria-label="Strategic Partnerships" class="cmp-navigation__item-link" role="menuitem" tabindex="23"><span role="link" aria-label="Strategic Partnerships" class="menu-title">Strategic Partnerships</span></a>
+    
+
+    
+
+        
+    </li>
+
+    <i class="cmp-navigation__group__icon--close fa fa-times"></i></ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-d546723087-item-8265108558" data-cmp-data-layer="{&quot;navigation-d546723087-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none" tabindex="24">
+        
+    <span role="link" aria-label="Insights" class="menu-title">Insights</span>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        <div class="cmp-navigation__item-link-desc">Our perspectives on today’s markets, investment opportunities, and challenges</div>
+        <div class="cmp-button--color-secondary">
+            <a href="/insights" target="_self" class="cmp-navigation__item-learn-more cmp-button" role="menuitem" tabindex="25"> <span class="cmp-button__text">Learn more</span></a>
+        </div>
+    </div>
+
+        
+    <button class="cmp-navigation__toggle-btn" aria-expanded="false" title="Macro Insights menu"></button><ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-8265108558" data-cmp-data-layer="{&quot;navigation-d546723087-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:macro-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Macro Insights" role="link" tabindex="26"><span class="menu-title">Macro Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-8265108558" data-cmp-data-layer="{&quot;navigation-d546723087-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:investment-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Investment Insights" role="link" tabindex="27"><span class="menu-title">Investment Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-8265108558" data-cmp-data-layer="{&quot;navigation-d546723087-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:wealth-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Wealth Insights" role="link" tabindex="28"><span class="menu-title">Wealth Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-d546723087-item-f66ba2b943" data-cmp-data-layer="{&quot;navigation-d546723087-item-f66ba2b943&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-09T18:16:02Z&quot;,&quot;dc:title&quot;:&quot;Alternatives Unlocked&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/alternatives-unlocked&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/alternatives-unlocked" target="_self" data-cmp-clickable="" aria-label="Education" class="cmp-navigation__item-link" role="menuitem" tabindex="29"><span role="link" aria-label="Education" class="menu-title">Education</span></a>
+    
+
+    
+
+        
+    </li>
+
+    <i class="cmp-navigation__group__icon--close fa fa-times"></i></ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                    <div class="cmp-header__secondary-nav" data-link-location="headerSecondaryNavigation">
+<nav class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="navigation-49dbe12332" data-cmp-data-layer="{&quot;navigation-49dbe12332&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/navigation&quot;,&quot;repo:modifyDate&quot;:&quot;2023-09-15T08:35:34Z&quot;}}">
+    <ul class="cmp-navigation__group" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-49dbe12332-item-f46b25e947" data-cmp-data-layer="{&quot;navigation-49dbe12332-item-f46b25e947&quot;:{&quot;@type&quot;:&quot;foundation/components/redirect&quot;,&quot;repo:modifyDate&quot;:&quot;2025-01-21T10:37:08Z&quot;,&quot;dc:title&quot;:&quot;KKR&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/language-masters/en&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/redirectpage&quot;}}" role="none">
+        
+    
+    <a href="https://ir.kkr.com/" target="_blank" rel="noopener noreferrer" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Investor Relations External Link" role="link" tabindex="30"><span class="menu-title">Investor Relations</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-49dbe12332-item-f46b25e947" data-cmp-data-layer="{&quot;navigation-49dbe12332-item-f46b25e947&quot;:{&quot;@type&quot;:&quot;foundation/components/redirect&quot;,&quot;repo:modifyDate&quot;:&quot;2025-01-21T10:37:08Z&quot;,&quot;dc:title&quot;:&quot;KKR&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/language-masters/en&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/redirectpage&quot;}}" role="none">
+        
+    
+    <a href="https://media.kkr.com/" target="_blank" rel="noopener noreferrer" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Media Center External Link" role="link" tabindex="31"><span class="menu-title">Media Center</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-49dbe12332-item-0f796e4b50" data-cmp-data-layer="{&quot;navigation-49dbe12332-item-0f796e4b50&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-08T15:31:00Z&quot;,&quot;dc:title&quot;:&quot;Careers&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers" target="_self" data-cmp-clickable="" aria-label="Careers" class="cmp-navigation__item-link" role="menuitem" tabindex="32"><span role="link" aria-label="Careers" class="menu-title">Careers</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-49dbe12332-item-2bf2c9450a" data-cmp-data-layer="{&quot;navigation-49dbe12332-item-2bf2c9450a&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-02-26T19:55:48Z&quot;,&quot;dc:title&quot;:&quot;Locations&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/locations&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/locations" target="_self" data-cmp-clickable="" aria-label="Locations" class="cmp-navigation__item-link" role="menuitem" tabindex="33"><span role="link" aria-label="Locations" class="menu-title">Locations</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-49dbe12332-item-84a0c51bd1" data-cmp-data-layer="{&quot;navigation-49dbe12332-item-84a0c51bd1&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-07T21:09:06Z&quot;,&quot;dc:title&quot;:&quot;Contact&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/contact&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/contact" target="_self" data-cmp-clickable="" aria-label="Contact" class="cmp-navigation__item-link" role="menuitem" tabindex="34"><span role="link" aria-label="Contact" class="menu-title">Contact</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                </div>
+                <div class="cmp-header__featured" tabindex="35">
+                    <a href="/insights/investment-playbook" data-link-location="headerFeaturedNavigation">
+                        <img src="/content/experience-fragments/kkr/sites/global/en/header/master/_jcr_content/root/header/featuredImage.coreimg.jpeg/1747313933972/gwi-playbook-440x532.jpeg" alt="Featured card">
+                        <div class="cmp-header__featured-content-block">
+                            <div class="cmp-header__featured-description">
+                                <div class="eyebrow-sm" tabindex="36">FEATURED INSIGHT</div>
+                                <h6>Q2 2025 Global Wealth Investment Playbook
+                                    <svg class="arrow-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Group 297">
+                                            <g id="Ellipse 17">
+                                                <circle cx="14" cy="14" r="13.5" fill="#FFA500"></circle>
+                                                <circle cx="14" cy="14" r="13.5" stroke="#FFA500"></circle>
+                                            </g>
+                                            <path id="Vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M19.9404 13.553L7 13.553L7 14.353L20.9061 14.353L21.1889 13.6701L15.0621 7.54329L14.4964 8.10897L19.9404 13.553ZM14.9368 19.5438L19.4748 15.0058L20.0405 15.5715L15.5025 20.1095L14.9368 19.5438Z" fill="#49004B"></path>
+                                        </g>
+                                    </svg>
+                                </h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <a class="cmp-header__anchorToHamburgerBtn cmp-button" href="#cmp-header__hamburgerBtn" data-link-location="mainHeader">
+                Skip to Menu Toggle Button
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+    
+
+</header>
+
+    
+</div>
+</div>
+
+</div>
+</div>
+
+    
+
+</div>
+<main class="main-wrapper responsivegrid aem-GridColumn aem-GridColumn--default--12" data-link-location="mainContainer" id="main-content">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="hero-banner cmp-hero-banner--vertical-padding-small aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-hero-banner" data-cmp-data-layer="{&quot;hero-banner-6b2aeaa469&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/hero-banner&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:26:18Z&quot;}}" id="hero-banner-6b2aeaa469">
+    
+    
+    
+    
+        <div class="cmp-banner-animation">
+            
+                <div class="cmp-hero-banner__container cmp-hero-banner__bg-img" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+                    <div class="cmp-hero-banner__img-container"><div class="asset image">
+
+    
+    <div data-asset="/content/dam/kkr/about/our-people-hero-v4-1320x470.jpg" data-background-image="false" data-cmp-data-layer="{&quot;image-b5a0447f6f&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/image&quot;,&quot;repo:modifyDate&quot;:&quot;2025-02-12T17:44:49Z&quot;,&quot;image&quot;:{&quot;repo:id&quot;:&quot;12982363-83aa-4860-8f44-5ca98c7e5a42&quot;,&quot;repo:modifyDate&quot;:&quot;2025-02-12T17:44:31Z&quot;,&quot;@type&quot;:&quot;image/jpeg&quot;,&quot;repo:path&quot;:&quot;/content/dam/kkr/about/our-people-hero-v4-1320x470.jpg&quot;,&quot;xdm:tags&quot;:[],&quot;xdm:smartTags&quot;:{}}}}" data-dynamic-media-image="false" data-lazy-loaded="true" data-src="/about/our-people/_jcr_content/root/main-par/hero_banner/asset.coreimg.82{.width}.jpeg/1739382289990/our-people-hero-v4-1320x470.jpeg" data-title="An image showing five KKR employees." data-widths="128,256,512,1024,1280,1440,1920,2048" data-image-width="1320" id="image-b5a0447f6f" class="cmp-image " itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            <figure class="cmp-image__figure">
+                <picture class="cmp-image__picture">
+                    <img src="/about/our-people/_jcr_content/root/main-par/hero_banner/asset.coreimg.82.1280.jpeg/1739382289990/our-people-hero-v4-1320x470.jpeg" width="1320" height="470" class="cmp-image__image cmp-image__image--lazy-loading" itemprop="contentUrl" alt="An image showing five KKR employees." data-src="/about/our-people/_jcr_content/root/main-par/hero_banner/asset.coreimg.82{.width}.jpeg/1739382289990/our-people-hero-v4-1320x470.jpeg">
+                </picture>
+                
+            </figure>
+        
+        
+    </div>
+
+
+
+
+    
+
+
+
+</div>
+</div>
+                    <div class="cmp-hero-banner__content">
+                        <div class="cmp-hero-banner__text"><div class="text cmp-text--padded-none">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-055dcfd099&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-04T16:43:45Z&quot;,&quot;xdm:text&quot;:&quot;<h1>Our People</h1>\r\n<h6><span class=\&quot;charcoal\&quot;>Meet the people driving transformative value creation for our companies and clients. &amp;nbsp;We are a collaborative team of diverse and dynamic professionals, blending innovation and creativity, to redefine possibilities across industries all over the world.&amp;nbsp;</span></h6>\r\n&quot;}}" id="text-055dcfd099">
+    <h1>Our People</h1>
+<h6><span class="charcoal">Meet the people driving transformative value creation for our companies and clients. &nbsp;We are a collaborative team of diverse and dynamic professionals, blending innovation and creativity, to redefine possibilities across industries all over the world.&nbsp;</span></h6>
+
+</div>
+
+    
+
+</div>
+</div>
+                        <div class="cmp-hero-banner__buttons">
+                            <div class="cmp-hero-banner__cta"><div class="cta button">
+
+
+
+
+    
+
+</div>
+</div>
+                            <div class="cmp-hero-banner__cta-secondary"><div class="cta-secondary button">
+
+
+
+
+    
+
+</div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+
+    
+
+</div>
+
+
+    
+
+</div>
+<div class="grid-container cmp-grid--site-width cmp-grid-container--2col cmp-grid-container--padding cmp-grid-container--padded-horizontal aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-grid-container" id="grid-container-9612569e01" data-cmp-data-layer="{&quot;grid-container-9612569e01&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/grid-container&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:28:05Z&quot;}}">
+    
+    
+    <div class="cmp-grid-container__items">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="headline headline--remove-default aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-title" id="headline-34cd6fa090" data-cmp-data-layer="{&quot;headline-34cd6fa090&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/headline&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:28:51Z&quot;,&quot;dc:title&quot;:&quot;Leadership&quot;}}">
+    <h2 class="cmp-title__text">
+        Leadership
+    </h2>
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container cmp-grid--site-width cmp-grid-container--4col cmp-grid-container--padding aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-grid-container" id="grid-container-45727edfd4" data-cmp-data-layer="{&quot;grid-container-45727edfd4&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/grid-container&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:29:33Z&quot;}}">
+    
+    
+    <div class="cmp-grid-container__items">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-section " data-cmp-data-layer="{&quot;section-aebf156769&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/section&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:29:59Z&quot;}}" id="section-aebf156769">
+    
+    
+    <div class="cmp-section__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-5768bcaace&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-23T15:28:18Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>HENRY KRAVIS</b></h6>\r\n<p>Co-Executive Chairman</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/henry-kravis.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-5768bcaace">
+    <h6><b>HENRY KRAVIS</b></h6>
+<p>Co-Executive Chairman</p>
+<p><a href="/about/our-people/henry-kravis" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-8120def5a8&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:03:44Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>GEORGE ROBERTS</b></h6>\r\n<p>Co-Executive Chairman</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/george-roberts.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-8120def5a8">
+    <h6><b>GEORGE ROBERTS</b></h6>
+<p>Co-Executive Chairman</p>
+<p><a href="/about/our-people/george-roberts" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-0f444b202d&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:03:52Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>JOSEPH BAE</b></h6>\r\n<p>Co-Chief Executive Officer</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/joseph-bae.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-0f444b202d">
+    <h6><b>JOSEPH BAE</b></h6>
+<p>Co-Chief Executive Officer</p>
+<p><a href="/about/our-people/joseph-bae" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-029797d00a&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:04:00Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>SCOTT NUTTALL</b></h6>\r\n<p>Co-Chief Executive Officer</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/scott-nuttall.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-029797d00a">
+    <h6><b>SCOTT NUTTALL</b></h6>
+<p>Co-Chief Executive Officer</p>
+<p><a href="/about/our-people/scott-nuttall" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-4d8c6a99ef&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:04:13Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>KATHRYN SUDOL</b></h6>\r\n<p>Chief Legal Officer and General Counsel</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/katie-sudol.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-4d8c6a99ef">
+    <h6><b>KATHRYN SUDOL</b></h6>
+<p>Chief Legal Officer and General Counsel</p>
+<p><a href="/about/our-people/katie-sudol" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-b064c63b97&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:04:20Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>ROBERT LEWIN</b></h6>\r\n<p>Chief Financial Officer</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/robert-lewin.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-b064c63b97">
+    <h6><b>ROBERT LEWIN</b></h6>
+<p>Chief Financial Officer</p>
+<p><a href="/about/our-people/robert-lewin" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-21409a9625&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:04:31Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>RYAN STORK</b></h6>\r\n<p>Chief Operating Officer</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/ryan-stork.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-21409a9625">
+    <h6><b>RYAN STORK</b></h6>
+<p>Chief Operating Officer</p>
+<p><a href="/about/our-people/ryan-stork" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="section aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-section " data-cmp-data-layer="{&quot;section-5ec6d2d9ef&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/section&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:02:05Z&quot;}}" id="section-5ec6d2d9ef">
+    
+    
+    <div class="cmp-section__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text--padded-none aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-d3d9fcfaba&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-01-02T16:03:05Z&quot;,&quot;xdm:text&quot;:&quot;<h6><b>DANE HOLMES</b></h6>\r\n<p>Chief Administrative Officer</p>\r\n<p><a href=\&quot;/content/kkr/sites/global/en/about/our-people/dane-holmes.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-d3d9fcfaba">
+    <h6><b>DANE HOLMES</b></h6>
+<p>Chief Administrative Officer</p>
+<p><a href="/about/our-people/dane-holmes" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+
+    
+</div>
+</div>
+</div>
+</div>
+<div class="spacer aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-spacer">
+  
+</div>
+</div>
+<div class="grid-container cmp-grid--site-width cmp-grid-container--padded-horizontal grid-slate-color aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-grid-container" id="grid-container-7fd786f0e8" data-cmp-data-layer="{&quot;grid-container-7fd786f0e8&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/grid-container&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:40:09Z&quot;}}">
+    
+    
+    <div class="cmp-grid-container__items">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="quote cmp-quote--left aem-GridColumn aem-GridColumn--default--12">
+
+<figure class="cmp-quote" data-cmp-data-layer="{&quot;quote-d41d909238&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/quote&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-10T20:53:10Z&quot;,&quot;xdm:text&quot;:&quot;Henry and I are first cousins and obviously have a very close and trusting relationship. The firm was founded on that—trust, integrity, sharing a common vision and really wanting anybody that you partner with to succeed.\&quot;&quot;}}" id="quote-d41d909238">
+  <div class="cmp-quote__content">
+    <div class="cmp-quote__icon-wrapper" aria-hidden="true">
+      <span class="cmp-quote__icon">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="quote icon">
+          <circle cx="60" cy="60" r="60" fill="#FFA500"></circle>
+          <path d="M62.9967 66.0997C62.9967 72.043 66.398 75.4839 71.4189 75.4839C75.9539 75.4839 79.3552 72.043 79.3552 67.5073C79.3552 63.2844 76.4398 60.782 73.2005 60.782C71.9048 60.782 70.933 61.0948 70.2851 61.7204C70.933 56.5591 73.5244 50.6158 76.9257 44.5161H71.5809C66.236 52.4927 62.9967 60.4692 62.9967 66.0997ZM40.6455 66.0997C40.6455 72.043 44.0468 75.4839 49.0677 75.4839C53.6027 75.4839 57.004 72.043 57.004 67.5073C57.004 63.2844 54.0886 60.782 50.8493 60.782C49.5536 60.782 48.5818 61.0948 47.9339 61.7204C48.5818 56.5591 51.1732 50.6158 54.5745 44.5161H49.2297C43.8848 52.4927 40.6455 60.4692 40.6455 66.0997Z" fill="#072535"></path>
+        </svg>
+      </span>
+    </div>
+    <blockquote class="cmp-quote__text">Henry and I are first cousins and obviously have a very close and trusting relationship. The firm was founded on that—trust, integrity, sharing a common vision and really wanting anybody that you partner with to succeed."</blockquote>
+  </div>
+  <figcaption>
+    
+    <div class="cmp-quote__author">
+      
+      <span class="cmp-quote__author-description">Co-Founder and Co-Executive Chairman, KKR</span>
+      <span class="cmp-quote__accents-line"></span>
+    </div>
+  </figcaption>
+</figure>
+
+
+    
+</div>
+
+    
+</div>
+</div>
+</div>
+</div>
+<div class="spacer aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-spacer">
+  
+</div>
+</div>
+<div class="grid-container cmp-grid--site-width cmp-grid-container--2col aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-grid-container" id="grid-container-029efd9abb" data-cmp-data-layer="{&quot;grid-container-029efd9abb&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/grid-container&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:28:05Z&quot;}}">
+    
+    
+    <div class="cmp-grid-container__items">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="headline cmp-title--pagebreak aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-title" id="headline-39048f7fcd" data-cmp-data-layer="{&quot;headline-39048f7fcd&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/headline&quot;,&quot;repo:modifyDate&quot;:&quot;2023-09-18T16:06:43Z&quot;,&quot;dc:title&quot;:&quot;Featured People&quot;}}">
+    <h2 class="cmp-title__text">
+        Featured People
+    </h2>
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+</div>
+<div class="grid-container cmp-grid--site-width cmp-grid-container--3col cmp-grid-container--padding aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-grid-container" id="grid-container-2117a7a3d5" data-cmp-data-layer="{&quot;grid-container-2117a7a3d5&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/grid-container&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-06T22:41:16Z&quot;}}">
+    
+    
+    <div class="cmp-grid-container__items">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-section " data-cmp-data-layer="{&quot;section-c678f7d272&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/section&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-06T22:40:00Z&quot;}}" id="section-c678f7d272">
+    
+    
+    <div class="cmp-section__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <article id="contentfragment-7596faf094" class="cmp-contentfragment cmp-contentfragment--kensuke-kudo" data-cmp-contentfragment-model="global/models/bio" data-cmp-data-layer="{&quot;contentfragment-7596faf094&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/contentfragment&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-07T18:30:31Z&quot;,&quot;dc:title&quot;:&quot;Kensuke Kudo&quot;,&quot;elements&quot;:[{&quot;xdm:title&quot;:&quot;Image&quot;,&quot;xdm:text&quot;:&quot;/content/dam/kkr/bio/headshots/Kensuke-Kudo.jpg&quot;}]}}" data-cmp-contentfragment-path="/content/dam/kkr/content-fragments/bio/kensuke-kudo">
+        
+        
+            
+    
+        
+        <div class="cmp-contentfragment__elements">
+            
+        
+        
+            
+            <img class="cmp-contentfragment__element--image" alt="image" src="/content/dam/kkr/bio/headshots/Kensuke-Kudo.jpg">
+            
+            
+            
+            
+            
+        
+
+        </div>
+    
+
+        
+    </article>
+
+
+
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-62bb9edd90&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-07T18:30:07Z&quot;,&quot;xdm:text&quot;:&quot;<h5>Kensuke Kudo</h5>\r\n<p>Real Estate<br>\r\nTokyo<br>\r\n<a href=\&quot;/content/kkr/sites/global/en/about/our-people/kensuke-kudo.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-62bb9edd90">
+    <h5>Kensuke Kudo</h5>
+<p>Real Estate<br>
+Tokyo<br>
+<a href="/about/our-people/kensuke-kudo" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+<div class="section aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-section " data-cmp-data-layer="{&quot;section-dc2d8b1b15&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/section&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-06T22:30:28Z&quot;}}" id="section-dc2d8b1b15">
+    
+    
+    <div class="cmp-section__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <article id="contentfragment-f90d8b2c29" class="cmp-contentfragment cmp-contentfragment--null" data-cmp-data-layer="{&quot;contentfragment-f90d8b2c29&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/contentfragment&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-07T18:22:24Z&quot;,&quot;elements&quot;:[]}}" data-cmp-contentfragment-path="/content/dam/kkr/content-fragments/bio/paula-c-robers">
+        
+        
+            
+    
+        
+        
+    
+
+        
+    </article>
+
+
+
+
+    
+
+</div>
+<div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <article id="contentfragment-58890380f8" class="cmp-contentfragment cmp-contentfragment--paula-campbell-roberts" data-cmp-contentfragment-model="global/models/bio" data-cmp-data-layer="{&quot;contentfragment-58890380f8&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/contentfragment&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-07T18:24:17Z&quot;,&quot;dc:title&quot;:&quot;Paula Campbell Roberts&quot;,&quot;elements&quot;:[{&quot;xdm:title&quot;:&quot;Image&quot;,&quot;xdm:text&quot;:&quot;/content/dam/kkr/bio/headshots/paula-campbell-roberts.jpg&quot;}]}}" data-cmp-contentfragment-path="/content/dam/kkr/content-fragments/bio/paula-campbell-roberts">
+        
+        
+            
+    
+        
+        <div class="cmp-contentfragment__elements">
+            
+        
+        
+            
+            <img class="cmp-contentfragment__element--image" alt="image" src="/content/dam/kkr/bio/headshots/paula-campbell-roberts.jpg">
+            
+            
+            
+            
+            
+        
+
+        </div>
+    
+
+        
+    </article>
+
+
+
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-6e04a4ae4c&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-09T18:47:02Z&quot;,&quot;xdm:text&quot;:&quot;<h5>Paula Campbell Roberts</h5>\r\n<p>Global Macro &amp;amp; Asset Allocation<br>\r\nNew York<br>\r\n<a href=\&quot;/content/kkr/sites/global/en/about/our-people/paula-campbell-roberts.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-6e04a4ae4c">
+    <h5>Paula Campbell Roberts</h5>
+<p>Global Macro &amp; Asset Allocation<br>
+New York<br>
+<a href="/about/our-people/paula-campbell-roberts" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+<div class="section aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-section " data-cmp-data-layer="{&quot;section-71d08cc568&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/section&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-06T22:36:30Z&quot;}}" id="section-71d08cc568">
+    
+    
+    <div class="cmp-section__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <article id="contentfragment-6759e9d542" class="cmp-contentfragment cmp-contentfragment--tara-davies" data-cmp-contentfragment-model="global/models/bio" data-cmp-data-layer="{&quot;contentfragment-6759e9d542&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/contentfragment&quot;,&quot;repo:modifyDate&quot;:&quot;2024-06-07T18:28:59Z&quot;,&quot;dc:title&quot;:&quot;Tara Davies&quot;,&quot;elements&quot;:[{&quot;xdm:title&quot;:&quot;Image&quot;,&quot;xdm:text&quot;:&quot;/content/dam/kkr/bio/headshots/Tara%20Davies.jpeg&quot;}]}}" data-cmp-contentfragment-path="/content/dam/kkr/content-fragments/bio/tara-davies">
+        
+        
+            
+    
+        
+        <div class="cmp-contentfragment__elements">
+            
+        
+        
+            
+            <img class="cmp-contentfragment__element--image" alt="image" src="/content/dam/kkr/bio/headshots/Tara%20Davies.jpeg">
+            
+            
+            
+            
+            
+        
+
+        </div>
+    
+
+        
+    </article>
+
+
+
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text" data-cmp-data-layer="{&quot;text-403b0801ea&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/text&quot;,&quot;repo:modifyDate&quot;:&quot;2024-09-30T14:35:07Z&quot;,&quot;xdm:text&quot;:&quot;<h5>Tara Davies</h5>\r\n<p>Infrastructure<br>\r\nLondon<br>\r\n<a href=\&quot;/content/kkr/sites/global/en/about/our-people/tara-davies.html\&quot; title=\&quot;Go to bio page\&quot;>View Bio</a></p>\r\n&quot;}}" id="text-403b0801ea">
+    <h5>Tara Davies</h5>
+<p>Infrastructure<br>
+London<br>
+<a href="/about/our-people/tara-davies" title="Go to bio page">View Bio</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+</div>
+</div>
+
+    
+</div>
+</div>
+</div>
+</div>
+<div class="spacer aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-spacer">
+  
+</div>
+</div>
+<div class="bioportfoliosearch aem-GridColumn aem-GridColumn--default--12">
+
+
+<div id="bio-directory" root="/content/dam/kkr/content-fragments/bio" data-numperpage="10" data-currentpage="/content/kkr/sites/global/en/about/our-people" data-noresultstext="No results found" data-modeltype="bio" data-searchurl="/content/kkr/sites/global/en/about/our-people/jcr:content/root/main-par/bioportfoliosearch.bioportfoliosearch.json" data-selectregion="/content/kkr/sites/global/en/about/our-people/jcr:content/root/main-par/bioportfoliosearch.region.json" data-bio-table-header-name="Name" data-mobile-accordion-title="Filter" data-bio-table-header-title="Title" data-bio-table-header-team="Team" data-bio-table-header-city="Location" data-brightcove-playerid="default" data-brightcove-accountid="6415685851001" class="cmp-portfolio-filter">
+     <div class="cmp-portfolio-filter__wrapper">
+          <div class="cmp-portfolio-filter__mobile-accordion">
+               <div class="filter-text">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <circle cx="12" cy="12" r="11.5" fill="#EEF3F9" stroke="#49004B"></circle>
+                         <g clip-path="url(#clip0_18527_48029)">
+                         <path d="M14.745 8.28644C13.5197 8.28644 12.2946 8.28814 11.0693 8.28406C10.9483 8.28372 10.8891 8.3147 10.8417 8.43149C10.5605 9.12743 9.88923 9.56768 9.1354 9.56393C8.36205 9.56019 7.70198 9.11926 7.42874 8.4114C7.38657 8.30244 7.32837 8.28372 7.22452 8.2844C6.66132 8.28814 6.09778 8.28984 5.53459 8.2844C5.17841 8.28133 4.94526 8.00248 5.01113 7.67323C5.06027 7.42808 5.24777 7.27793 5.52239 7.27623C6.08559 7.27316 6.64913 7.27248 7.21232 7.27759C7.32175 7.27861 7.37194 7.24558 7.41341 7.14344C7.70163 6.43591 8.34672 5.9926 9.10961 6.00009C9.91432 6.00827 10.4855 6.39471 10.8239 7.10054C10.8881 7.23435 10.9522 7.27963 11.1034 7.27929C13.5134 7.27384 15.9233 7.27554 18.3329 7.27554C18.3967 7.27554 18.4612 7.27248 18.5243 7.27861C18.7975 7.30449 18.9951 7.51627 18.9951 7.78048C18.9951 8.04436 18.7982 8.2592 18.525 8.28235C18.4096 8.29223 18.2929 8.2861 18.1768 8.2861C17.033 8.2861 15.8888 8.2861 14.745 8.2861V8.28644ZM9.9314 7.7798C9.93105 7.35045 9.57348 7.00043 9.13505 6.99975C8.69418 6.99873 8.33557 7.34398 8.33104 7.77333C8.32616 8.20881 8.68896 8.56359 9.13714 8.56189C9.57522 8.56019 9.93209 8.20881 9.93174 7.7798H9.9314Z" fill="#49004B"></path>
+                         <path d="M9.46924 11.2909C10.7699 11.2909 12.0702 11.2892 13.3708 11.2936C13.4991 11.294 13.5594 11.2627 13.6092 11.1391C13.8866 10.4509 14.5557 10.0114 15.3005 10.0117C16.062 10.0121 16.7277 10.4482 17.0079 11.1421C17.0535 11.2555 17.1068 11.2964 17.232 11.2936C17.6324 11.2855 18.0332 11.2892 18.4336 11.2913C18.7668 11.293 18.9933 11.4952 18.9968 11.7897C19.0003 12.0907 18.7706 12.2994 18.4284 12.3011C18.022 12.3032 17.6157 12.3045 17.2093 12.2998C17.1086 12.2987 17.0584 12.3263 17.0183 12.4237C16.7207 13.1483 16.0672 13.5824 15.2939 13.5796C14.5223 13.5769 13.8901 13.1448 13.5865 12.404C13.551 12.3175 13.5032 12.2994 13.4186 12.3004C13.0355 12.3035 12.6522 12.3018 12.2692 12.3018C10.0631 12.3018 7.85669 12.3018 5.65062 12.3015C5.57534 12.3015 5.49867 12.3039 5.42513 12.2909C5.16235 12.245 4.9888 12.026 5.00274 11.7662C5.01668 11.5027 5.20766 11.3124 5.48089 11.2926C5.53874 11.2885 5.59695 11.2909 5.65515 11.2909C6.92651 11.2909 8.19788 11.2909 9.46959 11.2909H9.46924ZM15.3141 11.0148C14.8642 11.0161 14.5233 11.3515 14.523 11.7938C14.5226 12.2286 14.8725 12.5752 15.3145 12.5773C15.7612 12.5796 16.1272 12.2204 16.1206 11.787C16.1139 11.3559 15.756 11.0138 15.3141 11.0148Z" fill="#49004B"></path>
+                         <path d="M15.983 16.7154C15.17 16.7154 14.3569 16.7185 13.5442 16.7124C13.4131 16.7114 13.3546 16.7505 13.3054 16.8714C13.0214 17.5724 12.3481 18.0076 11.5793 18.0004C10.8226 17.9936 10.1657 17.5466 9.89596 16.8407C9.84961 16.7192 9.77677 16.7144 9.67326 16.7144C8.31442 16.7161 6.95558 16.7185 5.59674 16.7107C5.46012 16.71 5.30748 16.6668 5.19142 16.597C5.01368 16.49 4.96106 16.2514 5.02797 16.0474C5.09245 15.8513 5.26356 15.7206 5.48626 15.7154C5.78215 15.7086 6.07873 15.7131 6.37461 15.7131C7.47207 15.7131 8.56988 15.7114 9.66734 15.7154C9.7806 15.7158 9.83602 15.6906 9.88097 15.5776C10.1612 14.8741 10.8251 14.4294 11.5758 14.4277C12.3418 14.426 13.0102 14.8666 13.2904 15.5741C13.3392 15.6974 13.4065 15.7151 13.5219 15.7151C15.1536 15.7124 16.7857 15.7144 18.4174 15.712C18.616 15.712 18.7865 15.7607 18.9029 15.9248C19.0182 16.0876 19.0304 16.265 18.9408 16.4414C18.8467 16.6262 18.6843 16.7144 18.4745 16.7148C17.7601 16.7158 17.046 16.7154 16.3315 16.7154C16.2155 16.7154 16.0991 16.7154 15.983 16.7154ZM11.5984 15.4342C11.1586 15.4342 10.7969 15.7951 10.7996 16.2313C10.8024 16.6484 11.1597 16.9912 11.5946 16.994C12.0393 16.9967 12.4063 16.6388 12.4021 16.2068C12.3976 15.7805 12.0376 15.4342 11.5988 15.4345L11.5984 15.4342Z" fill="#49004B"></path>
+                         </g>
+                         <defs>
+                         <clipPath id="clip0_18527_48029">
+                         <rect width="14" height="12" fill="white" transform="translate(5 6)"></rect>
+                         </clipPath>
+                         </defs>
+                         </svg>
+                         <span class="filter-count">Filter<i></i></span>
+               </div>
+               <div class="accordion-icon">
+                    <i class="up-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9.1833L11.2075 10L6 4.6334L0.79249 10L-2.70281e-07 9.1833L6 3L12 9.1833Z" fill="#49004B"></path>
+                         </svg></i>
+                         <i class="down-icon">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                   <g id="Carrot">
+                                   <path id="Vector 169 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M7.37351e-08 3.8167L0.792491 3L6 8.3666L11.2075 3L12 3.8167L6 10L7.37351e-08 3.8167Z" fill="#49004B"></path>
+                                   </g>
+                                   </svg>
+                         </i>
+               </div>
+          </div>
+          <div class="cmp-portfolio-filter__container">
+               <div class="cmp-portfolio-filter__wrap">
+                    <div class="cmp-portfolio-filter__wrap-headline">
+                         Directory
+                    </div>
+                    <div class="cmp-portfolio-filter__item cmp-portfolio-filter__item-bio">
+
+                         <div class="cmp-portfolio-filter__item--search">
+                              <label>Search</label>
+                              <input type="search" aria-label="Bio Search" id="bioSearch" class="cmp-portfolio-filter__item--bio-search" name="bioSearch" autocomplete="off">
+                         </div>
+                         
+                         
+
+                         <div class="cmp-portfolio-filter__item--select cmp-portfolio-filter__item-portfolio--select cmp-portfolio-filter__teamfield">
+                              <label>Team</label>
+                              <div class="cmp-portfolio-filter__custom-select">
+                                   <select class="cmp-portfolio-filter__item--selectteam">
+                                        <option value="">All Teams</option>
+                                        
+                                             <option value="kkr-business-groups:business-operations">Business Operations</option>
+                                        
+                                             <option value="kkr-business-groups:capital-markets">Capital Markets</option>
+                                        
+                                             <option value="kkr-business-groups:capstone">Capstone</option>
+                                        
+                                             <option value="asset-class:credit">Credit</option>
+                                        
+                                             <option value="kkr-business-groups:energy-real-assets">Energy Real Assets</option>
+                                        
+                                             <option value="kkr-business-groups:executive-officers">Executive Officers</option>
+                                        
+                                             <option value="kkr-business-groups:firm-management">Firm Management</option>
+                                        
+                                             <option value="kkr-business-groups:firm-strategy">Firm Strategy</option>
+                                        
+                                             <option value="kkr-business-groups:global-client-solutions">Global Client Solutions</option>
+                                        
+                                             <option value="asset-class:global-impact">Global Impact</option>
+                                        
+                                             <option value="kkr-business-groups:global-institute">Global Institute</option>
+                                        
+                                             <option value="kkr-business-groups:global-macro-and-asset-allocation">Global Macro and Asset Allocation</option>
+                                        
+                                             <option value="kkr-business-groups:health-care-strategic-growth">Health Care Strategic Growth</option>
+                                        
+                                             <option value="asset-class:infrastructure">Infrastructure</option>
+                                        
+                                             <option value="kkr-business-groups:insurance-and-strategic-finance">Insurance &amp; Strategic Finance</option>
+                                        
+                                             <option value="kkr-business-groups:investor-relations">Investor Relations</option>
+                                        
+                                             <option value="kkr-business-groups:customized-portfolio-solutions">KKR Solutions</option>
+                                        
+                                             <option value="asset-class:private-equity">Private Equity</option>
+                                        
+                                             <option value="kkr-business-groups:real-assets">Real Assets</option>
+                                        
+                                             <option value="asset-class:real-estate">Real Estate</option>
+                                        
+                                             <option value="asset-class:tech-growth">Tech Growth</option>
+                                        
+                                   </select>
+                              <div class="select-selected"><span>All Teams</span></div><div class="cmp-portfolio-filter__select-items select-hide"><div>All Teams</div><div>Business Operations</div><div>Capital Markets</div><div>Capstone</div><div>Credit</div><div>Energy Real Assets</div><div>Executive Officers</div><div>Firm Management</div><div>Firm Strategy</div><div>Global Client Solutions</div><div>Global Impact</div><div>Global Institute</div><div>Global Macro and Asset Allocation</div><div>Health Care Strategic Growth</div><div>Infrastructure</div><div>Insurance &amp; Strategic Finance</div><div>Investor Relations</div><div>KKR Solutions</div><div>Private Equity</div><div>Real Assets</div><div>Real Estate</div><div>Tech Growth</div></div></div>
+                         </div>
+
+                         <div class="cmp-portfolio-filter__item--select cmp-portfolio-filter__item-portfolio--select cmp-portfolio-filter__cityfield">
+                              <label>Location</label>
+                              <div class="cmp-portfolio-filter__custom-select">
+                                   <select class="cmp-portfolio-filter__item--selectcity">
+                                        <option value="">All Locations</option>
+                                        
+                                             <option value="location:asia-pacific/china/bejing">Beijing</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/denmark/copenhagen">Copenhagen</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/united-arab-emirates/dubai">Dubai</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/ireland/dublin">Dublin</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/germany/frankfurt">Frankfurt</option>
+                                        
+                                             <option value="location:asia-pacific/india/gurugram">Gurugram</option>
+                                        
+                                             <option value="location:asia-pacific/china/hong-kong">Hong Kong</option>
+                                        
+                                             <option value="location:americas/united-states/houston">Houston</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/united-kingdom/london">London</option>
+                                        
+                                             <option value="location:americas/united-states/los-angeles">Los Angeles</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/spain/madrid">Madrid</option>
+                                        
+                                             <option value="location:americas/united-states/menlo-park">Menlo Park</option>
+                                        
+                                             <option value="location:americas/united-states/miami">Miami</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/middle-east">Middle East</option>
+                                        
+                                             <option value="location:asia-pacific/india/mumbai">Mumbai</option>
+                                        
+                                             <option value="location:americas/united-states/new-york">New York</option>
+                                        
+                                             <option value="location:americas/united-states/orlando">Orlando</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/france/paris">Paris</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/saudi-arabia/riyadh">Riyadh</option>
+                                        
+                                             <option value="location:americas/united-states/san-francisco">San Francisco</option>
+                                        
+                                             <option value="location:asia-pacific/korea/seoul">Seoul</option>
+                                        
+                                             <option value="location:asia-pacific/china/shanghai">Shanghai</option>
+                                        
+                                             <option value="location:asia-pacific/singapore">Singapore</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/sweden/stockholm">Stockholm</option>
+                                        
+                                             <option value="location:asia-pacific/australia/sydney">Sydney</option>
+                                        
+                                             <option value="location:asia-pacific/japan/tokyo">Tokyo</option>
+                                        
+                                             <option value="location:americas/canada/toronto">Toronto</option>
+                                        
+                                             <option value="location:europe-the-middle-east-and-africa/zurich">Zurich</option>
+                                        
+                                   </select>
+                              <div class="select-selected"><span>All Locations</span></div><div class="cmp-portfolio-filter__select-items select-hide"><div>All Locations</div><div>Beijing</div><div>Copenhagen</div><div>Dubai</div><div>Dublin</div><div>Frankfurt</div><div>Gurugram</div><div>Hong Kong</div><div>Houston</div><div>London</div><div>Los Angeles</div><div>Madrid</div><div>Menlo Park</div><div>Miami</div><div>Middle East</div><div>Mumbai</div><div>New York</div><div>Orlando</div><div>Paris</div><div>Riyadh</div><div>San Francisco</div><div>Seoul</div><div>Shanghai</div><div>Singapore</div><div>Stockholm</div><div>Sydney</div><div>Tokyo</div><div>Toronto</div><div>Zurich</div></div></div>
+                         </div>
+                         
+                         
+                         
+                    </div>
+               </div>
+          </div>
+          <div class="cmp-portfolio-filter__search-detail-container">
+               <div class="cmp-portfolio-filter__search-detail-content">
+                    <div class="cmp-portfolio-filter__keyword-searched keyword-searched" style="display: none;">You searched for:
+                         <div class="keyword-searched-result"></div>
+                    </div>
+                    <div class="cmp-portfolio-filter__filters-selected filters-selected" style="display: none;">
+                         <span class="filter-label">Filter by:</span>
+                         <div class="cmp-portfolio-filter__filtered-items"></div>
+
+                    </div>
+                    <!-- Sort By Field for Mobile Only -->
+                    
+                    <div class="cmp-portfolio-filter__filters-selected filters-selected">
+
+                         <div class="cmp-portfolio-filter__item-portfolio--clear-search" style="display: none;">
+                              <div class="cmp-portfolio-filter__item-portfolio--clear-search-wrap">
+                                   <label class="cmp-portfolio-filter__item-portfolio--clear-search-label">Reset Filters</label>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </div>
+
+     <div class="cmp-portfolio-filter__table">
+          <div class="cmp-portfolio-filter__result--rowcontainer ">
+          </div>
+          <div class="cmp-portfolio-filter__result--pagination">
+               <span class="cmp-portfolio-filter__result--pagination-first-page">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" aria-label="pagination arrow first page" viewBox="0 0 12 13" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1833 0.500001L12 1.29249L6.6334 6.5L12 11.7075L11.1833 12.5L5 6.5L11.1833 0.500001Z" fill="#7D7D7D"></path>
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1833 0.500001L7 1.29249L1.6334 6.5L7 11.7075L6.1833 12.5L-1.04907e-06 6.5L6.1833 0.500001Z" fill="#7D7D7D"></path>
+                    </svg>
+               </span>
+               <span class="cmp-portfolio-filter__result--pagination-left-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-label="pagination arrow left" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.1833 0.500001L10 1.29249L4.6334 6.5L10 11.7075L9.1833 12.5L3 6.5L9.1833 0.500001Z" fill="#7D7D7D"></path>
+                    </svg>
+               </span>
+               <ul class="cmp-portfolio-filter__result--pagination--pages"></ul>
+               <span class="cmp-portfolio-filter__result--pagination-right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" aria-label="pagination arrow right" viewBox="0 0 12 13" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.8167 12.5L3 11.7075L8.3666 6.5L3 1.29249L3.8167 0.5L10 6.5L3.8167 12.5Z" fill="#7D7D7D"></path>
+                    </svg>
+               </span>
+               <span class="cmp-portfolio-filter__result--pagination-last-page">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" aria-label="pagination arrow last page" viewBox="0 0 12 13" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.816701 12.5L8.23246e-07 11.7075L5.3666 6.5L5.3758e-06 1.29249L0.816707 0.499997L7 6.5L0.816701 12.5Z" fill="#7D7D7D"></path>
+                         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8167 12.5L5 11.7075L10.3666 6.5L5.00001 1.29249L5.81671 0.499997L12 6.5L5.8167 12.5Z" fill="#7D7D7D"></path>
+                    </svg>
+               </span>
+          </div>
+     </div>
+     <div id="portfolio-flyout" class="cmp-portfolio-filter__flyout">
+          <div class="cmp-portfolio-filter__flyout-content">
+              <span class="cmp-portfolio-filter__close-btn">
+                    <svg width="44" height="44" viewBox="0 0 44 44" aria-label="close modal" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <circle id="Ellipse 642" cx="22" cy="22" r="21.5" fill="#FFD828" stroke="#411358"></circle>
+                         <path id="Vector 58" d="M27.8672 16.1333L16.395 28.1452" stroke="#411358"></path>
+                         <path id="Vector 59" d="M27.8672 27.8666L16.6865 16.6105" stroke="#411358"></path>
+                    </svg>
+               </span>
+              <div class="cmp-portfolio-filter__flyout-body"></div>
+          </div>
+     </div>
+     <dialog class="cmp-portfolio-filter__modal">
+          <div class="cmp-portfolio-filter__modal-content">
+              <div class="cmp-portfolio-filter__modal-video-container"></div>
+              <div class="cmp-portfolio-filter__modal-close" autofocus="" role="button" aria-label="Close">
+                  <svg width="44" height="44" aria-label="close modal" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle id="Ellipse 642" cx="22" cy="22" r="21.5" fill="#FFD828" stroke="#411358"></circle>
+                      <path id="Vector 58" d="M27.8672 16.1333L16.395 28.1452" stroke="#411358"></path>
+                      <path id="Vector 59" d="M27.8672 27.8666L16.6865 16.6105" stroke="#411358"></path>
+                  </svg>
+              </div>
+          </div>
+     </dialog>
+</div>
+</div>
+<div class="spacer cmp-spacer--small-v2 aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-spacer">
+  
+</div>
+</div>
+<div class="link-list aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="cmp-link-list" data-cmp-data-layer="{&quot;link-list-b4e8360edb&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/link-list&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-02T17:06:23Z&quot;}}" id="link-list-b4e8360edb">
+    <div class="cmp-link-list__text-container">
+        <div class="cmp-link-list-eyebrow">
+            LEARN ABOUT 
+        </div>
+
+        <ul class="cmp-link-list-links">
+            <li class="cmp-link-list__link">
+                <a class="cmp-link" href="/about/our-people/firm-advisors" target="_self" data-link-location="link-list-b4e8360edb">
+                    KKR Advisors
+                </a>
+            </li>
+        
+            <li class="cmp-link-list__link">
+                <a class="cmp-link" href="/careers/diversity-equity-and-inclusion" target="_self" data-link-location="link-list-b4e8360edb">
+                    Diversity &amp; Inclusion
+                </a>
+            </li>
+        
+            <li class="cmp-link-list__link">
+                <a class="cmp-link" href="/careers" target="_self" data-link-location="link-list-b4e8360edb">
+                    Careers
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="cmp-link-list__image-container">
+        <div class="cmp-link-list-links">
+            
+                <div class="cmp-link-list-default__image">
+                    
+    <div data-asset="/content/dam/kkr/link-list/learn-more-link-list.jpg" data-background-image="false" data-cmp-data-layer="{&quot;image-e2646662c3&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/image&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-02T17:06:23Z&quot;,&quot;image&quot;:{&quot;repo:id&quot;:&quot;0ada0c5c-a99c-4e0b-bb1d-4a8d7035b27b&quot;,&quot;repo:modifyDate&quot;:&quot;2023-09-20T20:22:40Z&quot;,&quot;@type&quot;:&quot;image/jpeg&quot;,&quot;repo:path&quot;:&quot;/content/dam/kkr/link-list/learn-more-link-list.jpg&quot;,&quot;xdm:tags&quot;:[],&quot;xdm:smartTags&quot;:{}}}}" data-dynamic-media-image="false" data-lazy-loaded="true" data-src="/about/our-people/_jcr_content/root/main-par/link_list/image.coreimg.82{.width}.jpeg/1696266383352/learn-more-link-list.jpeg" data-widths="128,256,512,1024,1280,1440,1920,2048" data-image-width="705" id="image-e2646662c3" class="cmp-image " itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            <figure class="cmp-image__figure">
+                <picture class="cmp-image__picture">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="705" height="560" class="cmp-image__image cmp-image__image--lazy-loading" itemprop="contentUrl" alt="" data-src="/about/our-people/_jcr_content/root/main-par/link_list/image.coreimg.82{.width}.jpeg/1696266383352/learn-more-link-list.jpeg">
+                </picture>
+                
+            </figure>
+        
+        
+    </div>
+
+                </div>
+            
+            <ul>
+                
+                    <li class="cmp-link-list__image">
+                        
+    <div data-asset="/content/dam/kkr/link-list/advisors.jpg" data-background-image="false" data-cmp-data-layer="{&quot;image-01080b02fd&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/image&quot;,&quot;image&quot;:{&quot;repo:id&quot;:&quot;4916804f-3462-490e-abe8-7af81c055742&quot;,&quot;repo:modifyDate&quot;:&quot;2023-08-18T07:25:48Z&quot;,&quot;@type&quot;:&quot;image/jpeg&quot;,&quot;repo:path&quot;:&quot;/content/dam/kkr/link-list/advisors.jpg&quot;,&quot;xdm:tags&quot;:[],&quot;xdm:smartTags&quot;:{}}}}" data-dynamic-media-image="false" data-lazy-loaded="true" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item0/image.coreimg.82{.width}.jpeg/1692343548415/advisors.jpeg" data-widths="128,256,512,1024,1280,1440,1920,2048" data-image-width="705" id="image-01080b02fd" class="cmp-image " itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            <figure class="cmp-image__figure">
+                <picture class="cmp-image__picture">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="705" height="560" class="cmp-image__image cmp-image__image--lazy-loading" itemprop="contentUrl" alt="" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item0/image.coreimg.82{.width}.jpeg/1692343548415/advisors.jpeg">
+                </picture>
+                
+            </figure>
+        
+        
+    </div>
+
+                    </li>
+                
+            
+                
+                    <li class="cmp-link-list__image">
+                        
+    <div data-asset="/content/dam/kkr/link-list/capabilities.jpg" data-background-image="false" data-cmp-data-layer="{&quot;image-4ffd5bf318&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/image&quot;,&quot;image&quot;:{&quot;repo:id&quot;:&quot;ab19dbc8-7c05-49bc-9ca5-72566d122127&quot;,&quot;repo:modifyDate&quot;:&quot;2023-07-21T09:33:10Z&quot;,&quot;@type&quot;:&quot;image/jpeg&quot;,&quot;repo:path&quot;:&quot;/content/dam/kkr/link-list/capabilities.jpg&quot;,&quot;xdm:tags&quot;:[],&quot;xdm:smartTags&quot;:{}}}}" data-dynamic-media-image="false" data-lazy-loaded="true" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item1/image.coreimg.82{.width}.jpeg/1689931990934/capabilities.jpeg" data-widths="128,256,512,1024,1280,1440,1920,2048" data-image-width="705" id="image-4ffd5bf318" class="cmp-image " itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            <figure class="cmp-image__figure">
+                <picture class="cmp-image__picture">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="705" height="560" class="cmp-image__image cmp-image__image--lazy-loading" itemprop="contentUrl" alt="" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item1/image.coreimg.82{.width}.jpeg/1689931990934/capabilities.jpeg">
+                </picture>
+                
+            </figure>
+        
+        
+    </div>
+
+                    </li>
+                
+            
+                
+                    <li class="cmp-link-list__image">
+                        
+    <div data-asset="/content/dam/kkr/link-list/careers.jpg" data-background-image="false" data-cmp-data-layer="{&quot;image-8e3bb370cc&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/image&quot;,&quot;image&quot;:{&quot;repo:id&quot;:&quot;cbf75cc5-55cf-4b47-8dbb-b0ec9748439d&quot;,&quot;repo:modifyDate&quot;:&quot;2023-07-21T07:48:23Z&quot;,&quot;@type&quot;:&quot;image/jpeg&quot;,&quot;repo:path&quot;:&quot;/content/dam/kkr/link-list/careers.jpg&quot;,&quot;xdm:tags&quot;:[],&quot;xdm:smartTags&quot;:{}}}}" data-dynamic-media-image="false" data-lazy-loaded="true" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item2/image.coreimg.82{.width}.jpeg/1689925703185/careers.jpeg" data-widths="128,256,512,1024,1280,1440,1920,2048" data-image-width="705" id="image-8e3bb370cc" class="cmp-image " itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            <figure class="cmp-image__figure">
+                <picture class="cmp-image__picture">
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="705" height="560" class="cmp-image__image cmp-image__image--lazy-loading" itemprop="contentUrl" alt="" data-src="/about/our-people/_jcr_content/root/main-par/link_list/links/item2/image.coreimg.82{.width}.jpeg/1689925703185/careers.jpeg">
+                </picture>
+                
+            </figure>
+        
+        
+    </div>
+
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    
+
+</div>
+
+    
+</div>
+</main>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-d32c948fb2" class="cmp-experiencefragment cmp-experiencefragment--footer">
+
+    
+
+
+
+<div class="xf-content-height">
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <footer class="footer footer--slate-color aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="cmp-footer" data-cmp-data-layer="{&quot;footer-26d3da3f90&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/footer&quot;,&quot;repo:modifyDate&quot;:&quot;2024-12-31T16:27:33Z&quot;}}" id="footer-26d3da3f90">
+    <div class="cmp-footer__bg-img cmp-footer__container" data-background-image="false" data-dynamic-media-image="false" data-lazy-loaded="true">
+        <div class="cmp-footer__column-container">
+            <div class="cmp-footer__nav-container">
+                <div class="cmp-footer__nav" data-link-location="footerTop">
+<nav class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="navigation-5c0209cd03" data-cmp-data-layer="{&quot;navigation-5c0209cd03&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/navigation&quot;,&quot;repo:modifyDate&quot;:&quot;2024-03-05T22:31:36Z&quot;}}">
+    <ul class="cmp-navigation__group" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active cmp-navigation__item--dropdown" id="navigation-5c0209cd03-item-2f5f98e326" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-2f5f98e326&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-04T15:47:50Z&quot;,&quot;dc:title&quot;:&quot;About&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about" target="_self" data-cmp-clickable="" aria-current="page" aria-label="ABOUT" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="ABOUT" class="menu-title">ABOUT</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    <ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-a73e88ac92" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-a73e88ac92&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-11-21T23:18:28Z&quot;,&quot;dc:title&quot;:&quot;History&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/history&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/history" target="_self" data-cmp-clickable="" aria-label="History" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="History" class="menu-title">History</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1 cmp-navigation__item--active" id="navigation-5c0209cd03-item-31572a5cff" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-31572a5cff&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-09T18:47:02Z&quot;,&quot;dc:title&quot;:&quot;Our People&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/our-people&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/our-people" target="_self" data-cmp-clickable="" aria-current="page" aria-label="Our People" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Our People" class="menu-title">Our People</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-64cf93d09b" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-64cf93d09b&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-10T19:42:09Z&quot;,&quot;dc:title&quot;:&quot;Institutional Investors&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/institutional-investors&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/institutional-investors" target="_self" data-cmp-clickable="" aria-label="Institutional Investors" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Institutional Investors" class="menu-title">Institutional Investors</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-09650e040d" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-09650e040d&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-28T20:16:19Z&quot;,&quot;dc:title&quot;:&quot;Global Wealth Solutions&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/global-wealth-solutions&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/global-wealth-solutions" target="_self" data-cmp-clickable="" aria-label="Global Wealth" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Global Wealth" class="menu-title">Global Wealth</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-e528840bb5" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-e528840bb5&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-07T19:37:29Z&quot;,&quot;dc:title&quot;:&quot;Family Capital&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/family-capital&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/family-capital" target="_self" data-cmp-clickable="" aria-label="Family Capital" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Family Capital" class="menu-title">Family Capital</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-c9c3250909" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-c9c3250909&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-16T02:14:34Z&quot;,&quot;dc:title&quot;:&quot;Sustainability&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/about/sustainability&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/about/sustainability" target="_self" data-cmp-clickable="" aria-label="Sustainability" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Sustainability" class="menu-title">Sustainability</span></a>
+    
+
+    
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-5c0209cd03-item-9b71f9c164" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-9b71f9c164&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-03-26T14:13:22Z&quot;,&quot;dc:title&quot;:&quot;Our Approach&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/approach&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/approach" target="_self" data-cmp-clickable="" aria-label="APPROACH" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="APPROACH" class="menu-title">APPROACH</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    <ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-05d5697bea" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-05d5697bea&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-08T19:46:20Z&quot;,&quot;dc:title&quot;:&quot;Capstone&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/approach/capstone&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/approach/capstone" target="_self" data-cmp-clickable="" aria-label="Capstone" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Capstone" class="menu-title">Capstone</span></a>
+    
+
+    
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-5c0209cd03-item-a08a53c2f1" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-a08a53c2f1&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-10T19:34:31Z&quot;,&quot;dc:title&quot;:&quot;Invest&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/invest" target="_self" data-cmp-clickable="" aria-label="INVEST" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="INVEST" class="menu-title">INVEST</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    <ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-c6e0657100" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-c6e0657100&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-27T20:24:04Z&quot;,&quot;dc:title&quot;:&quot;Private Equity&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/private-equity&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/private-equity" target="_self" data-cmp-clickable="" aria-label="Private Equity" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Private Equity" class="menu-title">Private Equity</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-8f04cdd2dc" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-8f04cdd2dc&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T21:03:49Z&quot;,&quot;dc:title&quot;:&quot;Infrastructure&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/infrastructure&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/infrastructure" target="_self" data-cmp-clickable="" aria-label="Infrastructure" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Infrastructure" class="menu-title">Infrastructure</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-0011e5c635" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-0011e5c635&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T18:50:58Z&quot;,&quot;dc:title&quot;:&quot;Real Estate&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/real-estate&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/real-estate" target="_self" data-cmp-clickable="" aria-label="Real Estate" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Real Estate" class="menu-title">Real Estate</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-0510bf5f28" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-0510bf5f28&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-04T15:15:34Z&quot;,&quot;dc:title&quot;:&quot;Credit&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/credit&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/credit" target="_self" data-cmp-clickable="" aria-label="Credit" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Credit" class="menu-title">Credit</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-3a46846446" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-3a46846446&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-29T18:47:49Z&quot;,&quot;dc:title&quot;:&quot;Capital Markets&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/capital-markets&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/capital-markets" target="_self" data-cmp-clickable="" aria-label="Capital Markets" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Capital Markets" class="menu-title">Capital Markets</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-3f0b63dab5" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-3f0b63dab5&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-10T20:54:47Z&quot;,&quot;dc:title&quot;:&quot;Insurance&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/insurance&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/insurance" target="_self" data-cmp-clickable="" aria-label="Insurance" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Insurance" class="menu-title">Insurance</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-a9335cd02a" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-a9335cd02a&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-04-29T12:56:09Z&quot;,&quot;dc:title&quot;:&quot;Strategic Partnerships&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/strategic-partnerships&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/lobpage&quot;}}" role="none">
+        
+    <a href="/invest/strategic-partnerships" target="_self" data-cmp-clickable="" aria-label="Strategic Partnerships" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Strategic Partnerships" class="menu-title">Strategic Partnerships</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-eb87799c4e" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-eb87799c4e&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-02T22:44:21Z&quot;,&quot;dc:title&quot;:&quot;Portfolio&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/invest/portfolio&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/invest/portfolio" target="_self" data-cmp-clickable="" aria-label="Portfolio" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Portfolio" class="menu-title">Portfolio</span></a>
+    
+
+    
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-5c0209cd03-item-8265108558" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/insights" target="_self" data-cmp-clickable="" aria-label="INSIGHTS" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="INSIGHTS" class="menu-title">INSIGHTS</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    <ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-8265108558" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:macro-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Macro Insights" role="link"><span class="menu-title">Macro Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-8265108558" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:investment-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Investment Insights" role="link"><span class="menu-title">Investment Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-8265108558" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-8265108558&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-06T18:27:59Z&quot;,&quot;dc:title&quot;:&quot;Insights&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/insights&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    
+    <a href="/insights#categoryTagId=insights-categories:wealth-insights" target="_self" data-cmp-clickable="" class="cmp-navigation__item-link" aria-label="Wealth Insights" role="link"><span class="menu-title">Wealth Insights</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-f66ba2b943" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-f66ba2b943&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-09T18:16:02Z&quot;,&quot;dc:title&quot;:&quot;Alternatives Unlocked&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/alternatives-unlocked&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/alternatives-unlocked" target="_self" data-cmp-clickable="" aria-label="Education" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Education" class="menu-title">Education</span></a>
+    
+
+    
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--dropdown" id="navigation-5c0209cd03-item-0f796e4b50" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-0f796e4b50&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-08T15:31:00Z&quot;,&quot;dc:title&quot;:&quot;Careers&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers" target="_self" data-cmp-clickable="" aria-label="CAREERS" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="CAREERS" class="menu-title">CAREERS</span></a>
+    
+
+    <div class="cmp-navigation__item-link-text">
+      <svg class="back-icon" width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Arrow">
+        <path id="Vector 169" d="M8.87879 1L0.999999 9L8.87879 17" stroke="#FFD828"></path>
+        <path id="Vector 173" d="M1 9L27 9" stroke="#FFD828"></path>
+        </g>
+        </svg>
+        
+        <div class="cmp-button--color-secondary">
+            
+        </div>
+    </div>
+
+        
+    <ul class="cmp-navigation__group logo--present" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-07563e4b65" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-07563e4b65&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-11T17:34:32Z&quot;,&quot;dc:title&quot;:&quot;Career Opportunities&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers/career-opportunities&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers/career-opportunities" target="_self" data-cmp-clickable="" aria-label="Career Opportunities" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Career Opportunities" class="menu-title">Career Opportunities</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-2ed02b136e" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-2ed02b136e&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-06-05T15:13:20Z&quot;,&quot;dc:title&quot;:&quot;Student Careers&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers/student-careers&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers/student-careers" target="_self" data-cmp-clickable="" aria-label="Student Careers" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Student Careers" class="menu-title">Student Careers</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-76ed47f606" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-76ed47f606&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2025-05-16T16:43:55Z&quot;,&quot;dc:title&quot;:&quot;Diversity, Equity and Inclusion&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers/diversity-equity-and-inclusion&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers/diversity-equity-and-inclusion" target="_self" data-cmp-clickable="" aria-label="Diversity, Equity &amp; Inclusion" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Diversity, Equity &amp; Inclusion" class="menu-title">Diversity, Equity &amp; Inclusion</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-15476c1479" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-15476c1479&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-07T21:01:14Z&quot;,&quot;dc:title&quot;:&quot;Citizenship&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers/citizenship&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers/citizenship" target="_self" data-cmp-clickable="" aria-label="Citizenship" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Citizenship" class="menu-title">Citizenship</span></a>
+    
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1" id="navigation-5c0209cd03-item-42a9f519f1" data-cmp-data-layer="{&quot;navigation-5c0209cd03-item-42a9f519f1&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/structure/page/basepage&quot;,&quot;repo:modifyDate&quot;:&quot;2024-10-07T20:20:38Z&quot;,&quot;dc:title&quot;:&quot;Shared Success&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/sites/global/en/careers/shared-success&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/freeform&quot;}}" role="none">
+        
+    <a href="/careers/shared-success" target="_self" data-cmp-clickable="" aria-label="Shared Success" class="cmp-navigation__item-link" role="menuitem"><span role="link" aria-label="Shared Success" class="menu-title">Shared Success</span></a>
+    
+
+    
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                <div class="cmp-footer__nav_additional" data-link-location="footerTop">
+<nav class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="navigation-b54ff367bd" data-cmp-data-layer="{&quot;navigation-b54ff367bd&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/navigation&quot;,&quot;repo:modifyDate&quot;:&quot;2023-09-12T21:45:12Z&quot;}}">
+    <ul class="cmp-navigation__group" role="menu">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-b54ff367bd-item-f46b25e947" data-cmp-data-layer="{&quot;navigation-b54ff367bd-item-f46b25e947&quot;:{&quot;@type&quot;:&quot;foundation/components/redirect&quot;,&quot;repo:modifyDate&quot;:&quot;2025-01-21T10:37:08Z&quot;,&quot;dc:title&quot;:&quot;KKR&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/language-masters/en&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/redirectpage&quot;}}" role="none">
+        
+    
+    <a href="https://portal.kkr.com/" target="_blank" rel="noopener noreferrer" data-cmp-clickable="" class="cmp-navigation__item-link external-link" aria-label="CLIENT PORTAL" role="link"><span class="menu-title">CLIENT PORTAL</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-b54ff367bd-item-f46b25e947" data-cmp-data-layer="{&quot;navigation-b54ff367bd-item-f46b25e947&quot;:{&quot;@type&quot;:&quot;foundation/components/redirect&quot;,&quot;repo:modifyDate&quot;:&quot;2025-01-21T10:37:08Z&quot;,&quot;dc:title&quot;:&quot;KKR&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/language-masters/en&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/redirectpage&quot;}}" role="none">
+        
+    
+    <a href="https://ir.kkr.com/" target="_blank" rel="noopener noreferrer" data-cmp-clickable="" class="cmp-navigation__item-link external-link" aria-label="INVESTOR RELATIONS" role="link"><span class="menu-title">INVESTOR RELATIONS</span></a>
+
+    
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0" id="navigation-b54ff367bd-item-f46b25e947" data-cmp-data-layer="{&quot;navigation-b54ff367bd-item-f46b25e947&quot;:{&quot;@type&quot;:&quot;foundation/components/redirect&quot;,&quot;repo:modifyDate&quot;:&quot;2025-01-21T10:37:08Z&quot;,&quot;dc:title&quot;:&quot;KKR&quot;,&quot;xdm:linkURL&quot;:&quot;/content/kkr/language-masters/en&quot;,&quot;xdm:template&quot;:&quot;/conf/kkr/settings/wcm/templates/redirectpage&quot;}}" role="none">
+        
+    
+    <a href="https://media.kkr.com/" target="_blank" rel="noopener noreferrer" data-cmp-clickable="" class="cmp-navigation__item-link external-link" aria-label="MEDIA CENTER" role="link"><span class="menu-title">MEDIA CENTER</span></a>
+
+    
+
+        
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+            </div>
+            <!--            <div class="cmp_footer_subscribes"-->
+            <!--                data-sly-resource="subscribe">-->
+            <!--            </div>-->
+            <div class="cmp-footer__bottom-bar">
+                <div class="cmp-footer__bottom-bar-content">
+                    <div class="cmp-footer__nav-contacts">
+                        <div class="cmp-footer__nav-contacts-label">STAY CONNECTED:</div>
+                        <div class="cmp-footer__nav-external-pages">
+                            <ul>
+                                <li>
+                                    <a data-link-location="footerBottom" href="/contact" target="_self">CONTACT US</a>
+                                </li>
+                            </ul>
+<ul>
+                                <li>
+                                    <a data-link-location="footerBottom" href="/subscribe" target="_self">Subscribe</a>
+                                </li>
+                            </ul>
+<ul>
+                                <li>
+                                    <a data-link-location="footerBottom" href="/locations" target="_self">Locations</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="cmp-footer__communication">
+                            <div class="cmp-footer__social-links" data-link-location="footerBottom">
+
+<div class="cmp-social-links" data-cmp-data-layer="{&quot;social-links-b21f3139ee&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/social-links&quot;,&quot;repo:modifyDate&quot;:&quot;2024-03-06T20:23:37Z&quot;}}" id="social-links-b21f3139ee">
+    
+        <a id="-6248487278" data-cmp-clickable="" href="https://twitter.com/kkr_co" target="_blank" rel="noopener noreferrer" title="X" aria-label="fab fa-twitter"><i class="fab fa-twitter"></i></a>
+    
+        <a id="-dc405da823" data-cmp-clickable="" href="https://www.linkedin.com/company/kkr/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="fab fa-linkedin-in"><i class="fab fa-linkedin-in"></i></a>
+    
+        <a id="-7507447495" data-cmp-clickable="" href="https://www.youtube.com/@kohlbergkravisroberts" target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="fab fa-youtube"><i class="fab fa-youtube"></i></a>
+    
+</div>
+
+
+    
+
+</div>
+                        </div>
+                    </div>
+                    <div class="cmp-footer__copyright-links">
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="#ot-sdk-btn" target="_self">
+                                Manage Cookies
+                            </a>
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="/privacy-and-cookies" target="_self">
+                                Privacy and Cookies
+                            </a>
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="/terms-of-use" target="_self">
+                                Terms of Use
+                            </a>
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="/security-and-fraud-awareness" target="_self">
+                                Security and Fraud Awareness
+                            </a>
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="/disclosures" target="_self">
+                                Disclosures
+                            </a>
+                        
+                            <a class="cmp-footer__copyright-link" data-link-location="footerBottom" href="/accessibility-statement" target="_self">
+                                Accessibility
+                            </a>
+                        
+                    </div>
+                    <div class="cmp-footer__copyright">
+                        <div class="cmp-footer__copyright-text">
+                            © 2025 Kohlberg Kravis Roberts &amp; Co. L.P. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+                <div class="cmp-footer__logo">
+                    <a href="/" aria-label="Footer Logo" data-link-location="footerBottom">
+                        <svg width="115" height="28" viewBox="0 0 115 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.8164 28L12.7227 13.2658L4.51915 19.4915V28H0V0H4.51915V14.4983L23.5967 0H30.1096L16.1839 10.5951L31.6148 28H25.8164Z" fill="#49004B"></path>
+                            <path d="M68.1026 28L55.0098 13.2658L46.8035 19.4915V28H42.2835V0H46.8035V14.4983L65.8839 0H72.3958L58.4692 10.5951L73.9037 28H68.1026Z" fill="#49004B"></path>
+                            <path d="M109.764 28L102.391 17.3247H88.6136V28H84.1027V0H105.589C111.311 0 114.768 3.40303 114.768 8.81712C114.768 13.7641 111.759 16.398 107.695 17.0916L115 28.0009H109.764V28ZM110.144 8.81618C110.144 5.71985 108.295 4.2118 104.503 4.2118H88.6136V13.1063H104.909C108.295 13.1063 110.144 11.5605 110.144 8.81618Z" fill="#49004B"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+</footer>
+<div class="embedhtml contentfragment aem-GridColumn aem-GridColumn--default--12">
+
+<div class="cmp-embed-html" id="embedhtml-10b1d89383" data-cmp-data-layer="{&quot;embedhtml-10b1d89383&quot;:{&quot;@type&quot;:&quot;kkr-aem-base/components/content/embedhtml&quot;,&quot;repo:modifyDate&quot;:&quot;2023-10-04T11:47:03Z&quot;,&quot;dc:title&quot;:&quot;OneTrust Cookie Consent - Prod&quot;,&quot;elements&quot;:[{&quot;xdm:title&quot;:&quot;Body Content&quot;,&quot;xdm:text&quot;:&quot;<!-- OptanonConsentNoticeStart -->\n\n<script defer src=\&quot;https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\&quot;  type=\&quot;text/javascript\&quot; charset=\&quot;UTF-8\&quot; data-domain-script=\&quot;bca20a5b-a112-4fe6-a701-e0e080c9caef\&quot; ></script>\n<script type=\&quot;text/javascript\&quot;>\nfunction OptanonWrapper() { }\n</script>\n<!-- OptanonConsentNoticeEnd -->\n\n<!-- OptanonCookieSettingsButtonStart -->\n<button style=\&quot;display:none\&quot; id=\&quot;ot-sdk-btn\&quot; class=\&quot;ot-sdk-show-settings\&quot;>CookieSettings</button>\n<!-- OptanonCookieSettingsButtonEnd -->\n<script>\n  var link = document.querySelector('a[href=\&quot;#ot-sdk-btn\&quot;]');\n  if (link) {\n    link.addEventListener('click', function(event) {\n      event.preventDefault();\n      var targetId = link.getAttribute('href').substring(1);\n      var targetElement = document.getElementById(targetId);\n      if (targetElement) {\n        targetElement.click();\n      }\n    });\n  }\n</script>&quot;}]}}">
+    <!-- OptanonConsentNoticeStart -->
+
+<script defer="" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="bca20a5b-a112-4fe6-a701-e0e080c9caef"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OptanonConsentNoticeEnd -->
+
+<!-- OptanonCookieSettingsButtonStart -->
+<button style="display:none" id="ot-sdk-btn" class="ot-sdk-show-settings">CookieSettings</button>
+<!-- OptanonCookieSettingsButtonEnd -->
+<script>
+  var link = document.querySelector('a[href="#ot-sdk-btn"]');
+  if (link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      var targetId = link.getAttribute('href').substring(1);
+      var targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.click();
+      }
+    });
+  }
+</script>
+</div>
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+
+</div>
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+
+
+            
+    
+
+     
+
+    
+    
+<script src="/etc.clientlibs/kkr-aem-base/clientlibs/clientlib-dependencies.lc-200e8485667ff3b6a79d363506945f27-lc.min.js"></script>
+<script>_satellite["_runScript1"](function(event, target, Promise) {
+
+
+window.OptanonWrapper = function(){ 
+  
+  var performance = _satellite.getVar("onetrust_performance");
+  var functional  = _satellite.getVar("onetrust_functional");
+  var targeting   = _satellite.getVar("onetrust_targeting");
+  
+  _satellite.logger.log("page: OptanonWrapper Fired.");
+  
+
+  
+  if(performance){
+    
+    acceptWebSDK();
+   //Check if pageview has fired if not trigger a pageview
+     if(!window.BT){
+        window.BT=window.BT || {};
+        _satellite.track("consentpageview")
+        _satellite.track("consentdetermined")
+     }
+  }
+  
+  
+  
+}
+
+
+
+
+var acceptWebSDK = function(){
+  _satellite.logger.log("page: setting consent");
+  
+  alloy("setConsent", {
+    consent: [{
+      standard: "Adobe",
+      version: "2.0",
+      value: {
+        collect: {
+          val: "y"
+        }
+      }
+    }]
+  });
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//The Experience Manager extension in Launch is set to 'opt in'. This controls what the user is opt'd-in for:
+/*window.adobe_check_consent = function(){
+  if ( targeting ) {
+    window.adobe.optIn.approve(adobe.OptInCategories.AAM, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.ECID, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.TARGET, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.ADCLOUD, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.LIVEFYRE, false);
+  }
+  if ( performance ) {
+    window.adobe.optIn.approve(adobe.OptInCategories.ANALYTICS, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.CAMPAIGN, false);
+    window.adobe.optIn.approve(adobe.OptInCategories.MEDIA_ANALYTICS, false);
+  }
+}*/
+
+});</script><script src="/etc.clientlibs/kkr/clientlibs/clientlib-all.lc-91601062a60a024a223c9463fe32d5e9-lc.min.js"></script>
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+    
+
+
+
+
+
+        
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;94fdf39c3dcf803a&quot;,&quot;version&quot;:&quot;2025.6.2&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;token&quot;:&quot;4d6c4f2954e045a0ba774cd16d972147&quot;,&quot;b&quot;:1}" crossorigin="anonymous"></script>
+
+
+<script src="https://s7d6.scene7.com/s7viewers/html5/js/VideoViewer.js" type="text/javascript"></script><script src="https://s7d6.scene7.com/s7viewers/html5/js/SmartCropVideoViewer.js" type="text/javascript"></script><script>_satellite["_runScript2"](function(event, target, Promise) {
+window.bounteous=window.bountneous||{},window.bounteous.videos=window.bounteous.videos||[];var pollvideojs=function(){if(window.videojs&&document.querySelector("video-js")){var e=document.querySelector("video-js").id;window.videojs.getPlayer(e).ready((function(){var e=this;e.on("analytics-beacon",(function(e){"play_request"==e.params.event&&track(e,"play")})),e.on("timeupdate",(function(e){var t=e.target.player.cache_.currentTime/e.target.player.cache_.duration,o=Math.trunc(100*t,3);videoID=e.target.id,window.bounteous.videos[videoID]||(window.bounteous.videos[videoID]={percent_25:!1,percent_50:!1,percent_75:!1,percent_100:!1}),!window.bounteous.videos[videoID].percent_25&&o>25&&(window.bounteous.videos[videoID].percent_25=!0,track(e,"progress","25")),!window.bounteous.videos[videoID].percent_50&&o>50&&(window.bounteous.videos[videoID].percent_50=!0,track(e,"progress","50")),!window.bounteous.videos[videoID].percent_75&&o>75&&(window.bounteous.videos[videoID].percent_75=!0,track(e,"progress","75")),window.test2&&console.log(o),!window.bounteous.videos[videoID].percent_100&&o>90&&(window.bounteous.videos[videoID].percent_100=!0,track(e,"progress","100"))}))}))}else setTimeout(pollvideojs,500)};pollvideojs();var track=function(e,t,o){window.test1;var n=e.target.player.mediainfo.id,i=Math.trunc(e.target.player.cache_.currentTime),r=function(){if(e.target.querySelector("[id*='bar-title']"))return e.target.player.mediainfo.name||e.target.querySelector("[id*='bar-title']").innerText||e.target.player.id()}(),a={_experience:{analytics:{event1to100:{},customDimensions:{eVars:{}}}}};"progress"==t?("25"==o?watched_event="event8":"50"==o?watched_event="event9":"75"==o?watched_event="event10":"100"==o&&(watched_event="event11"),a._experience.analytics.event1to100[watched_event]={value:1}):"play"==t&&(a._experience.analytics.event1to100.event7={value:1}),a._experience.analytics.customDimensions.eVars.eVar23=r,a._experience.analytics.customDimensions.eVars.eVar24=n,a._experience.analytics.customDimensions.eVars.eVar25=String(i),a.web={},a.web.webInteraction={},a.web.webInteraction.type="other",alloy("sendEvent",{xdm:a}),_satellite.logger.log("[[Video]] : "+t+"<>"+o)};
+});</script><script>_satellite["_runScript3"](function(event, target, Promise) {
+window.kkrDataLayer?.timer?.ms&&(window.kkrDataLayer.timer.flag=!1,_satellite.setCookie("page_load_time:page",window.kkrDataLayer.timer.ms+"@@"+_satellite.getVar("page.name")));
+});</script></body></html>

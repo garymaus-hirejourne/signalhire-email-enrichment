@@ -1,0 +1,40 @@
+2025-09-01 08:00:53,433 - INFO - Starting complete wound specialist pipeline...
+2025-09-01 08:00:53,433 - INFO - STEP 1: Scraping wound care specialists...
+2025-09-01 08:00:53,435 - INFO - Starting full scrape for 5 ZIP codes
+2025-09-01 08:00:53,435 - INFO - Starting Healthgrades scraping...
+2025-09-01 08:00:56,828 - INFO - Scraping ZIP code: 01810
+2025-09-01 08:01:06,652 - INFO - Scraping page 1 for ZIP 01810
+2025-09-01 08:01:17,010 - WARNING - No results found for ZIP 01810, page 1
+2025-09-01 08:01:19,010 - INFO - Scraping ZIP code: 01826
+2025-09-01 08:01:28,309 - INFO - Scraping page 1 for ZIP 01826
+2025-09-01 08:01:38,633 - WARNING - No results found for ZIP 01826, page 1
+2025-09-01 08:01:40,634 - INFO - Scraping ZIP code: 01830
+2025-09-01 08:01:50,098 - INFO - Scraping page 1 for ZIP 01830
+2025-09-01 08:02:00,393 - WARNING - No results found for ZIP 01830, page 1
+2025-09-01 08:02:02,394 - INFO - Scraping ZIP code: 01832
+2025-09-01 08:02:11,916 - INFO - Scraping page 1 for ZIP 01832
+2025-09-01 08:02:22,226 - WARNING - No results found for ZIP 01832, page 1
+2025-09-01 08:02:24,226 - INFO - Scraping ZIP code: 01840
+2025-09-01 08:02:33,487 - INFO - Scraping page 1 for ZIP 01840
+2025-09-01 08:02:43,761 - WARNING - No results found for ZIP 01840, page 1
+2025-09-01 08:02:48,374 - INFO - Healthgrades scraping complete. Found 0 specialists
+2025-09-01 08:02:48,374 - INFO - Starting Vitals scraping...
+2025-09-01 08:02:49,766 - INFO - Scraping Vitals for ZIP code: 01810
+2025-09-01 08:02:58,040 - INFO - Scraping Vitals for ZIP code: 01826
+2025-09-01 08:03:03,315 - INFO - Scraping Vitals for ZIP code: 01830
+2025-09-01 08:03:08,401 - INFO - Scraping Vitals for ZIP code: 01832
+2025-09-01 08:03:13,506 - INFO - Scraping Vitals for ZIP code: 01840
+2025-09-01 08:03:21,089 - INFO - Vitals scraping complete. Found 0 specialists
+2025-09-01 08:03:21,089 - INFO - Scraping hospital directories...
+2025-09-01 08:03:22,446 - INFO - Scraping Massachusetts General Hospital
+2025-09-01 08:03:29,557 - INFO - Scraping Brigham and Women's Hospital
+2025-09-01 08:03:36,255 - INFO - Scraping Beth Israel Deaconess Medical Center
+2025-09-01 08:03:47,669 - INFO - Deduplicated 0 -> 0 specialists
+2025-09-01 08:03:47,669 - WARNING - No specialists to save
+2025-09-01 08:03:47,696 - INFO - Prepared 0 records for enrichment: wound_specialist_campaign\scraped_data\wound_specialists_for_enrichment.csv
+2025-09-01 08:03:47,697 - INFO - Scraping complete!
+2025-09-01 08:03:47,697 - INFO - Total specialists found: 0
+2025-09-01 08:03:47,697 - INFO - Raw data saved to: None
+2025-09-01 08:03:47,697 - INFO - Enrichment file ready: wound_specialist_campaign\scraped_data\wound_specialists_for_enrichment.csv
+2025-09-01 08:03:47,697 - INFO - Scraping complete: 0 specialists found
+2025-09-01 08:03:47,697 - ERROR - No specialists found during scraping. Aborting pipeline.

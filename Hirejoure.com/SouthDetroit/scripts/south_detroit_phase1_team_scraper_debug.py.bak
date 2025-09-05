@@ -1,0 +1,1341 @@
+from playwright.sync_api import sync_playwright
+import re
+from typing import List, Dict, Optional
+import requests
+from bs4 import BeautifulSoup
+import logging
+import os
+import time
+from pathlib import Path
+from typing import List, Dict, Optional, Union
+import random
+from datetime import datetime
+import json
+
+# Constants for rate limiting
+THROTTLE_ERRORS = [
+    'Too Many Requests',
+    'Rate limit exceeded',
+    '429',
+    '503',
+    '504',
+    'net::ERR_HTTP2_PROTOCOL_ERROR',
+    'net::ERR_CONNECTION_RESET',
+    'net::ERR_CONNECTION_TIMED_OUT'
+]
+
+# Rate limiting constants
+MIN_REQUEST_INTERVAL = 5  # Minimum seconds between requests
+MAX_REQUEST_INTERVAL = 10  # Maximum seconds between requests
+RANDOM_DELAY = 3  # Random delay between requests
+MAX_RETRIES = 5  # Maximum number of retries for failed requests
+RETRY_DELAY = 5  # Base seconds to wait between retries
+MAX_BACKOFF = 30  # Maximum backoff time in seconds
+
+# Parallel processing constants
+MAX_WORKERS = 3  # Maximum concurrent workers
+BATCH_SIZE = 5  # Number of records to process in parallel
+ERROR_RETRIES = 3  # Number of retries for errors
+ERROR_DELAY = 10  # Delay between error retries
+
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('scraper.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class ContactScraper:
+    def __init__(self, hunter_api_key=None, serpapi_key=None):
+        """Initialize the scraper with API keys"""
+        self.hunter_api_key = hunter_api_key
+        self.serpapi_key = serpapi_key
+        self.seen_contacts = set()
+        
+        # Initialize rate limiting
+        self.last_request_time = 0.0  # Initialize to 0.0 to avoid NoneType errors
+        self.backoff_time = RETRY_DELAY
+        self.min_request_interval = 1.5  # Minimum time between requests in seconds
+        
+        # Initialize API clients if keys are provided
+        self.hunter_client = None
+        self.serpapi_client = None
+        
+        if hunter_api_key:
+            try:
+                from hunter import HunterClient
+                self.hunter_client = HunterClient(hunter_api_key)
+            except ImportError:
+                logger.warning("Hunter API client not available")
+            except Exception as e:
+                logger.error(f"Failed to initialize Hunter client: {e}")
+                
+        if serpapi_key:
+            try:
+                from serpapi import GoogleSearch
+                self.serpapi_client = GoogleSearch({"api_key": serpapi_key})
+            except ImportError:
+                logger.warning("SerpAPI client not available")
+            except Exception as e:
+                logger.error(f"Failed to initialize SerpAPI client: {e}")
+                
+        self.debug_dir = Path("debug_dumps")
+        self.debug_dir.mkdir(exist_ok=True)
+        self.results = []
+
+    def rate_limit(self):
+        """Implement rate limiting between requests"""
+        current_time = time.time()
+        
+        # If this is our first request, just set the time and return
+        if self.last_request_time is None:
+            self.last_request_time = current_time
+            return
+
+        elapsed = current_time - self.last_request_time
+        
+        # If we're too fast, wait
+        if elapsed < self.min_request_interval:
+            wait_time = self.min_request_interval - elapsed
+            logger.debug(f"Rate limiting: waiting {wait_time:.2f}s")
+            time.sleep(wait_time)
+
+        # Update last request time
+        self.last_request_time = current_time
+
+    def validate_name(self, name: str) -> bool:
+        """Validate if a name is a plausible two-part name"""
+        if not name or len(name.strip()) < 2:
+            print(f"Invalid name: empty or too short ({name})")
+            return False
+            
+        # Normalize name by removing extra whitespace
+        name = name.strip()
+        
+        # Check for common non-name patterns
+        non_name_patterns = [
+            # Common UI/Navigation elements
+            'team', 'join', 'board', 'about', 'contact', 'footer',
+            'menu', 'nav', 'header', 'footer', 'copyright',
+            'terms', 'privacy', 'policy', 'sitemap',
+            'overview', 'directory', 'staff', 'members',
+            
+            # Common title/position words
+            'leadership', 'executive', 'management',
+            'lead', 'head', 'chair', 'director', 'manager',
+            'coordinator', 'supervisor', 'assistant', 'associate',
+            
+            # Common conjunctions and articles
+            'our', 'the', 'and', 'for', 'with', 'by', 'from', 'at',
+            'in', 'on', 'to', 'of', 'as', 'but', 'or', 'not', 'all',
+            
+            # Common adjectives
+            'any', 'some', 'few', 'many', 'more', 'less', 'new', 'old',
+            'big', 'small', 'latest', 'news', 'events', 'blog',
+            
+            # Common directional words
+            'home', 'index', 'main', 'top', 'bottom', 'up', 'down',
+            'next', 'prev', 'previous', 'back', 'forward', 'continue',
+            
+            # Common action verbs
+            'start', 'end', 'begin', 'finish', 'complete', 'done',
+            'open', 'close', 'show', 'hide', 'expand', 'collapse',
+            'toggle', 'switch', 'change', 'update', 'modify', 'edit',
+            'add', 'remove', 'delete', 'clear', 'reset', 'refresh',
+            'reload', 'submit', 'save', 'cancel', 'ok', 'yes', 'no',
+            
+            # Common agreement words
+            'agree', 'disagree', 'accept', 'reject', 'approve', 'deny',
+            'confirm', 'verify', 'validate', 'check', 'test', 'search',
+            
+            # Common quantifiers
+            'find', 'filter', 'sort', 'order', 'rank', 'rate', 'score',
+            'count', 'number', 'amount', 'quantity', 'size', 'length',
+            'width', 'height', 'depth', 'weight', 'volume', 'area',
+            
+            # Common time-related words
+            'space', 'time', 'date', 'year', 'month', 'day', 'hour',
+            'minute', 'second', 'week', 'month', 'quarter', 'semester',
+            'year', 'decade', 'century', 'millennium', 'era', 'epoch',
+            
+            # Common classification words
+            'age', 'period', 'phase', 'stage', 'level', 'grade', 'rank',
+            'class', 'category', 'type', 'kind', 'sort', 'variety',
+            'species', 'genus', 'family', 'order', 'class', 'phylum',
+            'kingdom', 'domain', 'system', 'structure', 'organization',
+            
+            # Common grouping words
+            'group', 'set', 'collection', 'series', 'sequence', 'pattern',
+            'design', 'layout', 'format', 'style', 'theme', 'color',
+            'shape', 'form', 'figure', 'image', 'picture', 'photo',
+            'video', 'audio', 'sound', 'music', 'voice', 'speech',
+            'text', 'word', 'sentence', 'paragraph', 'chapter', 'section',
+            'part', 'piece', 'portion', 'segment', 'section', 'division',
+            
+            # Common action words
+            'split', 'break', 'cut', 'divide', 'separate', 'split',
+            'join', 'connect', 'link', 'tie', 'bind', 'attach', 'fasten',
+            'secure', 'lock', 'unlock', 'open', 'close', 'start', 'stop',
+            
+            # Common process words
+            'continue', 'pause', 'resume', 'restart',
+            'reset', 'clear', 'clean', 'empty', 'fill', 'load', 'unload',
+            'download', 'upload', 'transfer', 'move', 'copy', 'paste',
+            'cut', 'delete', 'remove', 'clear', 'clean', 'purge', 'erase',
+            'wipe', 'clear', 'empty', 'vacate', 'evacuate', 'empty',
+            
+            # Common null/empty words
+            'void', 'null', 'zero', 'blank', 'empty',
+            
+            # Company-like patterns
+            'inc', 'ltd', 'corp', 'co', 'company',
+            'llc', 'plc', 'group', 'associates',
+            'holdings', 'enterprises', 'solutions',
+            'services', 'products', 'technologies',
+            'systems', 'designs', 'consulting',
+            'management', 'investment', 'finance',
+            'capital', 'fund', 'trust', 'bank',
+            'insurance', 'security', 'wealth', 'asset',
+            'portfolio', 'risk', 'compliance', 'audit',
+            'legal', 'tax', 'accounting', 'hr', 'it',
+            'marketing', 'sales', 'operations', 'strategy',
+            'planning', 'development', 'research', 'analysis',
+            'consulting', 'advisory', 'support', 'service',
+            'customer', 'client', 'partner', 'supplier',
+            'vendor', 'provider', 'agency', 'broker',
+            'dealer', 'distributor', 'retailer', 'wholesaler',
+            'manufacturer', 'producer'
+        ]
+        if any(word.lower() in name.lower() for word in non_name_patterns):
+            logger.debug(f"Invalid name: looks like non-name pattern ({name})")
+            return False
+
+        # Handle names with titles by trying to split them
+        # Common title patterns to look for
+        title_patterns = [
+            r'\b(?:director|vice|president|manager|analyst|associate|partner|head of|chief|officer|executive|senior|junior|lead|principal)\b',
+            r'\b(?:global|head of|chief|senior|junior|lead|principal)\b',
+            r'\b(?:of|at|for|in)\b'
+        ]
+        
+        # Try to split name from title
+        title = None
+        for pattern in title_patterns:
+            match = re.search(pattern, name.lower())
+            if match:
+                # Split name and title
+                name_parts = name.split(match.group(0))
+                if len(name_parts) > 1:
+                    name = name_parts[0].strip()
+                    title = match.group(0).strip()
+                    break
+
+        # Check for company-like patterns
+        company_patterns = [
+            'inc', 'ltd', 'corp', 'co', 'company',
+            'llc', 'plc', 'group', 'associates',
+            'holdings', 'enterprises', 'solutions',
+            'services', 'products', 'technologies',
+            'systems', 'designs', 'consulting',
+            'management', 'investment', 'finance',
+            'capital', 'fund', 'trust', 'bank',
+            'insurance', 'security', 'wealth', 'asset',
+            'portfolio', 'risk', 'compliance', 'audit',
+            'legal', 'tax', 'accounting', 'hr', 'it',
+            'marketing', 'sales', 'operations', 'strategy',
+            'planning', 'development', 'research', 'analysis',
+            'consulting', 'advisory', 'support', 'service',
+            'customer', 'client', 'partner', 'supplier',
+            'vendor', 'provider', 'agency', 'broker',
+            'dealer', 'distributor', 'retailer', 'wholesaler',
+            'manufacturer', 'producer'
+        ]
+        if any(word.lower() in name.lower() for word in company_patterns):
+            logger.debug(f"Invalid name: looks like company name ({name})")
+            return False
+
+        # Split name into parts and validate each part
+        parts = name.split()
+        if len(parts) < 1:
+            logger.debug(f"Invalid name: must have at least one part ({name})")
+            return False
+
+        # Handle names with middle initials
+        if len(parts) > 2:
+            # Try to combine first and middle names
+            first_name = ' '.join(parts[:-1]).strip()
+            last_name = parts[-1].strip()
+        else:
+            first_name = parts[0].strip()
+            last_name = parts[-1].strip() if len(parts) > 1 else ''
+
+        # Check each part individually
+        for part in [first_name, last_name]:
+            if not part:  # Allow empty last name for single names
+                continue
+                
+            # Must be at least 2 characters
+            if len(part) < 2:
+                logger.debug(f"Invalid name: part too short ({name})")
+                return False
+
+            # Must contain at least one letter
+            if not any(c.isalpha() for c in part):
+                logger.debug(f"Invalid name: no letters ({name})")
+                return False
+
+            # Must not contain numbers
+            if any(c.isdigit() for c in part):
+                logger.debug(f"Invalid name: contains numbers ({name})")
+                return False
+
+            # Must have proper capitalization
+            if not any(c.isupper() for c in part):
+                logger.debug(f"Invalid name: no uppercase letters ({name})")
+                return False
+
+        # Check for common words in name parts
+        common_words = [
+            'the', 'and', 'or', 'of', 'for', 'with', 'at', 'by', 'in',
+            'on', 'to', 'from', 'about', 'contact', 'team', 'privacy',
+            'sitemap', 'copyright', 'menu', 'footer', 'header', 'nav',
+            'search', 'login', 'admin', 'user', 'account', 'profile'
+        ]
+        if any(word.lower() in common_words for word in [first_name, last_name]):
+            logger.debug(f"Invalid name: contains common words ({name})")
+            return False
+
+        # Check for special characters
+        allowed_special = ['-', '.', ' ']
+        for part in [first_name, last_name]:
+            if not part:  # Skip empty parts
+                continue
+                
+            if any(c not in allowed_special and not c.isalnum() for c in part):
+                logger.debug(f"Invalid name: contains invalid characters ({name})")
+                return False
+
+        # If we found a title, update the contact
+        if title:
+            # Update the contact with the extracted title
+            if 'Title' not in self.current_contact:
+                self.current_contact['Title'] = title
+            # Remove title from name
+            name = name.replace(title, '').strip()
+
+        return True
+
+    def validate_title(self, title: str) -> bool:
+        """Validate if a title is a plausible professional title"""
+        if not title or not isinstance(title, str):
+            logger.debug(f"Invalid title: empty or not a string ({title})")
+            return False
+
+        # Clean title
+        title = title.strip()
+        if not title:
+            logger.debug(f"Invalid title: empty after cleaning ({title})")
+            return False
+
+        # Convert to lowercase once and reuse
+        title_lower = title.lower()
+        
+        # Check for minimum length
+        if len(title) < 3:
+            logger.debug(f"Invalid title: too short ({title})")
+            return False
+
+        # Check for proper capitalization
+        if not any(c.isupper() for c in title):
+            logger.debug(f"Invalid title: no uppercase letters ({title})")
+            return False
+
+        # Check for professional keywords
+        professional_keywords = [
+            'director', 'vice', 'president', 'manager', 'analyst',
+            'associate', 'partner', 'head of', 'chief', 'officer',
+            'executive', 'senior', 'junior', 'lead', 'principal',
+            'engineer', 'scientist', 'developer', 'specialist',
+            'consultant', 'adviser', 'advisor', 'strategist',
+            'researcher', 'analyst', 'coordinator', 'coo', 'cto',
+            'cfo', 'cmo', 'cio', 'vp'
+        ]
+
+        # Must contain at least one professional keyword
+        if not any(keyword in title_lower for keyword in professional_keywords):
+            logger.debug(f"Invalid title: no professional keywords ({title})")
+            return False
+
+        # Check for common section headers
+        section_headers = [
+            'about', 'team', 'contact', 'privacy', 'sitemap',
+            'footer', 'header', 'nav', 'menu', 'search',
+            'login', 'admin', 'user', 'account', 'profile'
+        ]
+
+        if any(header in title_lower for header in section_headers):
+            logger.debug(f"Invalid title: looks like section header ({title})")
+            return False
+
+        # Check for common non-title patterns
+        non_title_patterns = [
+            'inc', 'ltd', 'corp', 'co', 'company', 'group', 'llc',
+            'about us', 'contact us', 'privacy policy', 'terms of use',
+            'sitemap', 'footer', 'header', 'nav', 'menu',
+            'login', 'register', 'sign up', 'sign in', 'logout',
+            'home', 'index', 'main', 'top', 'bottom',
+            'up', 'down', 'next', 'prev', 'previous',
+            'back', 'forward', 'continue', 'start', 'end'
+        ]
+
+        if any(pattern in title_lower for pattern in non_title_patterns):
+            logger.debug(f"Invalid title: looks like non-title pattern ({title})")
+            return False
+
+        return True
+
+    def validate_contact(self, contact: dict) -> bool:
+        """Validate contact information integrity"""
+        name = contact.get('Full Name', '')
+        title = contact.get('Title', '')
+        company = contact.get('Company', '')
+        
+        # Name must be present and valid
+        if not name or not isinstance(name, str):
+            logger.debug(f"Invalid contact: missing or invalid name")
+            return False
+            
+        # Validate name
+        if not self.validate_name(name):
+            return False
+            
+        # Title is optional but if present, must be valid
+        if title and not isinstance(title, str):
+            logger.debug(f"Invalid contact: invalid title format")
+            return False
+            
+        if title and not self.validate_title(title):
+            return False
+            
+        # Check for duplicate entries
+        try:
+            # Create a unique identifier for this contact
+            contact_id = f"{company.lower()}_{name.lower()}_{title.lower() if title else 'no_title'}"
+            
+            # Check if we've already seen this contact
+            if contact_id in self.seen_contacts:
+                logger.debug(f"Duplicate contact: {contact_id}")
+                return False
+                
+            # Add to seen contacts
+            self.seen_contacts.add(contact_id)
+            
+            return True
+        except AttributeError as e:
+            logger.error(f"Error creating contact ID: {e}")
+            return False
+                
+        # Check for duplicate entries
+        # Create a unique identifier for this contact
+        contact_id = f"{company.lower()}_{name.lower()}_{title.lower() if title else 'no_title'}"
+        
+        # Check if we've already seen this contact
+        if contact_id in self.seen_contacts:
+            return False
+            
+        # Add to seen contacts
+        self.seen_contacts.add(contact_id)
+        
+        # Update contact with cleaned title if present
+        if title:
+            contact['Title'] = title
+        
+        return True
+
+    def extract_name(self, title: str) -> tuple:
+        """Extract first and last name from a title string"""
+        # Basic name patterns
+        patterns = [
+            r"^(\w+\s+\w+)[,\s]+(\w+)",  # Last, First
+            r"^(\w+)[,\s]+(\w+\s+\w+)",  # First, Last Last
+            r"^(\w+\.?\s+)?(\w+)[,\s]+(\w+\.?\s+)?(\w+)",  # First M., Last
+            r"^(\w+\.?\s+)?(\w+)\s+(\w+\.?\s+)?(\w+)",  # First M. Last
+            r"^(\w+\.?\s+)?(\w+\s+\w+\.?\s+)?(\w+)",  # First M. Last Last
+            r"^(\w+)\s+(\w+\.?\s+)?(\w+\.?\s+)?(\w+)",  # First Last M. Last
+            r"^(\w+)\s+(\w+\.?\s+)?(\w+\.?\s+)?(\w+)"  # First Last
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, title, re.IGNORECASE)
+            if match:
+                # Get all groups that matched
+                groups = [g for g in match.groups() if g]
+                if len(groups) >= 2:
+                    # First name is usually the first group
+                    first_name = groups[0].strip()
+                    # Last name is usually the last group
+                    last_name = groups[-1].strip()
+                    return first_name, last_name
+        
+        # If no match, return empty names
+        return "", ""
+
+    def find_linkedin_url(self, page, text: str) -> Optional[str]:
+        """Search for LinkedIn URLs in the text and page"""
+        # Direct URL in text
+        linkedin_url = re.search(r'linkedin\.com/in/[\w-]+', text, re.IGNORECASE)
+        if linkedin_url:
+            return f"https://www.linkedin.com/in/{linkedin_url.group(0)}"
+            
+        # JavaScript variables
+        linkedin_data = page.evaluate("""
+            () => {
+                if (window.__linkedinData) {
+                    return window.__linkedinData.url;
+                }
+                return null;
+            }
+        """)
+        if linkedin_data:
+            return linkedin_data
+            
+        # Data attributes
+        elements = page.locator("[data-linkedin-url], [data-profile-url]").all()
+        for element in elements:
+            url = element.get_attribute("data-linkedin-url") or element.get_attribute("data-profile-url")
+            if url:
+                return url
+                
+        return None
+
+    def find_email(self, page, text: str) -> Optional[str]:
+        """Search for email addresses in the text and page"""
+        # Email patterns
+        email_patterns = [
+            r"[\w\.-]+@[\w\.-]+\.[a-zA-Z]{2,}",  # Standard email
+            r"[\w\.-]+\s+at\s+[\w\.-]+\s+dot\s+\w+",  # Obfuscated email
+            r"[\w\.-]+\s+at\s+[\w\.-]+\.[a-zA-Z]{2,}"  # Partially obfuscated email
+        ]
+        
+        for pattern in email_patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                email = match.group(0)
+                if self.validate_email(email):
+                    return email
+                    
+        # Try to get email from API
+        try:
+            first_name, last_name = self.extract_name(text)
+            if first_name and last_name:
+                domain = re.search(r'@([\w\.-]+\.[a-zA-Z]{2,})', text)
+                if domain:
+                    email = self.get_hunter_email(first_name, last_name, domain.group(1))
+                    if email:
+                        return email
+        except Exception as e:
+            logger.error(f"Error getting email from API: {e}")
+            
+        return None
+
+    def validate_email(self, email: str) -> bool:
+        """Validate email format and common patterns"""
+        if not email:
+            return False
+            
+        # Check basic email format
+        if not re.match(r"[\w\.-]+@[\w\.-]+\.[a-zA-Z]{2,}", email):
+            return False
+            
+        # Check for common invalid patterns
+        invalid_patterns = [
+            "example.com",
+            "domain.com",
+            "test.com",
+            "invalid.com",
+            "no-reply",
+            "noreply",
+            "donotreply",
+            "info@",
+            "contact@",
+            "support@",
+            "admin@"
+        ]
+        
+        if any(pattern in email.lower() for pattern in invalid_patterns):
+            return False
+            
+        return True
+
+    def find_phone(self, page, text: str) -> Optional[str]:
+        """Search for phone numbers in the text and page"""
+        # Phone patterns
+        phone_patterns = [
+            r'\+?\d{1,3}?[-.\s]?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}',  # International format
+            r'\(\d{3}\)\s?\d{3}-\d{4}',  # (123) 456-7890
+            r'\d{3}\.\d{3}\.\d{4}',  # 123.456.7890
+            r'\d{3}-\d{3}-\d{4}',  # 123-456-7890
+            r'\d{10}'  # 1234567890
+        ]
+        
+        for pattern in phone_patterns:
+            match = re.search(pattern, text)
+            if match:
+                phone = match.group(0)
+                # Format phone number
+                phone = re.sub(r'[^\d]', '', phone)
+                if len(phone) == 10:
+                    return f"({phone[:3]}) {phone[3:6]}-{phone[6:]}"
+                elif len(phone) == 11 and phone[0] == '1':
+                    return f"({phone[1:4]}) {phone[4:7]}-{phone[7:]}"
+        
+        return None
+
+    def get_hunter_email(self, first_name: str, last_name: str, company_domain: str) -> Optional[str]:
+        """Use Hunter.io API to find email pattern and generate email"""
+        try:
+            url = f"https://api.hunter.io/v2/email-finder"
+            params = {
+                'first_name': first_name,
+                'last_name': last_name,
+                'domain': company_domain,
+                'api_key': self.hunter_api_key
+            }
+            
+            response = requests.get(url, params=params)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('data', {}).get('email'):
+                    return data['data']['email']
+        except Exception as e:
+            logger.error(f"Error getting email from Hunter.io: {e}")
+        
+        return None
+
+    def save_debug_dump(self, page, filename: str, error: bool = False):
+        """Save page content for debugging"""
+        try:
+            # Create debug directory if it doesn't exist
+            debug_dir = self.debug_dir / ('errors' if error else 'success')
+            debug_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Save HTML
+            html_path = debug_dir / f"{filename}.html"
+            with open(html_path, 'w', encoding='utf-8') as f:
+                f.write(page.content())
+                
+            # Save screenshot
+            screenshot_path = debug_dir / f"{filename}.png"
+            page.screenshot(path=screenshot_path)
+            
+            logger.info(f"Saved debug dump to {debug_dir}")
+            
+        except Exception as e:
+            logger.error(f"Error saving debug dump: {e}")
+
+    def scrape_team_page(self, company_name: str, url: str, limit: int = 150) -> list:
+        """Scrape team member blocks from company web page"""
+        results = []
+        start_time = time.time()
+        
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page()
+                
+                try:
+                    # Add retry logic with exponential backoff for page loading
+                    max_retries = 5
+                    for attempt in range(max_retries):
+                        try:
+                            logger.debug(f"Attempting to load page for {company_name} (attempt {attempt + 1}/{max_retries})")
+                            page.goto(url, timeout=60000)
+                            page.wait_for_load_state("networkidle", timeout=30000)
+                            break
+                        except Exception as e:
+                            error_msg = str(e).lower()
+                            if any(throttle.lower() in error_msg for throttle in THROTTLE_ERRORS):
+                                # If throttled, use exponential backoff
+                                backoff_time = min(MAX_BACKOFF, RETRY_DELAY * (2 ** attempt))
+                                logger.warning(f"Throttled for {company_name}, retrying in {backoff_time}s ({attempt + 1}/{max_retries})")
+                                time.sleep(backoff_time)
+                                continue
+                            elif attempt == max_retries - 1:
+                                logger.error(f"Max retries reached for {company_name}: {e}")
+                                raise
+                            else:
+                                logger.warning(f"Page load failed for {company_name}, retrying ({attempt + 1}/{max_retries}): {e}")
+                                time.sleep(RETRY_DELAY)
+                                continue
+                            
+                    # Get all text blocks
+                    blocks = page.locator("section, div, li, article").all()[:limit]
+                    logger.debug(f"Found {len(blocks)} blocks for {company_name}")
+                    
+                    for block in blocks:
+                        try:
+                            text = block.inner_text()
+                            if not text:
+                                continue
+                                
+                            text = text.strip()
+                            if not text:
+                                continue
+                                
+                            # Skip if text is too short
+                            if len(text) < 20:
+                                continue
+                                
+                            # Skip if looks like HTML content
+                            if not isinstance(text, str):
+                                continue
+                                
+                            text_lower = text.lower()
+                            
+                            # Skip if looks like navigation or footer
+                            if any(word in text_lower for word in ['menu', 'footer', 'header', 'nav', 'footer', 'sitemap']):
+                                continue
+                                
+                            # Skip if looks like a title or section header
+                            if any(word in text_lower for word in ['about', 'team', 'contact', 'privacy', 'sitemap', 'copyright']):
+                                continue
+                                
+                            # Try to extract name and title
+                            name = title = None
+                            
+                            # Try to extract name from text
+                            if name is None:
+                                name = self.extract_name(text)
+                                if name and not isinstance(name, str):
+                                    logger.debug(f"Invalid name format extracted from text: {name}")
+                                    continue
+                                
+                            # Try to extract title from text
+                            if title is None:
+                                # Look for common title patterns
+                                title_patterns = [
+                                    r'\b(?:director|vice|president|manager|analyst|associate|partner|head of|chief|officer|executive|senior|junior|lead|principal|engineer|scientist|developer|specialist|consultant|adviser|advisor|strategist|researcher|coordinator|coo|cto|cfo|cmo|cio|vp)\b',
+                                    r'\b(?:of|in|at|for|with|on|from|to|by|at|the|an|a)\b',
+                                    r'\b(?:team|group|division|department|unit|practice|business|product|service|solution|platform|technology|data|digital|cloud|ai|machine learning|software)\b'
+                                ]
+                                
+                                # Combine patterns with optional spaces and punctuation
+                                title_pattern = r'(?:' + '|'.join(title_patterns) + r')'
+                                match = re.search(title_pattern, text_lower)
+                                if match:
+                                    title = text[match.start():match.end()].strip()
+                                
+                            # Skip if we couldn't extract both name and title
+                            if not name or not title:
+                                continue
+                                
+                            # First try to split by common separators
+                            if ',' in text:
+                                parts = [p.strip() for p in text.split(',')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by vertical bar
+                            if '|' in text:
+                                parts = [p.strip() for p in text.split('|')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by dash
+                            if '-' in text:
+                                parts = [p.strip() for p in text.split('-')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by colon
+                            if ':' in text:
+                                parts = [p.strip() for p in text.split(':')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by newlines
+                            if '\n' in text:
+                                parts = [p.strip() for p in text.split('\n')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by period
+                            if '.' in text:
+                                parts = [p.strip() for p in text.split('.')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by semicolon
+                            if ';' in text:
+                                parts = [p.strip() for p in text.split(';')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by forward slash
+                            if '/' in text:
+                                parts = [p.strip() for p in text.split('/')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by backslash
+                            if r'\' in text:
+                                parts = [p.strip() for p in text.split(r'\\')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by parentheses
+                            if '(' in text and ')' in text:
+                                name = text[:text.find('(')].strip()
+                                title = text[text.find('(')+1:text.find(')')].strip()
+                                continue
+
+                            # Try splitting by brackets
+                            if '[' in text and ']' in text:
+                                name = text[:text.find('[')].strip()
+                                title = text[text.find('[')+1:text.find(']')].strip()
+                                continue
+
+                            # Try splitting by braces
+                            if '{' in text and '}' in text:
+                                name = text[:text.find('{')].strip()
+                                title = text[text.find('{')+1:text.find('}')].strip()
+                                continue
+
+                            # Try splitting by angle brackets
+                            if '<' in text and '>' in text:
+                                name = text[:text.find('<')].strip()
+                                title = text[text.find('<')+1:text.find('>')].strip()
+                                continue
+
+                            # Try splitting by quotation marks
+                            if '"' in text:
+                                parts = [p.strip() for p in text.split('"')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by apostrophes
+                            if "'" in text:
+                                parts = [p.strip() for p in text.split("'")]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by spaces
+                            if ' ' in text:
+                                parts = [p.strip() for p in text.split()]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by tabs
+                            if '\t' in text:
+                                parts = [p.strip() for p in text.split('\t')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by multiple spaces
+                            if '  ' in text:
+                                parts = [p.strip() for p in text.split('  ')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by special characters
+                            special_chars = ['•', '·']  # Simplified list for now
+                            for char in special_chars:
+                                if char in text:
+                                    parts = [p.strip() for p in text.split(char)]
+                                    if len(parts) >= 2:
+                                        name = parts[0]
+                                        title = ' '.join(parts[1:])
+                                        continue
+
+                            # Create contact dictionary
+                            contact = {
+                                'Company': company_name,
+                                'Full Name': name,
+                                'Title': title
+                            }
+
+                            # Validate contact
+                            if self.validate_contact(contact):
+                                results.append(contact)
+                                logger.debug(f"Valid contact found: {contact}")
+                            else:
+                                logger.debug(f"Invalid contact skipped: {contact}")
+                                
+                        except Exception as e:
+                            logger.error(f"Error processing block for {company_name}: {e}")
+                            continue
+                            
+                finally:
+                    page.close()
+                    browser.close()
+                    
+        except Exception as e:
+            logger.error(f"Error scraping {company_name}: {e}")
+            return []
+            
+        end_time = time.time()
+        logger.info(f"Scraped {len(results)} contacts for {company_name} in {end_time - start_time:.2f}s")
+        return results
+
+                            # Try splitting by vertical bar
+                            if '|' in text:
+                                parts = [p.strip() for p in text.split('|')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by dash
+                            if '-' in text:
+                                parts = [p.strip() for p in text.split('-')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by colon
+                            if ':' in text:
+                                parts = [p.strip() for p in text.split(':')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by newlines
+                            if '\n' in text:
+                                parts = [p.strip() for p in text.split('\n')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by period
+                            if '.' in text:
+                                parts = [p.strip() for p in text.split('.')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by semicolon
+                            if ';' in text:
+                                parts = [p.strip() for p in text.split(';')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by forward slash
+                            if '/' in text:
+                                parts = [p.strip() for p in text.split('/')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by backslash
+                            if r'\' in text:
+                                parts = [p.strip() for p in text.split(r'\\')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by parentheses
+                            if '(' in text and ')' in text:
+                                name = text[:text.find('(')].strip()
+                                title = text[text.find('(')+1:text.find(')')].strip()
+                                continue
+
+                            # Try splitting by brackets
+                            if '[' in text and ']' in text:
+                                name = text[:text.find('[')].strip()
+                                title = text[text.find('[')+1:text.find(']')].strip()
+                                continue
+
+                            # Try splitting by braces
+                            if '{' in text and '}' in text:
+                                name = text[:text.find('{')].strip()
+                                title = text[text.find('{')+1:text.find('}')].strip()
+                                continue
+
+                            # Try splitting by angle brackets
+                            if '<' in text and '>' in text:
+                                name = text[:text.find('<')].strip()
+                                title = text[text.find('<')+1:text.find('>')].strip()
+                                continue
+
+                            # Try splitting by quotation marks
+                            if '"' in text:
+                                parts = [p.strip() for p in text.split('"')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by apostrophes
+                            if "'" in text:
+                                parts = [p.strip() for p in text.split("'")]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by spaces
+                            if ' ' in text:
+                                parts = [p.strip() for p in text.split()]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by tabs
+                            if '\t' in text:
+                                parts = [p.strip() for p in text.split('\t')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by multiple spaces
+                            if '  ' in text:
+                                parts = [p.strip() for p in text.split('  ')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by special characters
+                            special_chars = ['•', '·']  # Simplified list for now
+                            for char in special_chars:
+                                if char in text:
+                                    parts = [p.strip() for p in text.split(char)]
+                                    if len(parts) >= 2:
+                                        name = parts[0]
+                                        title = ' '.join(parts[1:])
+                                        continue
+
+                            # First try to split by common separators
+                            if ',' in text:
+                                parts = [p.strip() for p in text.split(',')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by vertical bar
+                            if '|' in text:
+                                parts = [p.strip() for p in text.split('|')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by dash
+                            if '-' in text:
+                                parts = [p.strip() for p in text.split('-')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by colon
+                            if ':' in text:
+                                parts = [p.strip() for p in text.split(':')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by newlines
+                            if '\n' in text:
+                                parts = [p.strip() for p in text.split('\n')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by period
+                            if '.' in text:
+                                parts = [p.strip() for p in text.split('.')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by semicolon
+                            if ';' in text:
+                                parts = [p.strip() for p in text.split(';')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by forward slash
+                            if '/' in text:
+                                parts = [p.strip() for p in text.split('/')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by backslash
+                            if '\\' in text:
+                                parts = [p.strip() for p in text.split('\\')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by parentheses
+                            if '(' in text and ')' in text:
+                                name = text[:text.find('(')].strip()
+                                title = text[text.find('(')+1:text.find(')')].strip()
+                                continue
+
+                            # Try splitting by brackets
+                            if '[' in text and ']' in text:
+                                name = text[:text.find('[')].strip()
+                                title = text[text.find('[')+1:text.find(']')].strip()
+                                continue
+
+                            # Try splitting by braces
+                            if '{' in text and '}' in text:
+                                name = text[:text.find('{')].strip()
+                                title = text[text.find('{')+1:text.find('}')].strip()
+                                continue
+
+                            # Try splitting by angle brackets
+                            if '<' in text and '>' in text:
+                                name = text[:text.find('<')].strip()
+                                title = text[text.find('<')+1:text.find('>')].strip()
+                                continue
+
+                            # Try splitting by quotation marks
+                            if '"' in text:
+                                parts = [p.strip() for p in text.split('"')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by apostrophes
+                            if "'" in text:
+                                parts = [p.strip() for p in text.split("'")]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by spaces
+                            if ' ' in text:
+                                parts = [p.strip() for p in text.split()]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by tabs
+                            if '\t' in text:
+                                parts = [p.strip() for p in text.split('\t')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by multiple spaces
+                            if '  ' in text:
+                                parts = [p.strip() for p in text.split('  ')]
+                                if len(parts) >= 2:
+                                    name = parts[0]
+                                    title = ' '.join(parts[1:])
+                                    continue
+
+                            # Try splitting by special characters
+                            special_chars = ['•', '·']  # Simplified list for now
+                            for char in special_chars:
+                                if char in text:
+                                    parts = [p.strip() for p in text.split(char)]
+                                    if len(parts) >= 2:
+                                        name = parts[0]
+                                        title = ' '.join(parts[1:])
+                                        continue
+                            
+                            # Validate contact
+                            if self.validate_contact(contact):
+                                results.append(contact)
+                                logger.debug(f"Valid contact found: {contact}")
+                            else:
+                                logger.debug(f"Invalid contact skipped: {contact}")
+                                
+                        except Exception as e:
+                            logger.error(f"Error processing block for {company_name}: {e}")
+                            continue
+                            
+                finally:
+                    page.close()
+                    browser.close()
+                    
+        except Exception as e:
+            logger.error(f"Error scraping {company_name}: {e}")
+            return []
+            
+        end_time = time.time()
+        logger.info(f"Scraped {len(results)} contacts for {company_name} in {end_time - start_time:.2f}s")
+        return results
+                            
+                            # First try to split by common separators
+                            if ',' in text:
+                                parts = [p.strip() for p in text.split(',')]
+                                if len(parts) > 1:
+                                    name = parts[0]
+                                    title = ', '.join(parts[1:])
+                            elif '-' in text:
+                                parts = [p.strip() for p in text.split('-')]
+                                if len(parts) > 1:
+                                    name = parts[0]
+                                    title = '-'.join(parts[1:])
+                            elif '|' in text:
+                                parts = [p.strip() for p in text.split('|')]
+                                if len(parts) > 1:
+                                    name = parts[0]
+                                    title = '|'.join(parts[1:])
+                            elif ':' in text:
+                                parts = [p.strip() for p in text.split(':')]
+                                if len(parts) > 1:
+                                    name = parts[0]
+                                    title = ':'.join(parts[1:])
+                            
+                            # If no title found, try to extract from end of text
+                            if not title:
+                                # Try to split by common title words
+                                title_words = ['director', 'vice', 'president', 'manager', 'analyst', 'associate', 'partner']
+                                words = text.lower().split()
+                                
+                                # Find first title word from end
+                                for i in range(len(words)-1, -1, -1):
+                                    if words[i] in title_words:
+                                        title = ' '.join(words[i:])
+                                        name = ' '.join(words[:i])
+                                        break
+                                
+                                # If still no title, use last word as title
+                                if not title and len(words) > 1:
+                                    title = words[-1]
+                                    name = ' '.join(words[:-1])
+                                
+                            # Skip if name looks like a company name
+                            if any(word in name.lower() for word in ['inc', 'ltd', 'corp', 'co', 'company', 'group', 'llc']):
+                                continue
+                                
+                            # Skip if looks like a section header
+                            if any(word in name.lower() for word in ['about', 'team', 'contact', 'privacy', 'sitemap', 'copyright']):
+                                continue
+                                
+                            # Skip if looks like a navigation item
+                            if any(word in name.lower() for word in ['menu', 'footer', 'header', 'nav', 'sitemap', 'copyright']):
+                                continue
+                                
+                            # Skip if name or title is None
+                            if not name or not title:
+                                continue
+                                
+                            # Create contact dictionary
+                            contact = {
+                                'Company': company_name,
+                                'Full Name': name.strip(),
+                                'Title': title.strip(),
+                                'Source URL': url,
+                                'Timestamp': datetime.now().isoformat()
+                            }
+                            
+                            # Validate contact
+                            if self.validate_contact(contact):
+                                results.append(contact)
+                                logger.debug(f"Successfully processed contact: {name} from {company_name}")
+                                self.rate_limit()  # Apply rate limiting after successful request
+                                
+                        except Exception as e:
+                            logger.error(f"Error processing block for {company_name}: {e}")
+                            continue
+                            
+                except Exception as e:
+                    logger.error(f"Error in page processing for {company_name}: {e}")
+                    self.save_debug_dump(page, f"error_{company_name.replace(' ', '_')}")
+                    
+                finally:
+                    try:
+                        browser.close()
+                    except:
+                        pass
+                        
+        except Exception as e:
+            logger.error(f"Error in scrape_team_page for {company_name}: {e}")
+            return []  # Return empty list on error
+
+        end_time = time.time()
+        logger.debug(f"Completed scraping {company_name} in {end_time - start_time:.2f}s")
+        return results
+
+    def rate_limit(self):
+        """Implement rate limiting with random delay and exponential backoff"""
+        current_time = time.time()
+        if not hasattr(self, 'last_request_time'):
+            self.last_request_time = current_time
+            self.backoff_time = RETRY_DELAY
+            return
+            
+        time_since_last = current_time - self.last_request_time
+        if time_since_last < self.backoff_time:
+            delay = self.backoff_time - time_since_last
+            delay += random.uniform(0, RANDOM_DELAY)  # Add random delay
+            logger.debug(f"Applying rate limit delay: {delay:.2f}s")
+            time.sleep(delay)
+            
+        self.last_request_time = current_time
+        
+        # Reset backoff time after successful request
+        self.backoff_time = RETRY_DELAY
+
+    def with_retries(self, func, *args, **kwargs):
+        """Execute function with retries and error handling"""
+        for attempt in range(MAX_RETRIES):
+            try:
+                return func(*args, **kwargs)
+            except Exception as e:
+                if attempt == MAX_RETRIES - 1:
+                    raise
+                time.sleep(RETRY_DELAY * (attempt + 1))
+                continue

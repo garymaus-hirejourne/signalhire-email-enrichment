@@ -73,45 +73,69 @@ def signalhire_webhook():
         batch_filename = f"enrichment_{timestamp.strftime('%Y%m%d_%H%M%S')}_{batch_id}.csv"
         batch_filepath = DATA_DIR / batch_filename
         
-        # Process each record with enhanced data extraction
+        # Process each record with correct SignalHire data extraction
         csv_records = []
         for record in records:
-            # Extract all available fields from SignalHire's rich data
+            # Get the candidate object (contains all the rich data)
+            candidate = record.get('candidate', {})
+            
+            # Extract basic info
+            full_name = candidate.get('fullName', '')
+            name_parts = full_name.split(' ', 1) if full_name else ['', '']
+            first_name = name_parts[0] if len(name_parts) > 0 else ''
+            last_name = name_parts[1] if len(name_parts) > 1 else ''
+            
+            # Extract location info
+            locations = candidate.get('locations', [])
+            location = locations[0].get('name', '') if locations else ''
+            
+            # Parse location for country/city
+            location_parts = location.split(', ') if location else []
+            city = location_parts[0] if len(location_parts) > 0 else ''
+            country = location_parts[-1] if len(location_parts) > 0 else ''
+            
+            # Extract job info from experience (most recent)
+            experience = candidate.get('experience', [])
+            current_job = experience[0] if experience else {}
+            job_title = current_job.get('position', candidate.get('headLine', ''))
+            company = current_job.get('company', '')
+            industry = current_job.get('industry', '')
+            
+            # Extract contact information
+            contacts = candidate.get('contacts', [])
+            emails = [c['value'] for c in contacts if c.get('type') == 'email']
+            phones = [c['value'] for c in contacts if c.get('type') == 'phone']
+            
+            # Extract skills
+            skills = candidate.get('skills', [])
+            
+            # Extract education
+            education = candidate.get('education', [])
+            
+            # Build the correctly mapped record
             csv_record = {
                 'batch_id': batch_id,
-                'item': record.get('item', record.get('linkedin', '')),
+                'item': record.get('item', ''),
                 'status': record.get('status', ''),
-                'first_name': record.get('firstName', ''),
-                'last_name': record.get('lastName', ''),
-                'full_name': record.get('fullName', ''),
-                'job_title': record.get('jobTitle', record.get('title', '')),
-                'company': record.get('company', record.get('companyName', '')),
-                'location': record.get('location', ''),
-                'country': record.get('country', ''),
-                'city': record.get('city', ''),
-                'industry': record.get('industry', ''),
-                'seniority': record.get('seniority', ''),
-                'department': record.get('department', ''),
-                'skills': json.dumps(record.get('skills', [])) if record.get('skills') else '',
-                'education': json.dumps(record.get('education', [])) if record.get('education') else '',
-                'experience': json.dumps(record.get('experience', [])) if record.get('experience') else '',
-                'linkedin': record.get('item', record.get('linkedin', '')),
-                'received_at': timestamp.isoformat()
+                'first_name': first_name,
+                'last_name': last_name,
+                'full_name': full_name,
+                'job_title': job_title,
+                'company': company,
+                'location': location,
+                'country': country,
+                'city': city,
+                'industry': industry,
+                'seniority': '',  # Not directly available in SignalHire data
+                'department': '',  # Not directly available in SignalHire data
+                'skills': ', '.join(skills) if skills else '',
+                'education': json.dumps(education) if education else '',
+                'experience': json.dumps(experience) if experience else '',
+                'linkedin': record.get('item', ''),
+                'received_at': timestamp.isoformat(),
+                'emails': ', '.join(emails) if emails else '',
+                'phones': ', '.join(phones) if phones else ''
             }
-            
-            # Handle emails - can be array or string
-            emails = record.get('emails', [])
-            if isinstance(emails, list):
-                csv_record['emails'] = json.dumps(emails) if emails else ''
-            else:
-                csv_record['emails'] = str(emails) if emails else ''
-            
-            # Handle phones - can be array or string  
-            phones = record.get('phones', [])
-            if isinstance(phones, list):
-                csv_record['phones'] = json.dumps(phones) if phones else ''
-            else:
-                csv_record['phones'] = str(phones) if phones else ''
             
             csv_records.append(csv_record)
         

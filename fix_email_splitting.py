@@ -147,13 +147,19 @@ def process_signalhire_results(input_file, output_file):
             generated_email = generate_email_from_company(first_name, last_name, company)
             if generated_email:
                 clean_emails = [generated_email]
-                print(f"Generated email for {first_name} {last_name}: {generated_email}")
+                try:
+                    print(f"Generated email for {first_name} {last_name}: {generated_email}")
+                except UnicodeEncodeError:
+                    print(f"Generated email for contact: {generated_email}")
         elif len(clean_emails) == 1 and first_name and last_name and company:
             # Has one email but could use another
             generated_email = generate_email_from_company(first_name, last_name, company)
             if generated_email and generated_email not in clean_emails:
                 clean_emails.append(generated_email)
-                print(f"Generated additional email for {first_name} {last_name}: {generated_email}")
+                try:
+                    print(f"Generated additional email for {first_name} {last_name}: {generated_email}")
+                except UnicodeEncodeError:
+                    print(f"Generated additional email: {generated_email}")
         
         # Extract and split phones
         mobile_phones = extract_multi_values(row.get('Mobile Phone', ''))
@@ -165,7 +171,10 @@ def process_signalhire_results(input_file, output_file):
         
         # Skip if missing required fields
         if not (first_name and last_name and company and (clean_emails or clean_phones)):
-            print(f"FILTERED OUT: {first_name} {last_name} - Missing required fields")
+            try:
+                print(f"FILTERED OUT: {first_name} {last_name} - Missing required fields")
+            except UnicodeEncodeError:
+                print(f"FILTERED OUT: Contact - Missing required fields")
             continue
         
         # Build record with split contacts
@@ -202,8 +211,8 @@ def process_signalhire_results(input_file, output_file):
     return len(processed_records)
 
 if __name__ == "__main__":
-    input_file = "boston_healthcare_test2_final.csv"
-    output_file = "boston_healthcare_test2_properly_split.csv"
+    input_file = "signalhire_v2_latest.csv"
+    output_file = "signalhire_v2_properly_split.csv"
     
     print("Processing SignalHire results with proper email splitting...")
     process_signalhire_results(input_file, output_file)

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-SignalHire Webhook Receiver for Northflank
-Enhanced version with separate file management per enrichment request
+SignalHire Webhook Receiver for Northflank - Enhanced Version
+Includes per-request batch management and rich contact data extraction
+Updated: September 18, 2025 - Fixing missing contact data issue
 """
 
 from flask import Flask, request, jsonify
@@ -33,6 +34,7 @@ def root():
             "health": "/health",
             "webhook": "/signalhire/webhook",
             "results": "/results.csv",
+            "batches": "/batches",
             "status": "/status"
         }
     })

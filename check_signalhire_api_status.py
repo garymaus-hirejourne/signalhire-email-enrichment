@@ -10,7 +10,7 @@ import json
 from datetime import datetime
 
 # API Configuration
-API_KEY = os.getenv("SIGNALHIRE_API_KEY", "202.evaAyOWjUoheYEQ4Bb2XlSp0ZSzi")
+API_KEY = os.getenv("SIGNALHIRE_API_KEY")
 BASE_URL = "https://www.signalhire.com/api/v1"
 
 # Test endpoints

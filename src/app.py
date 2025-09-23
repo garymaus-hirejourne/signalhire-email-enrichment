@@ -75,6 +75,7 @@ async def upload(csv_file: UploadFile = File(...), user_email: str = Form(...)) 
             "pending": [],
             "received": 0,
             "errors": [],
+            "submissions": [],  # per-item diagnostics
         }
 
         # Submit identifiers to SignalHire Person API with callbackUrl
@@ -86,6 +87,14 @@ async def upload(csv_file: UploadFile = File(...), user_email: str = Form(...)) 
 
         for url in urls:
             resp = await submit_identifier(url, callback_url)
+            # record diagnostics for visibility
+            status["submissions"].append({
+                "item": url,
+                "success": resp.get("success"),
+                "request_id": resp.get("request_id"),
+                "error": resp.get("error"),
+                "diagnostics": resp.get("diagnostics"),
+            })
             if not resp["success"]:
                 status["errors"].append({"item": url, "error": resp.get("error")})
                 continue

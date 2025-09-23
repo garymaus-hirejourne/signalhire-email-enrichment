@@ -28,14 +28,36 @@ async def submit_identifier(identifier: str, callback_url: str) -> Dict[str, Any
             try:
                 data = resp.json()
             except Exception:
-                data = {"raw": await resp.aread()}
+                raw = await resp.aread()
+                # Keep a short snippet to avoid logging secrets / large payloads
+                data = {"raw": raw[:512].decode(errors="ignore")}
 
             if resp.status_code >= 200 and resp.status_code < 300:
-                # Expecting { request_id: "..." } or similar
-                request_id = data.get("request_id") or data.get("Request-Id") or data.get("id")
-                return {"success": True, "request_id": request_id}
+                # Expect various casings or header for request id
+                request_id = (
+                    data.get("request_id")
+                    or data.get("Request-Id")
+                    or data.get("requestId")
+                    or data.get("id")
+                    or resp.headers.get("Request-Id")
+                    or resp.headers.get("request-id")
+                )
+                diagnostics = {
+                    "status_code": resp.status_code,
+                    # Only keep a few safe headers
+                    "headers": {k: v for k, v in resp.headers.items() if k.lower() in {"content-type", "request-id"}},
+                    "body": data,
+                }
+                if not request_id:
+                    return {"success": False, "error": "No request_id returned by SignalHire", "diagnostics": diagnostics}
+                return {"success": True, "request_id": request_id, "diagnostics": diagnostics}
             else:
-                return {"success": False, "error": data.get("error") or f"HTTP {resp.status_code}"}
+                diagnostics = {
+                    "status_code": resp.status_code,
+                    "headers": {k: v for k, v in resp.headers.items() if k.lower() in {"content-type", "request-id"}},
+                    "body": data,
+                }
+                return {"success": False, "error": data.get("error") or f"HTTP {resp.status_code}", "diagnostics": diagnostics}
         except httpx.TimeoutException:
             return {"success": False, "error": "Timeout contacting SignalHire API"}
         except Exception as e:

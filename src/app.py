@@ -1,35 +1,3 @@
-@app.get("/credits")
-async def credits() -> JSONResponse:
-    """Proxy to SignalHire credits endpoint using configured API key.
-
-    Returns JSON with remaining credits or an error with diagnostics.
-    """
-    try:
-        if not API_KEY:
-            raise HTTPException(status_code=500, detail="Missing SIGNALHIRE_API_KEY")
-        url = f"{API_BASE}{API_PREFIX}/credits?withoutContacts=true"
-        headers = {"apikey": API_KEY}
-        async with httpx.AsyncClient(timeout=30.0) as client:
-            resp = await client.get(url, headers=headers)
-            try:
-                data = resp.json()
-            except Exception:
-                raw = await resp.aread()
-                data = {"raw": raw[:1024].decode(errors="ignore")}
-            return JSONResponse(
-                {
-                    "ok": resp.status_code in range(200, 300),
-                    "status_code": resp.status_code,
-                    "headers": {k: v for k, v in resp.headers.items() if k.lower() in {"content-type"}},
-                    "data": data,
-                },
-                status_code=resp.status_code,
-            )
-    except HTTPException:
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
 #!/usr/bin/env python3
 from __future__ import annotations
 
@@ -78,6 +46,39 @@ async def index() -> str:
 @app.get("/health")
 async def health() -> dict[str, Any]:
     return {"status": "healthy", "service": APP_NAME}
+
+
+@app.get("/credits")
+async def credits() -> JSONResponse:
+    """Proxy to SignalHire credits endpoint using configured API key.
+
+    Returns JSON with remaining credits or an error with diagnostics.
+    """
+    try:
+        if not API_KEY:
+            raise HTTPException(status_code=500, detail="Missing SIGNALHIRE_API_KEY")
+        url = f"{API_BASE}{API_PREFIX}/credits?withoutContacts=true"
+        headers = {"apikey": API_KEY}
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            resp = await client.get(url, headers=headers)
+            try:
+                data = resp.json()
+            except Exception:
+                raw = await resp.aread()
+                data = {"raw": raw[:1024].decode(errors="ignore")}
+            return JSONResponse(
+                {
+                    "ok": resp.status_code in range(200, 300),
+                    "status_code": resp.status_code,
+                    "headers": {k: v for k, v in resp.headers.items() if k.lower() in {"content-type"}},
+                    "data": data,
+                },
+                status_code=resp.status_code,
+            )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.post("/upload")

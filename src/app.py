@@ -1,3 +1,35 @@
+@app.get("/credits")
+async def credits() -> JSONResponse:
+    """Proxy to SignalHire credits endpoint using configured API key.
+
+    Returns JSON with remaining credits or an error with diagnostics.
+    """
+    try:
+        if not API_KEY:
+            raise HTTPException(status_code=500, detail="Missing SIGNALHIRE_API_KEY")
+        url = f"{API_BASE}{API_PREFIX}/credits?withoutContacts=true"
+        headers = {"apikey": API_KEY}
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            resp = await client.get(url, headers=headers)
+            try:
+                data = resp.json()
+            except Exception:
+                raw = await resp.aread()
+                data = {"raw": raw[:1024].decode(errors="ignore")}
+            return JSONResponse(
+                {
+                    "ok": resp.status_code in range(200, 300),
+                    "status_code": resp.status_code,
+                    "headers": {k: v for k, v in resp.headers.items() if k.lower() in {"content-type"}},
+                    "data": data,
+                },
+                status_code=resp.status_code,
+            )
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 #!/usr/bin/env python3
 from __future__ import annotations
 
@@ -6,13 +38,14 @@ import csv
 import json
 from pathlib import Path
 from typing import Any, List
+import httpx
 
 from fastapi import FastAPI, UploadFile, Form, File, HTTPException, Request
 from fastapi.responses import JSONResponse, HTMLResponse, FileResponse
 
 from .lib import storage
 from .lib.emailer import send_result_email, send_error_email
-from .services.signalhire_client import submit_identifier
+from .services.signalhire_client import submit_identifier, API_BASE, API_PREFIX, API_KEY
 from .lib.csv_writer import flatten_callback_payload
 
 APP_NAME = "SignalHire Cloud Webhook"

@@ -14,4 +14,4 @@ ENV SIGNALHIRE_RESULTS_CSV=/data/results.csv
 RUN mkdir -p /data
 
 EXPOSE 8080
-CMD ["/bin/sh","-c","gunicorn webhook_server:app --bind 0.0.0.0:${PORT}"]
+CMD ["/bin/sh","-c","gunicorn src.app:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:${PORT} --workers 1"]

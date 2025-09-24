@@ -1,0 +1,15 @@
+.git
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.csv
+.env
+.env.*
+data/
+Local_Enrichment_Test/
+tools/
+test_*.py
+*.ipynb
+*.DS_Store

@@ -3,8 +3,14 @@ import sys
 from github import Github
 import random
 
-# ── CONFIG ───────────────────────────────────────────────
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Loaded from .env
+# ── CONFIG API ───────────────────────────────────────────────
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Loads variables from .env file
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+if not GITHUB_TOKEN:
+    raise ValueError("GITHUB_TOKEN not found in .env file")
 
 # JD-relevant repos (expandable)
 REPOS_TO_SCAN = [
@@ -37,6 +43,7 @@ rubric = {
 
 # ── CODE ─────────────────────────────────────────────────
 g = Github(GITHUB_TOKEN)
+print("GitHub API authenticated successfully", file=sys.stderr)
 
 contributors = []
 for repo_name in REPOS_TO_SCAN:
@@ -49,7 +56,8 @@ for repo_name in REPOS_TO_SCAN:
                 contributors.append({"username": c.login, "commits": c.contributions, "repo": repo_name})
         print(f"Fetched {len(sorted_contribs)} from {repo_name}", file=sys.stderr)
     except Exception as e:
-        print(f"Error on {repo_name}: {str(e)}", file=sys.stderr)
+        print(f"ERROR fetching {repo_name}: {str(e)}", file=sys.stderr)
+        print("Full traceback:", e.__traceback__, file=sys.stderr)
 
 # Deduplicate by username
 unique_contribs = {c["username"]: c for c in contributors}

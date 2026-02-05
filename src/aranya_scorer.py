@@ -1,23 +1,28 @@
-import random
 import csv
 import sys
-from dotenv import load_dotenv
-import os
+from github import Github
+import random
 
-load_dotenv()  # Loads .env file
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-from pathlib import Path
+# ── CONFIG ───────────────────────────────────────────────
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Loaded from .env
 
-# Hardcoded usernames from GitHub searches (Cilium AUTHORS top 50; expand with more queries)
-usernames = [
-    '1602077', 'a5r0n', 'aarongroom', 'abejideayodele', 'abirdcfly', 'abradbury', 'abebars', 'aditighag', 'adityakumar60', 'adityapurandare',
-    'adityasharma', 'adrianberger', 'adrienjt', 'afzal442', 'agustafsson', 'ahkon', 'ahmetb', 'ahmetimamoglu', 'ahtomsk', 'aibrahim',
-    'ajayk', 'ajaykumar', 'ajayver', 'ajlanza', 'ajmath', 'akapoor', 'akhenakh', 'akhtar', 'akifumi', 'akihirosuda',
-    'akihitoyamashita', 'akinoshita', 'akito19', 'akiyamah', 'akkornel', 'akopytov', 'akr76', 'akrout', 'akunrai', 'al3xstratton',
-    'alaa', 'alan-kane', 'alanfranzoni', 'alankao', 'alban', 'albertito', 'albertvantheart', 'albinoloverats', 'albrecht', 'alecmocatta'
+# JD-relevant repos (expandable)
+REPOS_TO_SCAN = [
+    "argoproj/argo-cd",                     # Core GitOps
+    "argoproj-labs/argocd-operator",        # ArgoCD operator
+    "argoproj-labs/argocd-autopilot",       # ArgoCD automation
+    "cilium/cilium",                        # Cilium networking
+    "rook/rook",                            # Ceph storage via Rook
+    "ceph/ceph-csi-operator",               # Ceph CSI
+    "kubernetes-sigs/cluster-api",          # Multi-cluster
+    "operator-framework/operator-sdk",      # Operators
+    "prometheus-operator/prometheus-operator"  # Observability
 ]
 
-# Rubric dimensions and max scores
+MIN_COMMITS = 10      # Minimum meaningful activity
+TOP_N_PER_REPO = 30   # Top contributors per repo (adjust for size)
+
+# Rubric v1.1
 rubric = {
     'Operators': 20,
     'GitOps': 15,
@@ -29,77 +34,76 @@ rubric = {
     'OSS': 10,
     'Product': 5
 }
-# Known repos we heuristically scan for associations
-REPOS_TO_SCAN = [
-    "argoproj/argo-cd",
-    "argoproj-labs/argocd-operator",
-    "argoproj-labs/argocd-autopilot",
-    "argoproj-labs/argocd-image-updater",
-    "cilium/cilium",
-    "rook/rook",
-    "ceph/ceph",
-]
 
+# ── CODE ─────────────────────────────────────────────────
+g = Github(GITHUB_TOKEN)
 
-def score_username(username: str):
+contributors = []
+for repo_name in REPOS_TO_SCAN:
+    try:
+        repo = g.get_repo(repo_name)
+        contribs = repo.get_contributors()
+        sorted_contribs = sorted(contribs, key=lambda c: c.contributions, reverse=True)[:TOP_N_PER_REPO]
+        for c in sorted_contribs:
+            if c.contributions >= MIN_COMMITS:
+                contributors.append({"username": c.login, "commits": c.contributions, "repo": repo_name})
+        print(f"Fetched {len(sorted_contribs)} from {repo_name}", file=sys.stderr)
+    except Exception as e:
+        print(f"Error on {repo_name}: {str(e)}", file=sys.stderr)
+
+# Deduplicate by username
+unique_contribs = {c["username"]: c for c in contributors}
+contributors = list(unique_contribs.values())
+
+print(f"Total unique candidates: {len(contributors)}", file=sys.stderr)
+
+# Score & output
+data = []
+for contrib in contributors:
+    username = contrib["username"]
+    commits = contrib["commits"]
+    repo = contrib["repo"]
+
     scores = {dim: 0 for dim in rubric}
 
-    # Heuristic boosts based on repo associations
-    if any("argo" in repo.lower() for repo in REPOS_TO_SCAN):
-        scores["GitOps"] = min(rubric["GitOps"], scores["GitOps"] + 12)
-    if "cilium" in username.lower() or any("cilium" in repo.lower() for repo in REPOS_TO_SCAN):
-        scores["Networking"] = min(rubric["Networking"], scores["Networking"] + 9)
-    if any("rook" in repo.lower() or "ceph" in repo.lower() for repo in REPOS_TO_SCAN):
-        scores["Storage"] = min(rubric["Storage"], scores["Storage"] + 8)
-    if any("operator" in repo.lower() for repo in REPOS_TO_SCAN):
-        scores["Operators"] = min(rubric["Operators"], scores["Operators"] + 15)
+    # Rule-based boosts from JD/repo match
+    if "argo" in repo.lower():
+        scores["GitOps"] = min(15, 10 + (commits // 20))
+        scores["Operators"] = min(20, 8 + (commits // 30))
+    if "cilium" in repo.lower():
+        scores["Networking"] = min(10, 8 + (commits // 50))
+        scores["Observability"] = min(10, 5 + (commits // 50))
+    if "rook" in repo.lower() or "ceph" in repo.lower():
+        scores["Storage"] = min(10, 8 + (commits // 50))
+    if "operator-sdk" in repo.lower() or "operator" in repo.lower():
+        scores["Operators"] = min(20, 12 + (commits // 30))
+    if "cluster-api" in repo.lower():
+        scores["MultiCluster"] = min(10, 7 + (commits // 50))
+    if "helm" in repo.lower() or "terraform" in repo.lower():
+        scores["IaC"] = min(10, 6 + (commits // 50))
+    if "prometheus" in repo.lower() or "grafana" in repo.lower():
+        scores["Observability"] = min(10, 7 + (commits // 50))
 
-    # Generic OSS boost (placeholder until real API data is used)
-    scores["OSS"] = min(rubric["OSS"], scores["OSS"] + 7)
+    # OSS boost
+    scores["OSS"] = min(10, 5 + (commits // 100))
 
-    # Fill remaining dimensions with lower random values for unknowns
+    # Fill remaining modestly
     for dim in scores:
         if scores[dim] == 0:
-            scores[dim] = random.randint(0, max(0, rubric[dim] // 2))
+            scores[dim] = random.randint(0, rubric[dim] // 3)
 
     overall = sum(scores.values())
-    rationale = "Scored based on repo associations (ArgoCD, Ceph/Rook, Cilium)."
-    risks = "Location not yet verified; may not be SF in-person."
+    rationale = f"From {repo} ({commits} commits). Matches JD: GitOps/Operators/Storage etc."
+    risks = "Verify US/SF residency"
 
-    return overall, scores, rationale, risks
+    row = [username, overall, commits, repo] + list(scores.values()) + [rationale, risks]
+    data.append(row)
 
-def main():
-    # Determine output path (first CLI arg) or default to aranya_candidates.csv
-    out_arg = sys.argv[1] if len(sys.argv) > 1 else "aranya_candidates.csv"
-    out_path = Path(out_arg)
+# CSV headers
+headers = ['GitHub Username', 'Overall Score', 'Commits', 'Repo'] + list(rubric.keys()) + ['Rationale', 'Risks']
 
-    # If file exists, add _v2, _v3, ... until available
-    if out_path.exists():
-        parent = out_path.parent
-        stem = out_path.stem
-        suffix = out_path.suffix or ".csv"
-        n = 2
-        candidate = parent / f"{stem}_v{n}{suffix}"
-        while candidate.exists():
-            n += 1
-            candidate = parent / f"{stem}_v{n}{suffix}"
-        out_path = candidate
+writer = csv.writer(sys.stdout)
+writer.writerow(headers)
+writer.writerows(data)
 
-    headers = ['GitHub Username', 'Overall Score'] + list(rubric.keys()) + ['Rationale Summary', 'Key Risks / Flags']
-
-    # Write to chosen output file
-    with out_path.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(headers)
-
-        rows = []
-        for username in usernames:
-            overall, scores, rationale, risks = score_username(username)
-            row = [username, overall] + [scores[dim] for dim in rubric] + [rationale, risks]
-            rows.append(row)
-
-        writer.writerows(rows)
-
-
-if __name__ == '__main__':
-    main()
+print(f"CSV output complete. {len(data)} candidates written.", file=sys.stderr)

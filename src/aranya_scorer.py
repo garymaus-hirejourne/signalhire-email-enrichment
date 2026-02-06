@@ -2,33 +2,31 @@ import csv
 import sys
 from github import Github
 import random
-
-# ── CONFIG API ───────────────────────────────────────────────
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Loads variables from .env file
+load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
     raise ValueError("GITHUB_TOKEN not found in .env file")
 
-# JD-relevant repos (expandable)
 REPOS_TO_SCAN = [
-    "argoproj/argo-cd",                     # Core GitOps
-    "argoproj-labs/argocd-operator",        # ArgoCD operator
-    "argoproj-labs/argocd-autopilot",       # ArgoCD automation
-    "cilium/cilium",                        # Cilium networking
-    "rook/rook",                            # Ceph storage via Rook
-    "ceph/ceph-csi-operator",               # Ceph CSI
-    "kubernetes-sigs/cluster-api",          # Multi-cluster
-    "operator-framework/operator-sdk",      # Operators
-    "prometheus-operator/prometheus-operator"  # Observability
+    "argoproj/argo-cd",
+    "argoproj-labs/argocd-operator",
+    "argoproj-labs/argocd-autopilot",
+    "argoproj-labs/argocd-image-updater",
+    "cilium/cilium",
+    "rook/rook",
+    "ceph/ceph-csi-operator",
+    "kubernetes-sigs/cluster-api",
+    "operator-framework/operator-sdk",
+    "prometheus-operator/prometheus-operator",
+    "kubernetes/kubernetes"
 ]
 
-MIN_COMMITS = 10      # Minimum meaningful activity
-TOP_N_PER_REPO = 30   # Top contributors per repo (adjust for size)
+MIN_COMMITS = 10
+TOP_N_PER_REPO = 50
 
-# Rubric v1.1
 rubric = {
     'Operators': 20,
     'GitOps': 15,
@@ -41,9 +39,7 @@ rubric = {
     'Product': 5
 }
 
-# ── CODE ─────────────────────────────────────────────────
 g = Github(GITHUB_TOKEN)
-print("GitHub API authenticated successfully", file=sys.stderr)
 
 contributors = []
 for repo_name in REPOS_TO_SCAN:
@@ -53,31 +49,46 @@ for repo_name in REPOS_TO_SCAN:
         sorted_contribs = sorted(contribs, key=lambda c: c.contributions, reverse=True)[:TOP_N_PER_REPO]
         for c in sorted_contribs:
             if c.contributions >= MIN_COMMITS:
-                contributors.append({"username": c.login, "commits": c.contributions, "repo": repo_name})
-        print(f"Fetched {len(sorted_contribs)} from {repo_name}", file=sys.stderr)
+                user = g.get_user(c.login)
+                location = user.location if user.location else "Unknown"
+                contrib = {"username": c.login, "commits": c.contributions, "repo": repo_name, "location": location}
+                contributors.append(contrib)
     except Exception as e:
-        print(f"ERROR fetching {repo_name}: {str(e)}", file=sys.stderr)
-        print("Full traceback:", e.__traceback__, file=sys.stderr)
+        print(f"Error on {repo_name}: {str(e)}", file=sys.stderr)
 
-# Deduplicate by username
 unique_contribs = {c["username"]: c for c in contributors}
 contributors = list(unique_contribs.values())
 
 print(f"Total unique candidates: {len(contributors)}", file=sys.stderr)
 
+# Filter for US/SFO preferred (US required for best fits)
+us_candidates = []
+for c in contributors:
+    loc = c["location"].lower() if c["location"] else ""
+    if any(word in loc for word in ["united states", "usa", "us", "ca", "california", "san francisco", "bay area", "sfo", "sunnyvale", "mountain view", "cupertino"]):
+        us_candidates.append(c)
+
+print(f"US candidates (SFO preferred): {len(us_candidates)}", file=sys.stderr)
+
 # Score & output
 data = []
-for contrib in contributors:
+for contrib in us_candidates:
     username = contrib["username"]
     commits = contrib["commits"]
     repo = contrib["repo"]
+    location = contrib["location"]
 
     scores = {dim: 0 for dim in rubric}
 
-    # Rule-based boosts from JD/repo match
+    # Tuned boosts: Higher for Argo (GitOps +5 if commits >200, Operators +5)
     if "argo" in repo.lower():
-        scores["GitOps"] = min(15, 10 + (commits // 20))
-        scores["Operators"] = min(20, 8 + (commits // 30))
+        scores["GitOps"] = min(15, 10 + (commits // 10) + (5 if commits > 200 else 0))
+        scores["Operators"] = min(20, 12 + (commits // 20) + (5 if commits > 200 else 0))
+    # Kubernetes boost
+    if "kubernetes" in repo.lower():
+        scores["Operators"] = min(20, scores["Operators"] + 8)
+        scores["MultiCluster"] = min(10, scores["MultiCluster"] + 5)
+    # Other boosts
     if "cilium" in repo.lower():
         scores["Networking"] = min(10, 8 + (commits // 50))
         scores["Observability"] = min(10, 5 + (commits // 50))
@@ -92,26 +103,26 @@ for contrib in contributors:
     if "prometheus" in repo.lower() or "grafana" in repo.lower():
         scores["Observability"] = min(10, 7 + (commits // 50))
 
-    # OSS boost
     scores["OSS"] = min(10, 5 + (commits // 100))
 
-    # Fill remaining modestly
     for dim in scores:
         if scores[dim] == 0:
             scores[dim] = random.randint(0, rubric[dim] // 3)
 
     overall = sum(scores.values())
-    rationale = f"From {repo} ({commits} commits). Matches JD: GitOps/Operators/Storage etc."
-    risks = "Verify US/SF residency"
+    rationale = f"From {repo} ({commits} commits). Location: {location}."
+    risks = "SFO/Bay Area" if any(word in location.lower() for word in ["san francisco", "bay area", "sfo", "sunnyvale", "mountain view", "cupertino"]) else "US (non-SFO)"
 
-    row = [username, overall, commits, repo] + list(scores.values()) + [rationale, risks]
+    row = [username, overall, commits, repo, location] + list(scores.values()) + [rationale, risks]
     data.append(row)
 
-# CSV headers
-headers = ['GitHub Username', 'Overall Score', 'Commits', 'Repo'] + list(rubric.keys()) + ['Rationale', 'Risks']
+# Sort by score descending
+data.sort(key=lambda x: x[1], reverse=True)
+
+headers = ['GitHub Username', 'Overall Score', 'Commits', 'Repo', 'Location'] + list(rubric.keys()) + ['Rationale', 'Risks']
 
 writer = csv.writer(sys.stdout)
 writer.writerow(headers)
 writer.writerows(data)
 
-print(f"CSV output complete. {len(data)} candidates written.", file=sys.stderr)
+print(f"CSV output complete. {len(data)} US candidates written (SFO preferred).", file=sys.stderr)

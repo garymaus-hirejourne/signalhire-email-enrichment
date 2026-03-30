@@ -1,3 +1,8 @@
+## ⚠️ Proprietary Software Notice
+
+This repository contains proprietary code owned by Gary Maus / Axon Integrity, LLC.
+
+This code is not open source. Access is restricted to authorized collaborators only.
 # SignalHire Email Enrichment Webhook (FastAPI)
 
 Production-ready FastAPI app that submits LinkedIn URLs to SignalHire Person API and receives callbacks with enriched contact data. Results are stored on a mounted volume and delivered via email.
